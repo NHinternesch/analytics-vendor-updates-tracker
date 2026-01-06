@@ -7,6 +7,54 @@
         {
           "title": "September 24, 2025",
           "description": "Google Analytics update",
+          "date": "2025-09-24",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "September 26, 2025",
+          "description": "Google Analytics update",
+          "date": "2025-09-26",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "October 2, 2025",
+          "description": "Google Analytics update",
+          "date": "2025-10-02",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "October 7, 2025",
+          "description": "Google Analytics update",
+          "date": "2025-10-07",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "November 5, 2025",
+          "description": "Google Analytics update",
+          "date": "2025-11-05",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "November 19, 2025",
+          "description": "Google Analytics update",
+          "date": "2025-11-19",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "December 1, 2025",
+          "description": "Google Analytics update",
+          "date": "2025-12-01",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "December 12, 2025",
+          "description": "Google Analytics update",
+          "date": "2025-12-12",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "September 24, 2025",
+          "description": "Google Analytics update",
           "date": "2025-09-23",
           "url": "https://support.google.com/analytics/answer/9164320"
         },
@@ -142,6 +190,216 @@
       "id": "amplitude",
       "name": "Amplitude",
       "updates": [
+        {
+          "title": "Unexpected/unplanned event properties inheriting shared property metadata",
+          "description": "Analytics: Unexpected/unplanned event properties inheriting shared property metadata",
+          "date": "2025-08-14",
+          "url": "https://amplitude.com/releases/unexpected-unplanned-event-properties-inheriting-shared-metadata"
+        },
+        {
+          "title": "Experiment debugger in Chrome Extension",
+          "description": "Experiment: Experiment debugger in Chrome Extension",
+          "date": "2025-08-15",
+          "url": "https://amplitude.com/releases/experiment-debugger-in-chrome-extension"
+        },
+        {
+          "title": "Self-serve Integration Portal",
+          "description": "Data: Self-serve Integration Portal",
+          "date": "2025-08-15",
+          "url": "https://amplitude.com/releases/65bbc325-0035-44e8-9fc6-dc2e3249f729"
+        },
+        {
+          "title": "Web Experiment Enhancements in the Chrome Extension",
+          "description": "Experiment: Web Experiment Enhancements in the Chrome Extension",
+          "date": "2025-08-15",
+          "url": "https://amplitude.com/releases/web-experiment-chrome-extension"
+        },
+        {
+          "title": "Time-between and tag-based throttles",
+          "description": "Guides and Surveys: Time-between and tag-based throttles",
+          "date": "2025-08-19",
+          "url": "https://amplitude.com/releases/time-between-and-tag-based-throttles"
+        },
+        {
+          "title": "Session Replay Cursor + Click Indicator",
+          "description": "Session Replay: Session Replay Cursor + Click Indicator",
+          "date": "2025-08-21",
+          "url": "https://amplitude.com/releases/session-replay-cursor-and-click-indicator"
+        },
+        {
+          "title": "Desktop Apps for Guides & Surveys",
+          "description": "Guides and Surveys: Desktop Apps for Guides & Surveys",
+          "date": "2025-08-27",
+          "url": "https://amplitude.com/releases/desktop-apps-for-guides-and-surveys"
+        },
+        {
+          "title": "Element Selection Strategy",
+          "description": "Guides and Surveys: Element Selection Strategy",
+          "date": "2025-08-27",
+          "url": "https://amplitude.com/releases/element-selection-strategy"
+        },
+        {
+          "title": "Group Cohort Targeting for Guides and Surveys",
+          "description": "Guides and Surveys: Group Cohort Targeting for Guides and Surveys",
+          "date": "2025-09-03",
+          "url": "https://amplitude.com/releases/group-cohorting-targeting-guides-and-surveys"
+        },
+        {
+          "title": "Version History for Guides & Surveys",
+          "description": "Guides and Surveys: Version History for Guides & Surveys",
+          "date": "2025-09-03",
+          "url": "https://amplitude.com/releases/version-history-for-guides-surveys"
+        },
+        {
+          "title": "Testing Status for Guides & Surveys",
+          "description": "Guides and Surveys: Testing Status for Guides & Surveys",
+          "date": "2025-09-04",
+          "url": "https://amplitude.com/releases/testing-status-for-guides-and-surveys"
+        },
+        {
+          "title": "Content alignment for Guides and Surveys",
+          "description": "Guides and Surveys: Content alignment for Guides and Surveys",
+          "date": "2025-09-05",
+          "url": "https://amplitude.com/releases/content-alignment-for-guides-and-surveys"
+        },
+        {
+          "title": "Improved Themes Preview UX for Guides and Surveys",
+          "description": "Guides and Surveys: Improved Themes Preview UX for Guides and Surveys",
+          "date": "2025-09-19",
+          "url": "https://amplitude.com/releases/improved-themes-preview-ux-for-guides-and-surveys"
+        },
+        {
+          "title": "Redesigned Invite Modal",
+          "description": "Activation: Redesigned Invite Modal",
+          "date": "2025-09-22",
+          "url": "https://amplitude.com/releases/redesigned-invite-modal"
+        },
+        {
+          "title": "Flag and Experiment Approvals Workflow",
+          "description": "Experiment: Flag and Experiment Approvals Workflow",
+          "date": "2025-09-22",
+          "url": "https://amplitude.com/releases/flag-and-experiment-approvals-workflow"
+        },
+        {
+          "title": "Autocapture Masking & Data Protection",
+          "description": "Data: Autocapture Masking & Data Protection",
+          "date": "2025-09-26",
+          "url": "https://amplitude.com/releases/autocapture-masking-data-protection"
+        },
+        {
+          "title": "Chart Chat",
+          "description": "AI: Chart Chat",
+          "date": "2025-09-26",
+          "url": "https://amplitude.com/releases/chart-chat"
+        },
+        {
+          "title": "Journeys Sunburst Visualization — New Chart Type",
+          "description": "Analytics: Journeys Sunburst Visualization — New Chart Type",
+          "date": "2025-09-29",
+          "url": "https://amplitude.com/releases/journeys-sunburst-visualization-new-chart-type"
+        },
+        {
+          "title": "Streaming out Lookup Properties",
+          "description": "Data: Streaming out Lookup Properties",
+          "date": "2025-09-30",
+          "url": "https://amplitude.com/releases/streaming-out-lookup-properties"
+        },
+        {
+          "title": "Funnels Available from Microscope Menu",
+          "description": "Analytics: Funnels Available from Microscope Menu",
+          "date": "2025-10-08",
+          "url": "https://amplitude.com/releases/1759951038.748179"
+        },
+        {
+          "title": "Automated Insights",
+          "description": "Analytics: Automated Insights",
+          "date": "2025-10-16",
+          "url": "https://amplitude.com/releases/automated-insights"
+        },
+        {
+          "title": "Amplitude MCP",
+          "description": "AI: Amplitude MCP",
+          "date": "2025-10-21",
+          "url": "https://amplitude.com/releases/amplitude-mcp"
+        },
+        {
+          "title": "G&S Themes — Custom CSS",
+          "description": "Guides and Surveys: G&S Themes — Custom CSS",
+          "date": "2025-10-21",
+          "url": "https://amplitude.com/releases/1761081647.104099"
+        },
+        {
+          "title": "Web Vitals Metrics Collection",
+          "description": "Analytics: Web Vitals Metrics Collection",
+          "date": "2025-10-21",
+          "url": "https://amplitude.com/releases/1761084164.959569"
+        },
+        {
+          "title": "SDK remote config server url for proxy",
+          "description": "Activation: SDK remote config server url for proxy",
+          "date": "2025-10-23",
+          "url": "https://amplitude.com/releases/1761238563.263249"
+        },
+        {
+          "title": "Usability win: Duplicate Charts from Dashboards",
+          "description": "Amplitude product update: Usability win: Duplicate Charts from Dashboards",
+          "date": "2025-10-23",
+          "url": "https://amplitude.com/releases/duplicate-charts-from-dashboards"
+        },
+        {
+          "title": "TikTok, LinkedIn and X Ad sources",
+          "description": "Activation: TikTok, LinkedIn and X Ad sources",
+          "date": "2025-10-23",
+          "url": "https://amplitude.com/releases/1761251960.121079"
+        },
+        {
+          "title": "Currency Conversion OOTB derived properties in event streaming",
+          "description": "Data: Currency Conversion OOTB derived properties in event streaming",
+          "date": "2025-10-31",
+          "url": "https://amplitude.com/releases/currency-conversion-ootb-derived-properties-in-event-streaming"
+        },
+        {
+          "title": "New Popover positions",
+          "description": "Analytics: New Popover positions",
+          "date": "2025-10-31",
+          "url": "https://amplitude.com/releases/guides-new-popover-positions"
+        },
+        {
+          "title": "Improved Notifications for Data Warehouse Activity",
+          "description": "Data: Improved Notifications for Data Warehouse Activity",
+          "date": "2025-10-31",
+          "url": "https://amplitude.com/releases/improved-notifications-for-data-warehouse-activity"
+        },
+        {
+          "title": "Autocapture: Page Properties",
+          "description": "Analytics: Autocapture: Page Properties",
+          "date": "2025-11-03",
+          "url": "https://amplitude.com/releases/autocapture-page-properties"
+        },
+        {
+          "title": "Conditional Logic V2 (now with user properties)",
+          "description": "Guides and Surveys: Conditional Logic V2 (now with user properties)",
+          "date": "2025-11-10",
+          "url": "https://amplitude.com/releases/conditional-logic-v2-now-with-user-properties"
+        },
+        {
+          "title": "AI Feedback",
+          "description": "AI: AI Feedback",
+          "date": "2025-11-12",
+          "url": "https://amplitude.com/releases/ai-feedback"
+        },
+        {
+          "title": "Network Request and Frustration Interaction Tracking",
+          "description": "Session Replay: Network Request and Frustration Interaction Tracking",
+          "date": "2025-11-21",
+          "url": "https://amplitude.com/releases/network-request-and-frustration-interaction-tracking"
+        },
+        {
+          "title": "TRC General Availability",
+          "description": "Amplitude product update: TRC General Availability",
+          "date": "2025-11-25",
+          "url": "https://amplitude.com/releases/trc-general-availability"
+        },
         {
           "title": "Unexpected/unplanned event properties inheriting shared property metadata",
           "description": "Analytics: Unexpected/unplanned event properties inheriting shared property metadata",
@@ -355,5 +613,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-01-06T15:13:25.137Z"
+  "lastUpdated": "2026-01-06T15:14:32.055Z"
 }
