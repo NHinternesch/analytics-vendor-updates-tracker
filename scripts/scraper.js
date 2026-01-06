@@ -100,11 +100,10 @@ function parseRelativeDate(dateStr) {
   return formatDate(dateStr);
 }
 
-// Helper to check if update exists
+// Helper to check if update exists (checking title only to avoid date variation duplicates)
 function updateExists(updates, newUpdate) {
   return updates.some(u =>
-    u.title.toLowerCase().trim() === newUpdate.title.toLowerCase().trim() &&
-    u.date === newUpdate.date
+    u.title.toLowerCase().trim() === newUpdate.title.toLowerCase().trim()
   );
 }
 
@@ -241,24 +240,42 @@ async function scrapeGoogleAnalyticsUpdates() {
     const $ = cheerio.load(response.data);
     const updates = [];
 
-    // Look for h2/h3 headings that contain dates or version info
-    $('h2, h3').each((i, elem) => {
-      if (i >= 20) return false;
+    // Google Analytics structure: h2 with date (e.g., "December 12, 2025")
+    // followed by h3 with feature name (e.g., "Analytics Advisor")
+    // followed by p with description
+    $('h2').each((i, elem) => {
+      if (updates.length >= 20) return false;
 
-      const title = $(elem).text().trim();
-      const nextP = $(elem).next('p, ul').text().trim();
+      const h2Text = $(elem).text().trim();
 
-      // Try to find dates in the heading
-      const dateMatch = title.match(/\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4}\b/i);
+      // Check if this h2 is a date
+      const dateMatch = h2Text.match(/\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4}\b/i);
 
-      // Include entries with dates or year references
-      if (title.length > 10 && (dateMatch || title.match(/\b202[4-6]\b/))) {
-        updates.push({
-          title: title.substring(0, 150),
-          description: nextP.substring(0, 250) || 'Google Analytics update',
-          date: dateMatch ? formatDate(dateMatch[0]) : formatDate(new Date()),
-          url: 'https://support.google.com/analytics/answer/9164320'
-        });
+      if (dateMatch) {
+        const date = formatDate(dateMatch[0]);
+
+        // Find the next h3 siblings after this h2
+        let nextElem = $(elem).next();
+        while (nextElem.length && !nextElem.is('h2')) {
+          if (nextElem.is('h3')) {
+            const featureName = nextElem.text().trim();
+
+            // Get description from following paragraph
+            const descP = nextElem.next('p');
+            const description = descP.text().trim().substring(0, 250);
+
+            if (featureName && featureName.length > 3) {
+              updates.push({
+                title: featureName.substring(0, 150),
+                description: description || 'Google Analytics update',
+                date: date,
+                url: 'https://support.google.com/analytics/answer/9164320'
+              });
+            }
+          }
+
+          nextElem = nextElem.next();
+        }
       }
     });
 
