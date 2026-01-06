@@ -227,6 +227,18 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "Analytics source connector: Search report suites in Experience Platform",
+          "description": "If you do have a high number of report suites you can now search for the report suite you want to connect to within the Analytics Source Connector dataflow workflow.",
+          "date": "2025-10-30",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
+          "title": "Streaming media services: Support schedule data",
+          "description": "You can now upload scheduled data of past live Streaming Media content to more easily and accurately track viewership. The following are examples of live content that are supported with schedule data upload: Uploading schedule data allows you to track viewership data for individual programs that ran",
+          "date": "2025-10-29",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "Shared metrics and dimensions",
           "description": "Adobe Customer Journey Analytics feature update",
           "date": "2026-01-06",
@@ -733,5 +745,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-01-06T15:40:54.754Z"
+  "lastUpdated": "2026-01-06T15:56:20.707Z"
 }
