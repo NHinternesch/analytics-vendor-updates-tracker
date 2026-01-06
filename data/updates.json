@@ -229,91 +229,31 @@
         {
           "title": "Analytics source connector: Search report suites in Experience Platform",
           "description": "If you do have a high number of report suites you can now search for the report suite you want to connect to within the Analytics Source Connector dataflow workflow.",
-          "date": "2025-10-30",
+          "date": "2025-10-29",
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
           "title": "Streaming media services: Support schedule data",
           "description": "You can now upload scheduled data of past live Streaming Media content to more easily and accurately track viewership. The following are examples of live content that are supported with schedule data upload: Uploading schedule data allows you to track viewership data for individual programs that ran",
-          "date": "2025-10-29",
-          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
-        },
-        {
-          "title": "Shared metrics and dimensions",
-          "description": "Adobe Customer Journey Analytics feature update",
-          "date": "2026-01-06",
-          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
-        },
-        {
-          "title": "Scheduled reports",
-          "description": "Adobe Customer Journey Analytics feature update",
-          "date": "2026-01-06",
-          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
-        },
-        {
-          "title": "Segmentation",
-          "description": "Adobe Customer Journey Analytics feature update",
-          "date": "2026-01-06",
-          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
-        },
-        {
-          "title": "Report Builder",
-          "description": "Adobe Customer Journey Analytics feature update",
-          "date": "2026-01-06",
-          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
-        },
-        {
-          "title": "Implementation",
-          "description": "Adobe Customer Journey Analytics feature update",
-          "date": "2026-01-06",
-          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
-        },
-        {
-          "title": "Guided Analysis",
-          "description": "Adobe Customer Journey Analytics feature update",
-          "date": "2026-01-06",
-          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
-        },
-        {
-          "title": "Content Analytics",
-          "description": "Adobe Customer Journey Analytics feature update",
-          "date": "2026-01-06",
-          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
-        },
-        {
-          "title": "Components",
-          "description": "Adobe Customer Journey Analytics feature update",
-          "date": "2026-01-06",
-          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
-        },
-        {
-          "title": "Analysis Workspace",
-          "description": "Adobe Customer Journey Analytics feature update",
-          "date": "2026-01-06",
-          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
-        },
-        {
-          "title": "Stitching in connections",
-          "description": "Adobe Customer Journey Analytics feature update",
-          "date": "2026-01-06",
+          "date": "2025-10-28",
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
           "title": "Support for data mirror",
-          "description": "Adobe Customer Journey Analytics feature update",
-          "date": "2026-01-06",
+          "description": "With support for model-based schemas and change data capture (CDC) functionality for specific source connectors in Experience Platform, Customer Journey Analytics will be able to support data mirror functionality of data warehouse solutions like Snowflake, Azure Databricks, and Google BigQuery. Cont",
+          "date": "2025-09-23",
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
           "title": "Real-time reporting",
-          "description": "Adobe Customer Journey Analytics feature update",
-          "date": "2026-01-06",
+          "description": "Real-time reporting in Customer Journey Analytics displays and updates data and visualizations within one or more panels in Analysis Workspace in real time.",
+          "date": "2025-10-21",
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
           "title": "Filter criteria included in line visualizations and sparklines",
-          "description": "Adobe Customer Journey Analytics feature update",
-          "date": "2026-01-06",
+          "description": "Any search filter criteria that you apply to a freeform table filter is now always included in sparklines. In addition, you can include search filter criteria in any connected line visualization. You can configure line visualizations to include search filter criteria by selecting the sparkline in th",
+          "date": "2025-10-14",
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         }
       ]
@@ -745,5 +685,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-01-06T16:22:01.402Z"
+  "lastUpdated": "2026-01-06T16:36:44.029Z"
 }

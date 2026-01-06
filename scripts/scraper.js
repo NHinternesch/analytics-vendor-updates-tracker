@@ -222,6 +222,11 @@ async function scrapeAdobeCJAUpdates() {
 
           description = description.replace(/\s+/g, ' ').substring(0, 300);
 
+          // Skip if description is too short or empty
+          if (!description || description.length < 50) {
+            return;
+          }
+
           // Get date from fourth cell (General Availability)
           let dateText = $(cells[3]).text().trim();
 
