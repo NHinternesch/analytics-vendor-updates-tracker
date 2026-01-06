@@ -1,7 +1,7 @@
 {
   "name": "analytics-competition-tracker",
   "version": "1.0.0",
-  "description": "Track news and product releases from analytics competitors",
+  "description": "Track news and product releases from Google Analytics, Adobe CJA, and Amplitude",
   "main": "scripts/scraper.js",
   "type": "module",
   "scripts": {

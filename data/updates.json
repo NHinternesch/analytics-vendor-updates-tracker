@@ -353,22 +353,7 @@
           "url": "https://amplitude.com/releases/trc-general-availability"
         }
       ]
-    },
-    {
-      "id": "mixpanel",
-      "name": "Mixpanel",
-      "updates": []
-    },
-    {
-      "id": "piwik-pro",
-      "name": "Piwik Pro",
-      "updates": []
-    },
-    {
-      "id": "matomo",
-      "name": "Matomo",
-      "updates": []
     }
   ],
-  "lastUpdated": "2026-01-06T14:34:20.248Z"
+  "lastUpdated": "2026-01-06T14:54:18.236Z"
 }

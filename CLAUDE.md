@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-An automated tracker for monitoring news and product releases from six major analytics competitors: Google Analytics, Adobe CJA, Amplitude, Mixpanel, Piwik Pro, and Matomo. Designed for GitHub Pages deployment with automated daily scraping via GitHub Actions.
+An automated tracker for monitoring news and product releases from three major analytics competitors: Google Analytics, Adobe CJA, and Amplitude. Designed for GitHub Pages deployment with automated daily scraping via GitHub Actions.
 
 ## Commands
 
@@ -114,39 +114,29 @@ The scraper will automatically initialize the competitor in `data/updates.json`.
 
 ### Web Scraping Implementation
 
-The scraper now fetches **real-time data** from competitor websites with custom parsers for each vendor:
+The scraper fetches **real-time data** from three competitor websites with custom parsers:
 
-**✅ Fully Working Scrapers:**
-- **Amplitude** (https://amplitude.com/releases)
-  - Parses 35+ release links with titles, dates, and categories
-  - Extracts: emoji-prefixed titles, dates (e.g., "Nov 25"), and product categories
-  - Smart date parsing handles relative dates and year detection
+**Amplitude** (https://amplitude.com/releases)
+- Parses 35+ release links from static HTML
+- Extracts: clean titles, dates (e.g., "Nov 25"), and product categories
+- Smart date parsing handles relative dates and year detection
+- Time coverage: Typically 12-18 months of releases
 
-- **Google Analytics** (https://support.google.com/analytics/answer/9164320)
-  - Extracts h2/h3 headings with dates (last 20)
-  - Parses full dates like "December 12, 2025"
+**Google Analytics** (https://support.google.com/analytics/answer/9164320)
+- Extracts h2/h3 headings with dates (last 20)
+- Parses full dates like "December 12, 2025"
+- Time coverage: Current year updates
 
-- **Adobe CJA** (https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest)
-  - Scrapes feature table rows with descriptions (last 20)
-  - Extracts: feature names in `<strong>` tags and detailed descriptions
-
-**⚠️ Limited/Not Working:**
-- **Mixpanel** (https://docs.mixpanel.com/changelogs)
-  - Page is fully client-side rendered (React/Next.js)
-  - Static HTML contains no changelog content
-  - **Solution:** Would require Puppeteer/Playwright for browser automation
-
-- **Matomo** & **Piwik Pro**
-  - Scrapers implemented but may return 0 results depending on page structure
-  - Basic HTML parsing with common selectors
+**Adobe CJA** (https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest)
+- Scrapes feature table rows with descriptions (last 20)
+- Extracts: feature names in `<strong>` tags and detailed descriptions
+- Time coverage: Current release cycle (recent months)
 
 **Time Period Scraped:**
-- **Amplitude**: Last ~35 releases (typically covers 12-18 months)
-- **Adobe CJA**: Last ~20 features (current release cycle)
-- **Google Analytics**: Last ~20 updates (current year)
-- **Others**: Up to 25 items from changelog pages
-- No explicit date filtering - captures whatever is currently published
+- No explicit date filtering - captures whatever is currently published on each page
 - Maximum 100 updates stored per competitor (older ones automatically dropped)
+- Amplitude shows the most historical data (~12-18 months)
+- Adobe CJA and Google Analytics focus on recent releases
 
 **Technical Details:**
 - Uses `axios` for HTTP requests with 15-second timeout
