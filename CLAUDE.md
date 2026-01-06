@@ -114,28 +114,47 @@ The scraper will automatically initialize the competitor in `data/updates.json`.
 
 ### Web Scraping Implementation
 
-The scraper now fetches **real-time data** from competitor websites:
+The scraper now fetches **real-time data** from competitor websites with custom parsers for each vendor:
 
-**Implemented Scrapers:**
-- **Matomo**: Parses changelog page for version releases (last 20)
-- **Piwik Pro**: Scrapes blog posts from news/releases category (last 15)
-- **Google Analytics**: Extracts release notes with date parsing (last 15)
-- **Adobe CJA, Amplitude, Mixpanel**: Generic scraper with common HTML patterns (last 10)
+**✅ Fully Working Scrapers:**
+- **Amplitude** (https://amplitude.com/releases)
+  - Parses 35+ release links with titles, dates, and categories
+  - Extracts: emoji-prefixed titles, dates (e.g., "Nov 25"), and product categories
+  - Smart date parsing handles relative dates and year detection
+
+- **Google Analytics** (https://support.google.com/analytics/answer/9164320)
+  - Extracts h2/h3 headings with dates (last 20)
+  - Parses full dates like "December 12, 2025"
+
+- **Adobe CJA** (https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest)
+  - Scrapes feature table rows with descriptions (last 20)
+  - Extracts: feature names in `<strong>` tags and detailed descriptions
+
+**⚠️ Limited/Not Working:**
+- **Mixpanel** (https://docs.mixpanel.com/changelogs)
+  - Page is fully client-side rendered (React/Next.js)
+  - Static HTML contains no changelog content
+  - **Solution:** Would require Puppeteer/Playwright for browser automation
+
+- **Matomo** & **Piwik Pro**
+  - Scrapers implemented but may return 0 results depending on page structure
+  - Basic HTML parsing with common selectors
 
 **Time Period Scraped:**
-- Each scraper limits results to **10-20 most recent updates** from the source
-- No explicit date filtering - captures whatever is currently published on the page
-- Updates are deduplicated by title + date combination to avoid duplicates
+- **Amplitude**: Last ~35 releases (typically covers 12-18 months)
+- **Adobe CJA**: Last ~20 features (current release cycle)
+- **Google Analytics**: Last ~20 updates (current year)
+- **Others**: Up to 25 items from changelog pages
+- No explicit date filtering - captures whatever is currently published
 - Maximum 100 updates stored per competitor (older ones automatically dropped)
 
 **Technical Details:**
 - Uses `axios` for HTTP requests with 15-second timeout
 - Parses HTML with `cheerio` (jQuery-like selectors)
-- 1-second delay between requests to be respectful to servers
-- Graceful error handling - scraper continues even if one competitor fails
-- Automatic deduplication prevents adding the same update twice
-
-**Note:** Some sites (Amplitude, Mixpanel, Adobe) use client-side rendering, which may return fewer results. The generic scraper attempts common patterns but may need enhancement for specific sites.
+- 1.5-second delay between requests to be respectful
+- Graceful error handling - continues even if one competitor fails
+- Automatic deduplication by title + date prevents duplicates
+- Smart date parsing: handles "Nov 25" format and detects correct year
 
 ## GitHub Actions & Deployment
 
