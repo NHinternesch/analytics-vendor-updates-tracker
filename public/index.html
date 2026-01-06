@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analytics Competition Updates Tracker</title>
+  <style>
+    :root {
+      --primary: #3b82f6;
+      --primary-light: #dbeafe;
+      --primary-dark: #1e40af;
+      --secondary: #f97316;
+      --secondary-light: #fed7aa;
+      --accent: #10b981;
+      --accent-light: #d1fae5;
+      --background: #ffffff;
+      --foreground: #1f2937;
+      --border: #e5e7eb;
+      --muted: #f3f4f6;
+      --muted-foreground: #6b7280;
+      --success: #10b981;
+      --warning: #f59e0b;
+      --error: #ef4444;
+      
+      --font-family-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+      --font-family-heading: 'Segoe UI', 'Roboto', sans-serif;
+      
+      --spacing-xs: 0.25rem;
+      --spacing-sm: 0.5rem;
+      --spacing-md: 1rem;
+      --spacing-lg: 1.5rem;
+      --spacing-xl: 2rem;
+      --spacing-2xl: 3rem;
+      
+      --radius-sm: 0.375rem;
+      --radius-md: 0.5rem;
+      --radius-lg: 0.75rem;
+      
+      --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      font-family: var(--font-family-sans);
+      background-color: var(--background);
+      color: var(--foreground);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      border-bottom: 1px solid var(--border);
+      background-color: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(10px);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .header-container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: var(--spacing-md) var(--spacing-lg);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+
+    .header-brand {
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-md);
+    }
+
+    .header-logo {
+      width: 36px;
+      height: 36px;
+      object-fit: contain;
+    }
+
+    .header-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      font-family: var(--font-family-heading);
+      letter-spacing: -0.025em;
+    }
+
+    .header-info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: var(--spacing-xs);
+    }
+
+    .last-updated {
+      font-size: 0.75rem;
+      color: var(--muted-foreground);
+      font-weight: 500;
+    }
+
+    .last-updated-time {
+      font-size: 0.875rem;
+      color: var(--primary);
+      font-weight: 600;
+    }
+
+    main {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: var(--spacing-xl);
+    }
+
+    .container-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--spacing-xl);
+    }
+
+    @media (min-width: 1024px) {
+      .container-grid {
+        grid-template-columns: 250px 1fr;
+      }
+    }
+
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-xl);
+    }
+
+    .sidebar-section {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-md);
+    }
+
+    .sidebar-title {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--foreground);
+      letter-spacing: 0.025em;
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-sm);
+    }
+
+    .sidebar-title svg {
+      width: 16px;
+      height: 16px;
+      color: var(--primary);
+    }
+
+    .search-container {
+      position: relative;
+    }
+
+    .search-container svg {
+      position: absolute;
+      left: var(--spacing-md);
+      top: 50%;
+      transform: translateY(-50%);
+      width: 16px;
+      height: 16px;
+      color: var(--muted-foreground);
+    }
+
+    .search-input {
+      width: 100%;
+      padding: var(--spacing-sm) var(--spacing-md) var(--spacing-sm) 32px;
+      font-size: 0.875rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      background-color: var(--background);
+      color: var(--foreground);
+      transition: all 0.2s ease;
+    }
+
+    .search-input:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+    }
+
+    .search-input::placeholder {
+      color: var(--muted-foreground);
+    }
+
+    .competitor-list {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-sm);
+    }
+
+    .competitor-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: var(--spacing-md);
+      font-size: 0.875rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      background-color: var(--background);
+      color: var(--foreground);
+      text-align: left;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+
+    .competitor-item:hover {
+      background-color: var(--muted);
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    .competitor-item.active {
+      background-color: rgba(59, 130, 246, 0.1);
+      border-color: rgba(59, 130, 246, 0.3);
+      color: var(--primary);
+    }
+
+    .competitor-count {
+      font-size: 0.75rem;
+      font-weight: 500;
+      opacity: 0.6;
+    }
+
+    .clear-btn {
+      font-size: 0.75rem;
+      color: var(--primary);
+      background: none;
+      border: none;
+      cursor: pointer;
+      text-decoration: underline;
+      font-weight: 500;
+      padding: 0;
+    }
+
+    .clear-btn:hover {
+      text-decoration: none;
+    }
+
+    .main-content {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-lg);
+    }
+
+    .content-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: var(--spacing-md);
+    }
+
+    .content-title {
+      font-size: 1.875rem;
+      font-weight: 700;
+      font-family: var(--font-family-heading);
+      letter-spacing: -0.025em;
+    }
+
+    .update-count {
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--muted-foreground);
+    }
+
+    .feed {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-md);
+    }
+
+    .card {
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      background-color: var(--background);
+      box-shadow: var(--shadow-sm);
+      transition: all 0.2s ease;
+      overflow: hidden;
+    }
+
+    .card:hover {
+      box-shadow: var(--shadow-md);
+      border-color: rgba(59, 130, 246, 0.2);
+    }
+
+    .card-header {
+      padding: var(--spacing-lg);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .card-content {
+      padding: var(--spacing-lg);
+    }
+
+    .card-header-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: var(--spacing-md);
+    }
+
+    .card-meta {
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-sm);
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: var(--spacing-xs) var(--spacing-sm);
+      font-size: 0.75rem;
+      font-weight: 600;
+      border-radius: var(--radius-sm);
+      background-color: var(--muted);
+      color: var(--foreground);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .date-badge {
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-xs);
+      font-size: 0.75rem;
+      color: var(--muted-foreground);
+      margin-left: auto;
+    }
+
+    .date-badge svg {
+      width: 12px;
+      height: 12px;
+    }
+
+    .card-title {
+      font-size: 1.125rem;
+      font-weight: 700;
+      color: var(--foreground);
+      margin-top: var(--spacing-md);
+      font-family: var(--font-family-heading);
+    }
+
+    .card-description {
+      font-size: 0.875rem;
+      color: rgba(31, 41, 55, 0.75);
+      line-height: 1.6;
+    }
+
+    .external-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: var(--radius-md);
+      background-color: transparent;
+      color: var(--muted-foreground);
+      transition: all 0.2s ease;
+      opacity: 0.6;
+      text-decoration: none;
+    }
+
+    .external-link:hover {
+      background-color: var(--muted);
+      color: var(--foreground);
+      opacity: 1;
+    }
+
+    .external-link svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    .skeleton {
+      background: linear-gradient(90deg, var(--muted) 25%, rgba(243, 244, 246, 0.5) 50%, var(--muted) 75%);
+      background-size: 200% 100%;
+      animation: loading 1.5s infinite;
+    }
+
+    @keyframes loading {
+      0% {
+        background-position: 200% 0;
+      }
+      100% {
+        background-position: -200% 0;
+      }
+    }
+
+    .skeleton-card {
+      height: 160px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .empty-state {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 80px var(--spacing-lg);
+      text-align: center;
+      border: 2px dashed var(--border);
+      border-radius: var(--radius-md);
+      background-color: rgba(243, 244, 246, 0.2);
+    }
+
+    .empty-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background-color: var(--muted);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: var(--spacing-md);
+    }
+
+    .empty-icon svg {
+      width: 24px;
+      height: 24px;
+      color: var(--muted-foreground);
+    }
+
+    .empty-title {
+      font-size: 1.125rem;
+      font-weight: 700;
+      color: var(--foreground);
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .empty-text {
+      font-size: 0.875rem;
+      color: var(--muted-foreground);
+      max-width: 448px;
+      margin-bottom: var(--spacing-lg);
+    }
+
+    @media (max-width: 1024px) {
+      .container-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .sidebar {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: var(--spacing-lg);
+      }
+    }
+
+    @media (max-width: 640px) {
+      .header-container {
+        padding: var(--spacing-md);
+        height: auto;
+        flex-direction: column;
+        gap: var(--spacing-md);
+      }
+      
+      .header-title {
+        font-size: 1rem;
+      }
+      
+      main {
+        padding: var(--spacing-md);
+      }
+      
+      .content-title {
+        font-size: 1.5rem;
+      }
+      
+      .card-header {
+        padding: var(--spacing-md);
+      }
+      
+      .card-content {
+        padding: var(--spacing-md);
+      }
+      
+      .card-header-top {
+        flex-direction: column;
+      }
+      
+      .date-badge {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <div class="header-brand">
+        <img src="logo.png" alt="Competition Tracker" class="header-logo">
+        <h1 class="header-title">Analytics Competition Updates Tracker</h1>
+      </div>
+      
+      <div class="header-info">
+        <div class="last-updated">Last Updated</div>
+        <div class="last-updated-time" id="lastUpdatedTime">Loading...</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="container-grid">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <!-- Search Section -->
+        <div class="sidebar-section">
+          <h3 class="sidebar-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.35-4.35"></path>
+            </svg>
+            Search
+          </h3>
+          <div class="search-container">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.35-4.35"></path>
+            </svg>
+            <input 
+              type="text" 
+              id="searchInput" 
+              class="search-input" 
+              placeholder="Search updates..."
+            >
+          </div>
+        </div>
+
+        <!-- Competitors Section -->
+        <div class="sidebar-section">
+          <div style="display: flex; align-items: center; justify-content: space-between;">
+            <h3 class="sidebar-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+              </svg>
+              Competitors
+            </h3>
+            <button id="clearCompetitorBtn" class="clear-btn" style="display: none;">Clear</button>
+          </div>
+          <div id="competitorList" class="competitor-list"></div>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <div class="main-content">
+        <!-- Content Header -->
+        <div class="content-header">
+          <h2 class="content-title">Latest Updates</h2>
+          <div class="update-count" id="updateCount">0 updates</div>
+        </div>
+
+        <!-- Loading State -->
+        <div id="loadingContainer" style="display: none;">
+          <div class="skeleton skeleton-card"></div>
+          <div class="skeleton skeleton-card"></div>
+          <div class="skeleton skeleton-card"></div>
+        </div>
+
+        <!-- Feed -->
+        <div id="feedContainer" class="feed"></div>
+
+        <!-- Empty State -->
+        <div id="emptyState" class="empty-state" style="display: none;">
+          <div class="empty-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.35-4.35"></path>
+            </svg>
+          </div>
+          <h3 class="empty-title">No updates found</h3>
+          <p class="empty-text">Try adjusting your filters or search terms to find what you're looking for.</p>
+          <button class="clear-btn" onclick="location.reload()" style="text-decoration: none; font-size: 0.875rem; margin-top: var(--spacing-md);">Clear All Filters</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    class CompetitionTracker {
+      constructor() {
+        // Use embedded data if available, otherwise fetch
+        this.data = window.__DATA__ || null;
+        this.searchQuery = '';
+        this.selectedCompetitor = null;
+        this.allUpdates = [];
+        this.filteredUpdates = [];
+        
+        this.initializeElements();
+        this.setupEventListeners();
+        this.loadData();
+      }
+      
+      initializeElements() {
+        this.searchInput = document.getElementById('searchInput');
+        this.competitorList = document.getElementById('competitorList');
+        this.clearCompetitorBtn = document.getElementById('clearCompetitorBtn');
+        this.updateCount = document.getElementById('updateCount');
+        this.feedContainer = document.getElementById('feedContainer');
+        this.loadingContainer = document.getElementById('loadingContainer');
+        this.emptyState = document.getElementById('emptyState');
+        this.lastUpdatedTime = document.getElementById('lastUpdatedTime');
+      }
+      
+      setupEventListeners() {
+        this.searchInput.addEventListener('input', (e) => {
+          this.searchQuery = e.target.value;
+          this.filterUpdates();
+          this.render();
+        });
+        
+        this.clearCompetitorBtn.addEventListener('click', () => {
+          this.selectedCompetitor = null;
+          this.filterUpdates();
+          this.render();
+        });
+      }
+      
+      loadData() {
+        if (this.data) {
+          this.flattenUpdates();
+          this.filterUpdates();
+          this.render();
+        } else {
+          // Fetch from API if data not embedded
+          fetch('/api/updates')
+            .then(res => res.json())
+            .then(data => {
+              this.data = data;
+              this.flattenUpdates();
+              this.filterUpdates();
+              this.render();
+            })
+            .catch(err => {
+              console.error('Failed to load data:', err);
+              this.emptyState.style.display = 'flex';
+            });
+        }
+      }
+      
+      flattenUpdates() {
+        this.allUpdates = [];
+        
+        this.data.competitors.forEach(competitor => {
+          competitor.updates.forEach(update => {
+            this.allUpdates.push({
+              ...update,
+              competitorId: competitor.id,
+              competitorName: competitor.name
+            });
+          });
+        });
+        
+        this.allUpdates.sort((a, b) => new Date(b.date) - new Date(a.date));
+      }
+      
+      filterUpdates() {
+        this.filteredUpdates = this.allUpdates.filter(update => {
+          const matchesSearch = 
+            update.title.toLowerCase().includes(this.searchQuery.toLowerCase()) ||
+            update.description.toLowerCase().includes(this.searchQuery.toLowerCase()) ||
+            update.competitorName.toLowerCase().includes(this.searchQuery.toLowerCase());
+          
+          const matchesCompetitor = 
+            !this.selectedCompetitor || update.competitorId === this.selectedCompetitor;
+          
+          return matchesSearch && matchesCompetitor;
+        });
+      }
+      
+      formatDate(isoString) {
+        const date = new Date(isoString);
+        const now = new Date();
+        const diffMs = now - date;
+        const diffMins = Math.floor(diffMs / 60000);
+        const diffHours = Math.floor(diffMs / 3600000);
+        const diffDays = Math.floor(diffMs / 86400000);
+        
+        if (diffMins < 1) return 'Just now';
+        if (diffMins < 60) return `${diffMins}m ago`;
+        if (diffHours < 24) return `${diffHours}h ago`;
+        if (diffDays < 7) return `${diffDays}d ago`;
+        
+        return date.toLocaleDateString('en-US', { 
+          month: 'short', 
+          day: 'numeric',
+          year: date.getFullYear() !== now.getFullYear() ? 'numeric' : undefined
+        });
+      }
+      
+      render() {
+        this.loadingContainer.style.display = 'none';
+        
+        // Update last updated time
+        if (this.data && this.data.lastUpdated) {
+          this.lastUpdatedTime.textContent = this.formatDate(this.data.lastUpdated);
+        }
+        
+        this.renderCompetitorList();
+        this.renderFeed();
+      }
+      
+      renderCompetitorList() {
+        this.competitorList.innerHTML = '';
+        
+        this.data.competitors.forEach(competitor => {
+          const button = document.createElement('button');
+          button.className = 'competitor-item';
+          if (this.selectedCompetitor === competitor.id) {
+            button.classList.add('active');
+          }
+          
+          button.innerHTML = `
+            <span>${competitor.name}</span>
+            <span class="competitor-count">${competitor.updates.length}</span>
+          `;
+          
+          button.addEventListener('click', () => {
+            this.selectedCompetitor = this.selectedCompetitor === competitor.id ? null : competitor.id;
+            this.filterUpdates();
+            this.render();
+          });
+          
+          this.competitorList.appendChild(button);
+        });
+        
+        this.clearCompetitorBtn.style.display = this.selectedCompetitor ? 'block' : 'none';
+      }
+      
+      renderFeed() {
+        this.updateCount.textContent = `${this.filteredUpdates.length} updates`;
+        
+        if (this.filteredUpdates.length === 0) {
+          this.feedContainer.innerHTML = '';
+          this.emptyState.style.display = 'flex';
+          return;
+        }
+        
+        this.emptyState.style.display = 'none';
+        this.feedContainer.innerHTML = this.filteredUpdates.map((update, index) => `
+          <div class="card">
+            <div class="card-header">
+              <div class="card-header-top">
+                <div style="flex: 1;">
+                  <div class="card-meta">
+                    <span class="badge">${this.escapeHtml(update.competitorName)}</span>
+                    <span class="date-badge">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                      </svg>
+                      ${update.date}
+                    </span>
+                  </div>
+                  <h3 class="card-title">${this.escapeHtml(update.title)}</h3>
+                </div>
+                <a 
+                  href="${this.escapeHtml(update.url || '#')}" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  class="external-link"
+                  title="Open source"
+                >
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="card-content">
+              <p class="card-description">${this.escapeHtml(update.description)}</p>
+            </div>
+          </div>
+        `).join('');
+      }
+      
+      escapeHtml(text) {
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      new CompetitionTracker();
+    });
+  </script>
+</body>
+</html>

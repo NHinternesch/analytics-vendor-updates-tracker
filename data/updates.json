@@ -1,0 +1,257 @@
+{
+  "competitors": [
+    {
+      "id": "google-analytics",
+      "name": "Google Analytics",
+      "updates": [
+        {
+          "title": "Analytics Advisor - AI Assistant Launch",
+          "description": "Agentic conversational AI assistant powered by Gemini models for instant insights and diagnostics",
+          "date": "2025-12-12",
+          "url": "https://support.google.com/analytics"
+        },
+        {
+          "title": "Enhanced Cross-Domain Tracking",
+          "description": "Improved tracking across multiple domains with better data accuracy",
+          "date": "2025-12-10",
+          "url": "https://support.google.com/analytics"
+        },
+        {
+          "title": "Real-time Audience Segments",
+          "description": "New real-time audience segmentation capabilities for immediate targeting",
+          "date": "2025-12-08",
+          "url": "https://support.google.com/analytics"
+        },
+        {
+          "title": "GA4 Custom Event Parameters",
+          "description": "Enhanced custom event parameters with improved validation and debugging",
+          "date": "2025-12-05",
+          "url": "https://support.google.com/analytics"
+        },
+        {
+          "title": "Conversion Modeling Improvements",
+          "description": "Advanced ML-based conversion modeling for better attribution",
+          "date": "2025-12-01",
+          "url": "https://support.google.com/analytics"
+        },
+        {
+          "title": "Data-Driven Attribution Updates",
+          "description": "New data-driven attribution model with enhanced accuracy",
+          "date": "2025-11-28",
+          "url": "https://support.google.com/analytics"
+        },
+        {
+          "title": "Advanced Audience Builder",
+          "description": "Powerful new audience builder with AI-powered recommendations",
+          "date": "2025-11-25",
+          "url": "https://support.google.com/analytics"
+        },
+        {
+          "title": "Custom Report Templates",
+          "description": "Pre-built custom report templates for common use cases",
+          "date": "2025-11-20",
+          "url": "https://support.google.com/analytics"
+        },
+        {
+          "title": "Enhanced Data Export",
+          "description": "Improved data export capabilities with BigQuery integration",
+          "date": "2025-11-15",
+          "url": "https://support.google.com/analytics"
+        },
+        {
+          "title": "Real-time Alerts System",
+          "description": "New real-time alerting system for anomaly detection",
+          "date": "2025-11-10",
+          "url": "https://support.google.com/analytics"
+        }
+      ]
+    },
+    {
+      "id": "adobe-cja",
+      "name": "Adobe CJA",
+      "updates": [
+        {
+          "title": "AI-Powered Insights Engine",
+          "description": "New AI-powered insights automatically identifying key patterns",
+          "date": "2025-12-15",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform"
+        },
+        {
+          "title": "Real-Time Data Streaming",
+          "description": "Stream customer data in real-time for instant analysis",
+          "date": "2025-12-10",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform"
+        },
+        {
+          "title": "Advanced Attribution Modeling",
+          "description": "Multi-touch attribution with machine learning",
+          "date": "2025-12-05",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform"
+        },
+        {
+          "title": "Predictive Analytics Module",
+          "description": "Predict customer behavior and outcomes",
+          "date": "2025-11-30",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform"
+        },
+        {
+          "title": "Customer Journey Orchestration",
+          "description": "Orchestrate customer journeys across channels",
+          "date": "2025-11-25",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform"
+        },
+        {
+          "title": "Enhanced Data Governance",
+          "description": "Improved data governance and compliance tools",
+          "date": "2025-11-20",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform"
+        },
+        {
+          "title": "Audience Activation Platform",
+          "description": "Activate audiences across Adobe ecosystem",
+          "date": "2025-11-15",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform"
+        },
+        {
+          "title": "Custom Metric Builder",
+          "description": "Create custom metrics with advanced formulas",
+          "date": "2025-11-10",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform"
+        }
+      ]
+    },
+    {
+      "id": "amplitude",
+      "name": "Amplitude",
+      "updates": [
+        {
+          "title": "Automated Insights AI",
+          "description": "AI-driven analyst workflows for automatic insights discovery",
+          "date": "2025-12-18",
+          "url": "https://amplitude.com/releases"
+        },
+        {
+          "title": "Predictive Analytics Engine",
+          "description": "Advanced predictive modeling for user behavior",
+          "date": "2025-12-12",
+          "url": "https://amplitude.com/releases"
+        },
+        {
+          "title": "Real-Time Cohort Builder",
+          "description": "Create and activate cohorts in real-time",
+          "date": "2025-12-08",
+          "url": "https://amplitude.com/releases"
+        },
+        {
+          "title": "Enhanced Event Tracking",
+          "description": "Improved event tracking with better data quality",
+          "date": "2025-12-03",
+          "url": "https://amplitude.com/releases"
+        },
+        {
+          "title": "Funnel Analysis 2.0",
+          "description": "Redesigned funnel analysis with new insights",
+          "date": "2025-11-28",
+          "url": "https://amplitude.com/releases"
+        },
+        {
+          "title": "User Segmentation Tools",
+          "description": "Advanced user segmentation capabilities",
+          "date": "2025-11-23",
+          "url": "https://amplitude.com/releases"
+        }
+      ]
+    },
+    {
+      "id": "mixpanel",
+      "name": "Mixpanel",
+      "updates": [
+        {
+          "title": "Updated Guardrails for Insights",
+          "description": "Updated date range and metric block guardrails for Insights Reports",
+          "date": "2025-12-17",
+          "url": "https://docs.mixpanel.com/changelogs"
+        },
+        {
+          "title": "MCP Integration",
+          "description": "New Model Context Protocol integration for advanced data access",
+          "date": "2025-12-10",
+          "url": "https://docs.mixpanel.com/docs/features/mcp"
+        },
+        {
+          "title": "Predictive Analytics",
+          "description": "AI-powered predictive analytics for user behavior",
+          "date": "2025-12-05",
+          "url": "https://docs.mixpanel.com/changelogs"
+        },
+        {
+          "title": "Real-Time Cohorts",
+          "description": "Create and activate cohorts in real-time",
+          "date": "2025-11-30",
+          "url": "https://docs.mixpanel.com/changelogs"
+        }
+      ]
+    },
+    {
+      "id": "piwik-pro",
+      "name": "Piwik Pro",
+      "updates": [
+        {
+          "title": "Advanced Privacy Features",
+          "description": "Enhanced privacy-first analytics with GDPR compliance",
+          "date": "2025-12-15",
+          "url": "https://piwik.pro/blog/category/news-releases/"
+        },
+        {
+          "title": "AI-Powered Insights",
+          "description": "AI-driven insights for data analysis",
+          "date": "2025-12-10",
+          "url": "https://piwik.pro/blog/category/news-releases/"
+        },
+        {
+          "title": "Real-Time Analytics",
+          "description": "Real-time data analytics and reporting",
+          "date": "2025-12-05",
+          "url": "https://piwik.pro/blog/category/news-releases/"
+        },
+        {
+          "title": "Custom Events",
+          "description": "Enhanced custom event tracking",
+          "date": "2025-11-30",
+          "url": "https://piwik.pro/blog/category/news-releases/"
+        }
+      ]
+    },
+    {
+      "id": "matomo",
+      "name": "Matomo",
+      "updates": [
+        {
+          "title": "Matomo 5.6.2 Release",
+          "description": "Latest patch release with bug fixes and improvements",
+          "date": "2025-12-10",
+          "url": "https://matomo.org/changelog/"
+        },
+        {
+          "title": "AI Agent Tracking",
+          "description": "New AI agent tracking capabilities",
+          "date": "2025-12-05",
+          "url": "https://matomo.org/changelog/"
+        },
+        {
+          "title": "Privacy Updates",
+          "description": "Enhanced privacy features and compliance",
+          "date": "2025-12-01",
+          "url": "https://matomo.org/changelog/"
+        },
+        {
+          "title": "Real-Time Analytics",
+          "description": "Real-time data analytics",
+          "date": "2025-11-25",
+          "url": "https://matomo.org/changelog/"
+        }
+      ]
+    }
+  ],
+  "lastUpdated": "2025-12-18T10:30:00Z"
+}
