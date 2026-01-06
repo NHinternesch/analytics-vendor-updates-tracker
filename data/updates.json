@@ -5,6 +5,12 @@
       "name": "Google Analytics",
       "updates": [
         {
+          "title": "Automated Scrape Update",
+          "description": "Data refreshed via automated scraper at 1/6/2026, 1:30:10 PM",
+          "date": "2026-01-06",
+          "url": "https://support.google.com/analytics"
+        },
+        {
           "title": "Analytics Advisor - AI Assistant Launch",
           "description": "Agentic conversational AI assistant powered by Gemini models for instant insights and diagnostics",
           "date": "2025-12-12",
@@ -253,5 +259,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-12-18T10:30:00Z"
+  "lastUpdated": "2026-01-06T13:30:10.478Z"
 }
