@@ -5,6 +5,126 @@
       "name": "Google Analytics",
       "updates": [
         {
+          "title": "Auto-configured key events for lead generation Business objective",
+          "description": "Analytics now automatically configures qualified and converted leads events as key events when the Business objective for lead generation is selected in order to guide clients towards the recommended best-practices for lead gen measurement. Once conf",
+          "date": "2025-06-12",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Cost data import: expanded data sources (beta)",
+          "description": "Additional data sources are now supported for cost data import in open beta. With this enhancement, you are able to import cost data from multiple sources such as:",
+          "date": "2025-06-24",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Annotations now have Analyst+ permissions",
+          "description": "Users with Analyst and above Google Analytics permissions can now create, edit, and delete annotations.",
+          "date": "2025-07-01",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Item data import improvements",
+          "description": "Item data import now allows importing item-scoped custom dimensions into Google Analytics. This provides greater flexibility to import item data without the need for item IDs, particularly beneficial for users with extensive product catalogs. Learn m",
+          "date": "2025-07-14",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Default reports and suggested audiences for lead generation customers",
+          "description": "We’re launching new reports and suggested audiences dedicated to customers whose goal is to generate leads.",
+          "date": "2025-07-21",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Import cost data from Reddit Ads",
+          "description": "You can now import cost data from Reddit through a seamless integration with Google Analytics. This enables advertisers to automatically track Reddit cost data within Google Analytics. Learn more about importing cost data from Reddit Ads.",
+          "date": "2025-07-21",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Improved conversion data completeness",
+          "description": "We’ve improved conversion data quality to prevent under-reporting of conversions for Google Analytics customers whose properties have 2 or more linked Google Ads accounts, and who have opted to credit paid and organic channels for web conversions the",
+          "date": "2025-08-06",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Improved ecommerce data availability and usability",
+          "description": "We’ve improved ecommerce data (item-scoped dimensions and metrics) availability and usability.",
+          "date": "2025-08-25",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Import cost data from Snap ads",
+          "description": "You can now import cost data from Snap through a seamless integration with Google Analytics. This enables advertisers to automatically track Snap cost data within Google Analytics.",
+          "date": "2025-09-17",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Google Analytics linking recommendation in Google Ads",
+          "description": "Customers who link their Google Ads or Google Marketing Platform accounts to a Google Analytics property are correlated with a 23% increase in conversions and a 10% reduction in cost per conversion.",
+          "date": "2025-09-24",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Import cost data from Pinterest Ads",
+          "description": "You can now import cost data from Pinterest through a seamless integration with Google Analytics. This enables advertisers to automatically track Pinterest cost data within Google Analytics.",
+          "date": "2025-09-26",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "New diagnostic in Google Analytics for User-ID implementation issues",
+          "description": "We’ve launched a new diagnostic to alert users of problematic User-ID implementations. Properties impacted by errors in user-ID implementation will see various diagnostic alerts throughout Google Analytics. The diagnostics include guidance on how to ",
+          "date": "2025-10-02",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Benchmarking support for unnormalized metrics",
+          "description": "We've expanded the Benchmarking feature in Google Analytics to give you more ways to compare your performance against others in your industry.",
+          "date": "2025-10-02",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Import cost data from Meta and TikTok ads",
+          "description": "You can now import cost data from Meta and TikTok through seamless integrations with Google Analytics. This enables advertisers to automatically track Meta and TikTok cost data within Google Analytics.",
+          "date": "2025-10-07",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "User-provided data new infra",
+          "description": "New User-Provided Data (UPD) infrastructure has launched, allowing new UPD customers to implement UPD without feature degradations. This improves UPD for Conversion and Customer Match. Early adopters on the old infrastructure may still see some degra",
+          "date": "2025-11-05",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "User-provided data attribution improvement",
+          "description": "Google Analytics improved the user-provided data (UPD) feature for better data quality and behavioral attribution. UPD now focuses on activation and Ads Conversions, improving Enhanced Conversions and Customer Match Audiences, and ensuring more accur",
+          "date": "2025-11-05",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Cost data import is now Campaign data import",
+          "description": "Google Analytics is updating the name of the existing Cost data import feature to Campaign data import.",
+          "date": "2025-11-19",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Display dynamic remarketing in Google Analytics",
+          "description": "With display dynamic remarketing for web now available in Google Analytics, you can take Google Ads remarketing further by showing website visitors personalized ads that contain products and services viewed on your site.",
+          "date": "2025-12-01",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "New suggested audience templates for customer lifecycle goals",
+          "description": "Google Analytics has launched two new suggested audience templates to allow customers to quickly create audiences for:",
+          "date": "2025-12-01",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Analytics Advisor",
+          "description": "We are excited to announce the launch of Analytics Advisor. This is an agentic conversational AI assistant, powered by Gemini models, that Analytics customers can evoke in the Google Analytics user interface whenever they have questions or need assis",
+          "date": "2025-12-12",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
           "title": "September 24, 2025",
           "description": "Google Analytics update",
           "date": "2025-09-24",
@@ -613,5 +733,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-01-06T15:30:28.812Z"
+  "lastUpdated": "2026-01-06T15:40:54.754Z"
 }
