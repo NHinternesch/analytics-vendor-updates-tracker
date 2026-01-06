@@ -5,10 +5,40 @@
       "name": "Google Analytics",
       "updates": [
         {
-          "title": "Automated Scrape Update",
-          "description": "Data refreshed via automated scraper at 1/6/2026, 1:30:10 PM",
-          "date": "2026-01-06",
-          "url": "https://support.google.com/analytics"
+          "title": "October 2, 2025",
+          "description": "Google Analytics update",
+          "date": "2025-10-01",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "October 7, 2025",
+          "description": "Google Analytics update",
+          "date": "2025-10-06",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "November 5, 2025",
+          "description": "Google Analytics update",
+          "date": "2025-11-04",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "November 19, 2025",
+          "description": "Google Analytics update",
+          "date": "2025-11-18",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "December 1, 2025",
+          "description": "Google Analytics update",
+          "date": "2025-11-30",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "December 12, 2025",
+          "description": "Google Analytics update",
+          "date": "2025-12-11",
+          "url": "https://support.google.com/analytics/answer/9164320"
         },
         {
           "title": "Analytics Advisor - AI Assistant Launch",
@@ -173,6 +203,12 @@
       "name": "Mixpanel",
       "updates": [
         {
+          "title": "Changelog",
+          "description": "Changelog",
+          "date": "2026-01-06",
+          "url": "https://docs.mixpanel.com/changelogs"
+        },
+        {
           "title": "Updated Guardrails for Insights",
           "description": "Updated date range and metric block guardrails for Insights Reports",
           "date": "2025-12-17",
@@ -259,5 +295,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-01-06T13:31:33.050Z"
+  "lastUpdated": "2026-01-06T13:44:21.910Z"
 }

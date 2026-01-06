@@ -112,26 +112,30 @@ In `scripts/scraper.js`, add to the `competitors` array at the top:
 
 The scraper will automatically initialize the competitor in `data/updates.json`.
 
-### Implementing Real Web Scraping
+### Web Scraping Implementation
 
-The scraper currently adds sample data. To implement actual scraping:
+The scraper now fetches **real-time data** from competitor websites:
 
-1. Use the existing `axios` import to fetch competitor URLs
-2. Parse HTML with `cheerio` (already in dependencies)
-3. Extract update objects with title, description, date, url
-4. Check for duplicates before adding (compare title + date)
-5. Respect the 100-update limit
+**Implemented Scrapers:**
+- **Matomo**: Parses changelog page for version releases (last 20)
+- **Piwik Pro**: Scrapes blog posts from news/releases category (last 15)
+- **Google Analytics**: Extracts release notes with date parsing (last 15)
+- **Adobe CJA, Amplitude, Mixpanel**: Generic scraper with common HTML patterns (last 10)
 
-Example pattern:
-```javascript
-const response = await axios.get(competitors[0].urls[0], {
-  headers: { 'User-Agent': 'Mozilla/5.0' }
-});
-const $ = cheerio.load(response.data);
-// Parse DOM to extract updates
-```
+**Time Period Scraped:**
+- Each scraper limits results to **10-20 most recent updates** from the source
+- No explicit date filtering - captures whatever is currently published on the page
+- Updates are deduplicated by title + date combination to avoid duplicates
+- Maximum 100 updates stored per competitor (older ones automatically dropped)
 
-Refer to lines 89-126 in `scripts/scraper.js` for the update insertion logic.
+**Technical Details:**
+- Uses `axios` for HTTP requests with 15-second timeout
+- Parses HTML with `cheerio` (jQuery-like selectors)
+- 1-second delay between requests to be respectful to servers
+- Graceful error handling - scraper continues even if one competitor fails
+- Automatic deduplication prevents adding the same update twice
+
+**Note:** Some sites (Amplitude, Mixpanel, Adobe) use client-side rendering, which may return fewer results. The generic scraper attempts common patterns but may need enhancement for specific sites.
 
 ## GitHub Actions & Deployment
 
