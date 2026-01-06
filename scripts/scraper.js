@@ -1,9 +1,10 @@
 import axios from 'axios';
 import { writeFileSync, readFileSync } from 'fs';
-import { join } from 'path';
+import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
-const __dirname = new URL('.', import.meta.url).pathname;
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 const dataFile = join(__dirname, '../data/updates.json');
 
 // Competitor data sources and scraping logic
