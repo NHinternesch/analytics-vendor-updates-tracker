@@ -187,63 +187,78 @@ async function scrapeAdobeCJAUpdates() {
     const $ = cheerio.load(response.data);
     const updates = [];
 
-    // Adobe uses <strong> tags for feature names
-    // Each feature is in a div structure with 4 child divs:
-    // [0] = Feature name in <strong>
-    // [1] = Description in <p> tags
-    // [2] = Rollout starts date (may be empty)
-    // [3] = General Availability date
-    $('strong').each((i, elem) => {
-      if (updates.length >= 20) return false;
+    // Adobe now uses a table structure with divs
+    // Find the main features table (has class "table")
+    const featureTable = $('div.table').first();
 
-      const title = $(elem).text().trim();
+    if (featureTable.length) {
+      // Get all rows - first row is header, skip it
+      const rows = featureTable.children('div');
 
-      // Skip if too short or looks like a header/label
-      if (title.length < 10 ||
-          title.match(/^(Feature|Description|Last update|Fixes|Important notices|Analysis Workspace|Components|Exports|Reporting|Other|Segmentation|Scheduled reports|Shared metrics)/i)) {
-        return;
-      }
+      rows.each((i, row) => {
+        // Skip header row (first one) and limit to 20 features
+        if (i === 0 || updates.length >= 20) return;
 
-      // Find the parent container div (should have 4 child divs)
-      const parentDiv = $(elem).parent().parent();
-      const childDivs = parentDiv.children('div');
+        const $row = $(row);
+        const cells = $row.children('div');
 
-      if (childDivs.length >= 4) {
-        // Get description from second div
-        const descDiv = $(childDivs[1]);
+        // Each row should have 4 cells: Feature | Description | Rollout starts | General Availability
+        if (cells.length >= 4) {
+          // Get feature name from first cell (contains <strong>)
+          const titleElem = $(cells[0]).find('strong');
+          const title = titleElem.text().trim();
 
-        // Try to get text from <p> tags first, otherwise get all text
-        let description = descDiv.find('p').map((j, p) => $(p).text().trim()).get().join(' ');
+          // Skip if no title or too short
+          if (!title || title.length < 10) return;
 
-        // If no <p> tags found, get direct text content
-        if (!description || description.length < 20) {
-          description = descDiv.text().trim();
+          // Get description from second cell
+          const descCell = $(cells[1]);
+          let description = descCell.find('p').map((j, p) => $(p).text().trim()).get().join(' ');
+
+          // If no paragraphs, get all text
+          if (!description || description.length < 20) {
+            description = descCell.text().trim();
+          }
+
+          description = description.replace(/\s+/g, ' ').substring(0, 300);
+
+          // Get date from fourth cell (General Availability)
+          let dateText = $(cells[3]).text().trim();
+
+          // If GA is empty or TBD, try third cell (Rollout starts)
+          if (!dateText || dateText === 'TBD' || dateText.length < 5) {
+            dateText = $(cells[2]).text().trim();
+          }
+
+          // Skip if still no valid date
+          if (!dateText || dateText === 'TBD' || dateText.length < 5) {
+            return;
+          }
+
+          // Parse the date - look for "Month Day, Year" pattern
+          const dateMatch = dateText.match(/\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4}\b/i);
+
+          // Only add if we have a valid date match and it's not in the future
+          if (dateMatch) {
+            const parsedDate = new Date(dateMatch[0]);
+            const today = new Date();
+            today.setHours(0, 0, 0, 0); // Reset to start of day for fair comparison
+
+            // Skip if date is in the future
+            if (parsedDate > today) {
+              return;
+            }
+
+            updates.push({
+              title: title.substring(0, 150),
+              description: description || 'Adobe Customer Journey Analytics feature update',
+              date: formatDate(dateMatch[0]),
+              url: 'https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest'
+            });
+          }
         }
-
-        description = description.replace(/\s+/g, ' ').substring(0, 300);
-
-        // Get date from fourth div (General Availability) or third div (Rollout starts)
-        let dateText = $(childDivs[3]).text().trim();
-
-        // If GA date is empty, "TBD", or too short, try Rollout starts
-        if (!dateText || dateText === 'TBD' || dateText.length < 5) {
-          dateText = $(childDivs[2]).text().trim();
-        }
-
-        // Parse the date - look for the first occurrence of a full date
-        const dateMatch = dateText.match(/\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4}\b/i);
-
-        // Only add if we have a valid date
-        if (dateMatch) {
-          updates.push({
-            title: title.substring(0, 150),
-            description: description || 'Adobe Customer Journey Analytics feature update',
-            date: formatDate(dateMatch[0]),
-            url: 'https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest'
-          });
-        }
-      }
-    });
+      });
+    }
 
     console.log(`✓ Found ${updates.length} Adobe CJA updates`);
     return updates;
