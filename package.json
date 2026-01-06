@@ -17,7 +17,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.12",
-    "axios": "^1.6.2"
+    "axios": "^1.13.2",
+    "cheerio": "^1.0.0-rc.12"
   }
 }
