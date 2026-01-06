@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Analytics Competition Updates Tracker</title>
+  <title>Analytics Vendors Updates Tracker</title>
   <style>
     :root {
       --primary: #3b82f6;
@@ -337,6 +337,21 @@
       letter-spacing: 0.05em;
     }
 
+    .badge-adobe {
+      background-color: rgba(239, 68, 68, 0.15);
+      color: #dc2626;
+    }
+
+    .badge-amplitude {
+      background-color: rgba(59, 130, 246, 0.15);
+      color: #2563eb;
+    }
+
+    .badge-google {
+      background-color: rgba(249, 115, 22, 0.15);
+      color: #ea580c;
+    }
+
     .date-badge {
       display: flex;
       align-items: center;
@@ -510,7 +525,7 @@
     <div class="header-container">
       <div class="header-brand">
         <img src="logo.png" alt="Competition Tracker" class="header-logo">
-        <h1 class="header-title">Analytics Competition Updates Tracker</h1>
+        <h1 class="header-title">Analytics Vendors Updates Tracker</h1>
       </div>
       
       <div class="header-info">
@@ -767,7 +782,7 @@
               <div class="card-header-top">
                 <div style="flex: 1;">
                   <div class="card-meta">
-                    <span class="badge">${this.escapeHtml(update.competitorName)}</span>
+                    <span class="badge ${this.getBadgeClass(update.competitorName)}">${this.escapeHtml(update.competitorName)}</span>
                     <span class="date-badge">
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <circle cx="12" cy="12" r="10"></circle>
@@ -800,6 +815,13 @@
         `).join('');
       }
       
+      getBadgeClass(competitorName) {
+        if (competitorName.includes('Adobe')) return 'badge-adobe';
+        if (competitorName.includes('Amplitude')) return 'badge-amplitude';
+        if (competitorName.includes('Google')) return 'badge-google';
+        return '';
+      }
+
       escapeHtml(text) {
         const div = document.createElement('div');
         div.textContent = text;
