@@ -4,9 +4,9 @@ A lightweight, automated daily tracker for monitoring product releases from majo
 
 ## Stack
 
-- **Frontend**: Vanilla HTML, CSS, JavaScript (no dependencies)
+- **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Node.js with Axios and Cheerio for web scraping
-- **Deployment**: GitHub Pages + GitHub Actions
+- **Deployment**: GitHub Pages, GitHub Actions
 
 ## Live Demo
 
