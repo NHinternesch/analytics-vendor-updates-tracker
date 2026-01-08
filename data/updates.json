@@ -123,102 +123,6 @@
           "description": "We are excited to announce the launch of Analytics Advisor. This is an agentic conversational AI assistant, powered by Gemini models, that Analytics customers can evoke in the Google Analytics user interface whenever they have questions or need assis",
           "date": "2025-12-12",
           "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "September 24, 2025",
-          "description": "Google Analytics update",
-          "date": "2025-09-24",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "September 26, 2025",
-          "description": "Google Analytics update",
-          "date": "2025-09-26",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "October 2, 2025",
-          "description": "Google Analytics update",
-          "date": "2025-10-02",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "October 7, 2025",
-          "description": "Google Analytics update",
-          "date": "2025-10-07",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "November 5, 2025",
-          "description": "Google Analytics update",
-          "date": "2025-11-05",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "November 19, 2025",
-          "description": "Google Analytics update",
-          "date": "2025-11-19",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "December 1, 2025",
-          "description": "Google Analytics update",
-          "date": "2025-12-01",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "December 12, 2025",
-          "description": "Google Analytics update",
-          "date": "2025-12-12",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "September 24, 2025",
-          "description": "Google Analytics update",
-          "date": "2025-09-23",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "September 26, 2025",
-          "description": "Google Analytics update",
-          "date": "2025-09-25",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "October 2, 2025",
-          "description": "Google Analytics update",
-          "date": "2025-10-01",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "October 7, 2025",
-          "description": "Google Analytics update",
-          "date": "2025-10-06",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "November 5, 2025",
-          "description": "Google Analytics update",
-          "date": "2025-11-04",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "November 19, 2025",
-          "description": "Google Analytics update",
-          "date": "2025-11-18",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "December 1, 2025",
-          "description": "Google Analytics update",
-          "date": "2025-11-30",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "December 12, 2025",
-          "description": "Google Analytics update",
-          "date": "2025-12-11",
-          "url": "https://support.google.com/analytics/answer/9164320"
         }
       ]
     },
@@ -475,5 +379,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-01-08T03:22:46.809Z"
+  "lastUpdated": "2026-01-08T10:40:00.000Z"
 }

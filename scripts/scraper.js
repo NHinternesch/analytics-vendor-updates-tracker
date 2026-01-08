@@ -312,10 +312,14 @@ async function scrapeGoogleAnalyticsUpdates() {
             const descP = nextElem.next('p');
             const description = descP.text().trim().substring(0, 250);
 
-            if (featureName && featureName.length > 3) {
+            // Skip if feature name is just a date pattern (e.g., "September 24, 2025")
+            const isDatePattern = /^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4}$/i.test(featureName);
+
+            // Skip if no meaningful title or description
+            if (featureName && featureName.length > 3 && !isDatePattern && description && description.length > 20) {
               updates.push({
                 title: featureName.substring(0, 150),
-                description: description || 'Google Analytics update',
+                description: description,
                 date: date,
                 url: 'https://support.google.com/analytics/answer/9164320'
               });
