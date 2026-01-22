@@ -131,6 +131,12 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "Analyze audiences from Experience Platform Profile datasets in Customer Journey Analytics",
+          "description": "You can now ingest audience membership data from Experience Platform Profile datasets into a Customer Journey Analytics connection. Audiences become available as new dimensions for use in Analysis Workspace. This is made possible through a new capability in Customer Journey Analytics to ingest XDM o",
+          "date": "2026-01-22",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "Analytics source connector: Search report suites in Experience Platform",
           "description": "If you do have a high number of report suites you can now search for the report suite you want to connect to within the Analytics Source Connector dataflow workflow.",
           "date": "2025-10-29",
@@ -379,5 +385,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-01-21T03:26:01.872Z"
+  "lastUpdated": "2026-01-22T03:29:35.285Z"
 }
