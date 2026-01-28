@@ -131,6 +131,12 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "Data storytelling: Generate slide presentations from Workspace reports",
+          "description": "You can now automatically generate a slide presentation (in .pptx format) that is based on an Analysis Workspace report. Workspace detects key insights in your report and converts them into stakeholder-ready slides. This feature reduces the time and effort required to surface findings, build executi",
+          "date": "2026-01-28",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "Analyze audiences from Experience Platform Profile datasets in Customer Journey Analytics",
           "description": "You can now ingest audience membership data from Experience Platform Profile datasets into a Customer Journey Analytics connection. Audiences become available as new dimensions for use in Analysis Workspace. This is made possible through a new capability in Customer Journey Analytics to ingest XDM o",
           "date": "2026-01-22",
@@ -385,5 +391,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-01-27T03:29:51.782Z"
+  "lastUpdated": "2026-01-28T03:27:45.374Z"
 }
