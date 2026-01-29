@@ -5,6 +5,24 @@
       "name": "Google Analytics",
       "updates": [
         {
+          "title": "Conversion attribution analysis report (Beta)",
+          "description": "The Conversion attribution analysis report is a new addition to the advertising workspace that provides customers with the ability to uncover the full value of their marketing channels across the entire customer journey.",
+          "date": "2026-01-15",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Improved web conversion management and reporting capabilities for Google Ads customers (Beta)",
+          "description": "More flexible web conversion management tools and new cross-channel reporting features are now available for marketers and advertisers.",
+          "date": "2026-01-15",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Cross-channel budgeting (Beta)",
+          "description": "The Google Analytics team is excited to announce the release of cross-channel budgeting. Use cross-channel budgeting to track performance and optimize paid channel investments.",
+          "date": "2026-01-15",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
           "title": "Auto-configured key events for lead generation Business objective",
           "description": "Analytics now automatically configures qualified and converted leads events as key events when the Business objective for lead generation is selected in order to guide clients towards the recommended best-practices for lead gen measurement. Once conf",
           "date": "2025-06-12",
@@ -133,13 +151,13 @@
         {
           "title": "Data storytelling: Generate slide presentations from Workspace reports",
           "description": "You can now automatically generate a slide presentation (in .pptx format) that is based on an Analysis Workspace report. Workspace detects key insights in your report and converts them into stakeholder-ready slides. This feature reduces the time and effort required to surface findings, build executi",
-          "date": "2026-01-28",
+          "date": "2026-01-27",
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
           "title": "Analyze audiences from Experience Platform Profile datasets in Customer Journey Analytics",
           "description": "You can now ingest audience membership data from Experience Platform Profile datasets into a Customer Journey Analytics connection. Audiences become available as new dimensions for use in Analysis Workspace. This is made possible through a new capability in Customer Journey Analytics to ingest XDM o",
-          "date": "2026-01-22",
+          "date": "2026-01-26",
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
@@ -391,5 +409,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-01-29T04:00:07.262Z"
+  "lastUpdated": "2026-01-29T15:01:09.314Z"
 }
