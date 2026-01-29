@@ -44,9 +44,10 @@ The codebase separates concerns across three independent scripts in `scripts/`:
 
 **3. Data Scraper (`scraper.js`)**
 - Loads existing `data/updates.json` or initializes with competitor structure
-- Currently adds sample updates (real scraping logic needs implementation)
+- Runs real web scraping against competitor release pages
 - Enforces 100-update limit per competitor
 - Updates `lastUpdated` timestamp on every run
+- Deduplicates by title to prevent duplicates across runs
 
 ### Data Flow
 
@@ -198,3 +199,4 @@ npm run dev     # Preview at localhost:3000
 - **Static deployment**: Production build embeds all data inline to avoid API requirements on GitHub Pages
 - **Update limits**: Scraper maintains max 100 updates per competitor to prevent unbounded growth
 - **Skip CI**: Automated commits include `[skip ci]` to prevent infinite workflow loops
+- **Live site**: https://nhinternesch.github.io/analytics-vendor-updates-tracker

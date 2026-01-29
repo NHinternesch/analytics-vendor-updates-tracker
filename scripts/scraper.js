@@ -308,8 +308,8 @@ async function scrapeGoogleAnalyticsUpdates() {
           if (nextElem.is('h3')) {
             const featureName = nextElem.text().trim();
 
-            // Get description from following paragraph
-            const descP = nextElem.next('p');
+            // Get description from following paragraph (skip over any div.no-margin alert blocks)
+            const descP = nextElem.nextAll('p').first();
             const description = descP.text().trim().substring(0, 250);
 
             // Skip if feature name is just a date pattern (e.g., "September 24, 2025")
