@@ -149,6 +149,18 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "Stitching in connections",
+          "description": "The stitching process in Customer Journey Analytics is now more simple. Instead of duplicating a dataset and applying stitching on the duplicated dataset, stitching is now done on the ingestion of data into Customer Journey Analytics, which removes the requirement of duplicated datasets and schemas.",
+          "date": "2026-01-30",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
+          "title": "Combine data sources from multiple IMS orgs",
+          "description": "You can now use the Analytics Source Connector to combine multiple data sources from multiple IMS orgs. This allows organzations to have a combined view of their customer data, even when that customer data is spread across multiple IMS orgs. Note: This configuration is available only by submitting a",
+          "date": "2026-01-30",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "Data storytelling: Generate slide presentations from Workspace reports",
           "description": "You can now automatically generate a slide presentation (in .pptx format) that is based on an Analysis Workspace report. Workspace detects key insights in your report and converts them into stakeholder-ready slides. This feature reduces the time and effort required to surface findings, build executi",
           "date": "2026-01-27",
@@ -409,5 +421,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-01-29T15:05:49.143Z"
+  "lastUpdated": "2026-01-30T04:00:03.959Z"
 }
