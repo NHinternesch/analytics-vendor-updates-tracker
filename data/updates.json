@@ -149,6 +149,12 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "Header overrides",
+          "description": "You can specify in header name and secret header value in Content Analytics. This header overrides configuration ensures that Content Analytics sends custom HTTP headers to bypass any bot detection or gate traffic technologies you have implemented.",
+          "date": "2026-02-02",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "Stitching in connections",
           "description": "The stitching process in Customer Journey Analytics is now more simple. Instead of duplicating a dataset and applying stitching on the duplicated dataset, stitching is now done on the ingestion of data into Customer Journey Analytics, which removes the requirement of duplicated datasets and schemas.",
           "date": "2026-01-30",
@@ -421,5 +427,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-02-02T04:13:35.802Z"
+  "lastUpdated": "2026-02-03T04:05:50.686Z"
 }
