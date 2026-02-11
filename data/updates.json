@@ -215,6 +215,114 @@
       "name": "Amplitude",
       "updates": [
         {
+          "title": "Purchase Hub for Ecommerce Checkout Analysis",
+          "description": "Analytics: Purchase Hub for Ecommerce Checkout Analysis",
+          "date": "2025-10-17",
+          "url": "https://amplitude.com/releases/1760692055.223799"
+        },
+        {
+          "title": "Debug Guides and Surveys with the Amp Chrome Extension",
+          "description": "Guides and Surveys: Debug Guides and Surveys with the Amp Chrome Extension",
+          "date": "2025-11-24",
+          "url": "https://amplitude.com/releases/debug-guides-and-surveys-with-the-amp-chrome-extension"
+        },
+        {
+          "title": "Labeled Events in Custom Events",
+          "description": "Analytics: Labeled Events in Custom Events",
+          "date": "2025-12-08",
+          "url": "https://amplitude.com/releases/labeled-events-in-custom-events"
+        },
+        {
+          "title": "SESSIONTOTALS now works in Event Segmentation",
+          "description": "Analytics: SESSIONTOTALS now works in Event Segmentation",
+          "date": "2025-12-09",
+          "url": "https://amplitude.com/releases/sessiontotals-now-works-in-event-segmentation"
+        },
+        {
+          "title": "Default Threshold for Session Replay List",
+          "description": "Session Replay: Default Threshold for Session Replay List",
+          "date": "2025-12-12",
+          "url": "https://amplitude.com/releases/default-threshold-for-session-replay-list"
+        },
+        {
+          "title": "Improved SR querying - users can view all (or at least way more) of their replays",
+          "description": "Session Replay: Improved SR querying - users can view all (or at least way more) of their replays",
+          "date": "2025-12-13",
+          "url": "https://amplitude.com/releases/improved-sr-querying-users-can-view-all-or-at-least-way-more-of-their-replays"
+        },
+        {
+          "title": "Session Replay Amplitude Session Matching",
+          "description": "Session Replay: Session Replay Amplitude Session Matching",
+          "date": "2026-01-08",
+          "url": "https://amplitude.com/releases/session-replay-amplitude-session-matching"
+        },
+        {
+          "title": "Guides and Surveys Timeline View",
+          "description": "Guides and Surveys: Guides and Surveys Timeline View",
+          "date": "2026-01-14",
+          "url": "https://amplitude.com/releases/guides-and-surveys-timeline-view"
+        },
+        {
+          "title": "Multi-Question Steps for Surveys",
+          "description": "Guides and Surveys: Multi-Question Steps for Surveys",
+          "date": "2026-01-16",
+          "url": "https://amplitude.com/releases/multi-question-steps-for-surveys"
+        },
+        {
+          "title": "Guides and Surveys - Adjustable column widths for guides and surveys tables",
+          "description": "Guides and Surveys: Guides and Surveys - Adjustable column widths for guides and surveys tables",
+          "date": "2026-01-30",
+          "url": "https://amplitude.com/releases/gs-adjustable-column-widths-for-guides-and-surveys-tables"
+        },
+        {
+          "title": "Shareable Agents",
+          "description": "Amplitude product update: Shareable Agents",
+          "date": "2026-02-03",
+          "url": "https://amplitude.com/releases/shareable-agents"
+        },
+        {
+          "title": "AI Visibility report generation stability improvements",
+          "description": "AI: AI Visibility report generation stability improvements",
+          "date": "2026-02-04",
+          "url": "https://amplitude.com/releases/ai-visibility-report-generation-stability-improvements"
+        },
+        {
+          "title": "Session Replay Quick Duration Filter",
+          "description": "Session Replay: Session Replay Quick Duration Filter",
+          "date": "2026-02-04",
+          "url": "https://amplitude.com/releases/session-replay-quick-duration-filter"
+        },
+        {
+          "title": "Dashboard Agent Update",
+          "description": "AI: Dashboard Agent Update",
+          "date": "2026-02-05",
+          "url": "https://amplitude.com/releases/dashboard-agent-update"
+        },
+        {
+          "title": "Dashboard Agent Enhancements",
+          "description": "AI: Dashboard Agent Enhancements",
+          "date": "2026-02-05",
+          "url": "https://amplitude.com/releases/dashboard-agent-enhancements"
+        },
+        {
+          "title": "SR iOS Quality & Upload Config",
+          "description": "Session Replay: SR iOS Quality & Upload Config",
+          "date": "2026-02-05",
+          "url": "https://amplitude.com/releases/sr-ios-quality-upload-config"
+        },
+        {
+          "title": "Syncs Table Improvements",
+          "description": "Activation: Syncs Table Improvements",
+          "date": "2026-02-09",
+          "url": "https://amplitude.com/releases/syncs-table-improvements"
+        },
+        {
+          "title": "G&S - Adjust pin/embeds/tooltip position and offset options directly in your app",
+          "description": "Guides and Surveys: G&S - Adjust pin/embeds/tooltip position and offset options directly in your app",
+          "date": "2026-02-10",
+          "url": "https://amplitude.com/releases/gs-adjust-pin-embeds-tooltip-position-and-offset-options-directly-in-your-app"
+        },
+        {
           "title": "Unexpected/unplanned event properties inheriting shared property metadata",
           "description": "Analytics: Unexpected/unplanned event properties inheriting shared property metadata",
           "date": "2025-08-14",
@@ -427,5 +535,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-02-10T04:24:17.879Z"
+  "lastUpdated": "2026-02-11T04:22:04.160Z"
 }
