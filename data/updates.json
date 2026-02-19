@@ -5,6 +5,12 @@
       "name": "Google Analytics",
       "updates": [
         {
+          "title": "Generated insights on the Home page",
+          "description": "We’ve added Generated insights to your Home page. This feature summarizes the top three data changes since your last visit, including key configuration updates, anomalies, and seasonality trends.This helps you quickly catch up on what’s happening in ",
+          "date": "2026-02-10",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
           "title": "Conversion attribution analysis report (Beta)",
           "description": "The Conversion attribution analysis report is a new addition to the advertising workspace that provides customers with the ability to uncover the full value of their marketing channels across the entire customer journey.",
           "date": "2026-01-15",
@@ -214,6 +220,126 @@
       "id": "amplitude",
       "name": "Amplitude",
       "updates": [
+        {
+          "title": "Capture Session Replays via the Chrome Extension",
+          "description": "Session Replay: Capture Session Replays via the Chrome Extension",
+          "date": "2025-12-15",
+          "url": "https://amplitude.com/releases/capture-session-replays-via-the-chrome-extension"
+        },
+        {
+          "title": "AI Controls + Org-Level AI Context",
+          "description": "AI: AI Controls + Org-Level AI Context",
+          "date": "2025-12-15",
+          "url": "https://amplitude.com/releases/ai-controls-v1-org-level-ai-context"
+        },
+        {
+          "title": "Web Vitals Metrics Hub",
+          "description": "Analytics: Web Vitals Metrics Hub",
+          "date": "2025-12-18",
+          "url": "https://amplitude.com/releases/web-vitals-metrics-hub"
+        },
+        {
+          "title": "New Duration Estimator",
+          "description": "Experiment: New Duration Estimator",
+          "date": "2025-12-19",
+          "url": "https://amplitude.com/releases/new-duration-estimator"
+        },
+        {
+          "title": "Annotations Rest API (v3) and additional improvements",
+          "description": "Analytics: Annotations Rest API (v3) and additional improvements",
+          "date": "2025-12-29",
+          "url": "https://amplitude.com/releases/annotations-rest-api-v3-and-additional-improvements"
+        },
+        {
+          "title": "New External MCP Tools: Creation, Edits, Cohorts, Users, and Feedback",
+          "description": "AI: New External MCP Tools: Creation, Edits, Cohorts, Users, and Feedback",
+          "date": "2026-01-09",
+          "url": "https://amplitude.com/releases/new-external-mcp-tools-creation-edits-cohorts-users-and-feedback"
+        },
+        {
+          "title": "Preview mode support for MPA's",
+          "description": "Guides and Surveys: Preview mode support for MPA's",
+          "date": "2026-01-16",
+          "url": "https://amplitude.com/releases/preview-mode-support-for-mpas"
+        },
+        {
+          "title": "Freeform event + property names for G&S triggers",
+          "description": "Guides and Surveys: Freeform event + property names for G&S triggers",
+          "date": "2026-01-16",
+          "url": "https://amplitude.com/releases/freeform-event-property-names-for-gs-triggers"
+        },
+        {
+          "title": "Nav Graph Dialog Support for Autocapture",
+          "description": "Activation: Nav Graph Dialog Support for Autocapture",
+          "date": "2026-01-20",
+          "url": "https://amplitude.com/releases/nav-graph-dialog-support-for-autocapture"
+        },
+        {
+          "title": "Two cookie problem resolution in latest analytics-browser SDK",
+          "description": "Analytics: Two cookie problem resolution in latest analytics-browser SDK",
+          "date": "2026-01-23",
+          "url": "https://amplitude.com/releases/two-cookie-problem-resolution-in-latest-analytics-browser-sdk"
+        },
+        {
+          "title": "Inline Validation for Required CTAs",
+          "description": "Guides and Surveys: Inline Validation for Required CTAs",
+          "date": "2026-01-26",
+          "url": "https://amplitude.com/releases/inline-validation-for-required-ctas"
+        },
+        {
+          "title": "Experiment Report (powered by Amplitude AI)",
+          "description": "Experiment: Experiment Report (powered by Amplitude AI)",
+          "date": "2026-01-28",
+          "url": "https://amplitude.com/releases/experiment-report-powered-by-amplitude-ai"
+        },
+        {
+          "title": "Out-of-the-box Widgets",
+          "description": "Experiment: Out-of-the-box Widgets",
+          "date": "2026-01-29",
+          "url": "https://amplitude.com/releases/out-of-the-box-widgets"
+        },
+        {
+          "title": "API Key Management GA Release",
+          "description": "Platform: API Key Management GA Release",
+          "date": "2026-01-30",
+          "url": "https://amplitude.com/releases/api-key-management-ga-release"
+        },
+        {
+          "title": "Web Experiment: Inline editing + CSS unit selector",
+          "description": "Experiment: Web Experiment: Inline editing + CSS unit selector",
+          "date": "2026-02-10",
+          "url": "https://amplitude.com/releases/web-experiment-inline-editing-css-unit-selector"
+        },
+        {
+          "title": "Stale Flag Management",
+          "description": "Activation: Stale Flag Management",
+          "date": "2026-02-11",
+          "url": "https://amplitude.com/releases/stale-flag-management"
+        },
+        {
+          "title": "Duplicate Guides and Surveys across Platforms",
+          "description": "Guides and Surveys: Duplicate Guides and Surveys across Platforms",
+          "date": "2026-02-12",
+          "url": "https://amplitude.com/releases/duplicate-guides-and-surveys-across-platforms"
+        },
+        {
+          "title": "Feedback Agent",
+          "description": "AI: Feedback Agent",
+          "date": "2026-02-16",
+          "url": "https://amplitude.com/releases/feedback-agent"
+        },
+        {
+          "title": "AI Analytics Platform Launch",
+          "description": "Analytics: AI Analytics Platform Launch",
+          "date": "2026-02-16",
+          "url": "https://amplitude.com/releases/ai-analytics-platform-launch"
+        },
+        {
+          "title": "URL Preview Feature Requirement Update",
+          "description": "Amplitude product update: URL Preview Feature Requirement Update",
+          "date": "2026-02-17",
+          "url": "https://amplitude.com/releases/url-preview-feature-requirement-update"
+        },
         {
           "title": "Purchase Hub for Ecommerce Checkout Analysis",
           "description": "Analytics: Purchase Hub for Ecommerce Checkout Analysis",
@@ -535,5 +661,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-02-18T04:11:51.640Z"
+  "lastUpdated": "2026-02-19T04:10:23.238Z"
 }
