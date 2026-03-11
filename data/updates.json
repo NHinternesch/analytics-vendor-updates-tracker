@@ -221,6 +221,54 @@
       "name": "Amplitude",
       "updates": [
         {
+          "title": "GA Versions for the G&S iOS, Android, and React Native SDKs",
+          "description": "Guides and Surveys: GA Versions for the G&S iOS, Android, and React Native SDKs",
+          "date": "2026-02-12",
+          "url": "https://amplitude.com/releases/ga-versions-for-the-gs-ios-android-and-react-native-sdks"
+        },
+        {
+          "title": "AI Feedback now integrates with Slack",
+          "description": "AI: AI Feedback now integrates with Slack",
+          "date": "2026-02-18",
+          "url": "https://amplitude.com/releases/ai-feedback-now-integrates-with-slack-for-all-customers"
+        },
+        {
+          "title": "Experiment Evaluation Proxy 1.0.0",
+          "description": "Experiment: Experiment Evaluation Proxy 1.0.0",
+          "date": "2026-02-26",
+          "url": "https://amplitude.com/releases/experiment-evaluation-proxy-1-0-0"
+        },
+        {
+          "title": "Edit Dashboard and Notebook Tools for Global Agent and MCP",
+          "description": "Analytics: Edit Dashboard and Notebook Tools for Global Agent and MCP",
+          "date": "2026-02-26",
+          "url": "https://amplitude.com/releases/edit-dashboard-and-notebook-tools-for-global-agent-and-mcp"
+        },
+        {
+          "title": "Experiment Change Alerts Improvements",
+          "description": "Experiment: Experiment Change Alerts Improvements",
+          "date": "2026-03-02",
+          "url": "https://amplitude.com/releases/experiment-change-alerts-improvements"
+        },
+        {
+          "title": "Organization and Project-level AI Context in External MCP Calls",
+          "description": "AI: Organization and Project-level AI Context in External MCP Calls",
+          "date": "2026-03-02",
+          "url": "https://amplitude.com/releases/organization-and-project-level-ai-context-in-external-mcp-calls"
+        },
+        {
+          "title": "Session Replay MegaModal layout controls + DevTools-style Network tab",
+          "description": "Session Replay: Session Replay MegaModal layout controls + DevTools-style Network tab",
+          "date": "2026-03-06",
+          "url": "https://amplitude.com/releases/session-replay-megamodal-layout-controls-devtools-style-network-tab"
+        },
+        {
+          "title": "Guides and Surveys - Slack Alerts",
+          "description": "Guides and Surveys: Guides and Surveys - Slack Alerts",
+          "date": "2026-03-06",
+          "url": "https://amplitude.com/releases/guides-and-surveys-get-notified-on-survey-responses-directly-in-slack-with-alerts"
+        },
+        {
           "title": "Capture Session Replays via the Chrome Extension",
           "description": "Session Replay: Capture Session Replays via the Chrome Extension",
           "date": "2025-12-15",
@@ -661,5 +709,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-03-10T03:59:24.208Z"
+  "lastUpdated": "2026-03-11T04:00:21.718Z"
 }
