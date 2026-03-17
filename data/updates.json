@@ -221,6 +221,24 @@
       "name": "Amplitude",
       "updates": [
         {
+          "title": "Job Details Drawer (For BigQuery)",
+          "description": "Data: Job Details Drawer (For BigQuery)",
+          "date": "2026-03-09",
+          "url": "https://amplitude.com/releases/job-details-drawer-for-bigquery"
+        },
+        {
+          "title": "Browser & Swift Unified SDK",
+          "description": "Activation: Browser & Swift Unified SDK",
+          "date": "2026-03-12",
+          "url": "https://amplitude.com/releases/browser-swift-unified-sdk"
+        },
+        {
+          "title": "Bing Ads Source Ingestion",
+          "description": "Data: Bing Ads Source Ingestion",
+          "date": "2026-03-16",
+          "url": "https://amplitude.com/releases/bing-ads-source-ingestion"
+        },
+        {
           "title": "GA Versions for the G&S iOS, Android, and React Native SDKs",
           "description": "Guides and Surveys: GA Versions for the G&S iOS, Android, and React Native SDKs",
           "date": "2026-02-12",
@@ -709,5 +727,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-03-16T04:31:06.563Z"
+  "lastUpdated": "2026-03-17T04:08:20.924Z"
 }
