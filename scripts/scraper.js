@@ -119,50 +119,73 @@ async function scrapeAmplitudeUpdates() {
     });
 
     const $ = cheerio.load(response.data);
-    const updates = [];
+    const releaseLinks = [];
 
-    // Amplitude links have format: [emoji][title][date][category]
-    // Example: "🔄TRC General AvailabilityNov 25"
-    // Example: "📹Network Request and...TrackingNov 21Session Replay"
+    // Collect release links from the listing page
+    // Structure: <a class="block mb-1 group" href="/releases/...">
+    //   <div> (flex container)
+    //     <div> emoji </div>
+    //     <div> (content)
+    //       <div class="text-sm font-medium ..."> title </div>
+    //       <div class="text-xs text-gray-60 ..."> date </div>
+    //       <div> <span> category </span> </div>
+    //     </div>
+    //   </div>
+    // </a>
     $('a[href^="/releases/"]').each((i, elem) => {
-      if (i >= 35) return false; // Limit to 35 most recent
+      if (releaseLinks.length >= 35) return false;
 
       const href = $(elem).attr('href');
       if (!href || href === '/releases') return;
 
-      const fullText = $(elem).text().trim();
+      const titleDiv = $(elem).find('.text-sm.font-medium').first();
+      const dateDiv = $(elem).find('.text-xs.text-gray-60').first();
+      const categorySpan = $(elem).find('span.inline-block').first();
 
-      // Extract date pattern (e.g., "Nov 25", "Oct 31")
-      // Note: In Amplitude's HTML, date is often attached to previous word without space
-      const dateMatch = fullText.match(/(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s*\d{1,2}/i);
-      if (!dateMatch) return;
+      const title = titleDiv.text().trim();
+      const dateText = dateDiv.text().trim();
+      const category = categorySpan.text().trim();
 
-      // Split by date
-      const parts = fullText.split(dateMatch[0]);
-      if (parts.length < 1) return;
+      if (!title || title.length < 5 || !dateText) return;
 
-      // Part before date: emoji + title
-      let titlePart = parts[0];
-      // Remove emoji (first non-ASCII or non-alphanumeric character)
-      titlePart = titlePart.replace(/^[\u{1F300}-\u{1F9FF}]/u, '').trim(); // Remove emoji
-      titlePart = titlePart.replace(/^[^\w\s]+/, '').trim(); // Remove any other leading symbols
-
-      // Part after date: category (if exists)
-      const categoryPart = parts.length > 1 ? parts[1].trim() : '';
-
-      // Skip if title is too short
-      if (titlePart.length < 5) return;
-
-      const date = parseRelativeDate(dateMatch[0]);
+      const date = parseRelativeDate(dateText);
       const url = `https://amplitude.com${href}`;
 
-      updates.push({
-        title: titlePart.substring(0, 150),
-        description: categoryPart ? `${categoryPart}: ${titlePart}` : `Amplitude product update: ${titlePart}`,
-        date: date,
-        url: url
-      });
+      releaseLinks.push({ title, date, category, url });
     });
+
+    console.log(`  Found ${releaseLinks.length} Amplitude release links, fetching descriptions...`);
+
+    // Fetch descriptions from individual release pages (meta description tag)
+    const updates = [];
+    for (const release of releaseLinks) {
+      let description = release.category
+        ? `Category: ${release.category}`
+        : `Amplitude product update: ${release.title}`;
+
+      try {
+        const detailResp = await axios.get(release.url, {
+          headers: { 'User-Agent': 'Mozilla/5.0 (compatible; AnalyticsTracker/1.0)' },
+          timeout: 10000
+        });
+        const detail$ = cheerio.load(detailResp.data);
+        const metaDesc = detail$('meta[name="description"]').attr('content');
+        if (metaDesc && metaDesc.length > 20) {
+          description = metaDesc.substring(0, 300);
+        }
+        // Small delay between detail page requests
+        await new Promise(resolve => setTimeout(resolve, 500));
+      } catch {
+        // Fall back to category-based description
+      }
+
+      updates.push({
+        title: release.title.substring(0, 150),
+        description,
+        date: release.date,
+        url: release.url
+      });
+    }
 
     console.log(`✓ Found ${updates.length} Amplitude updates`);
     return updates;
@@ -202,37 +225,43 @@ async function scrapeAdobeCJAUpdates() {
         const $row = $(row);
         const cells = $row.children('div');
 
-        // Each row should have 4 cells: Feature | Description | Rollout starts | General Availability
-        if (cells.length >= 4) {
+        // Table has 3 columns: Feature+Description | Rollout starts | General Availability
+        if (cells.length >= 3) {
           // Get feature name from first cell (contains <strong>)
-          const titleElem = $(cells[0]).find('strong');
+          const firstCell = $(cells[0]);
+          const titleElem = firstCell.find('strong');
           const title = titleElem.text().trim();
 
           // Skip if no title or too short
           if (!title || title.length < 10) return;
 
-          // Get description from second cell
-          const descCell = $(cells[1]);
-          let description = descCell.find('p').map((j, p) => $(p).text().trim()).get().join(' ');
+          // Get description from the same first cell (text after the <strong>/<br>)
+          // Remove the title text to get only the description
+          let description = firstCell.find('p').map((j, p) => $(p).text().trim()).get().join(' ');
 
-          // If no paragraphs, get all text
+          // If no paragraphs, get all text from the cell
           if (!description || description.length < 20) {
-            description = descCell.text().trim();
+            description = firstCell.text().trim();
+          }
+
+          // Remove the title from the description if it starts with it
+          if (description.startsWith(title)) {
+            description = description.substring(title.length).trim();
           }
 
           description = description.replace(/\s+/g, ' ').substring(0, 300);
 
           // Skip if description is too short or empty
-          if (!description || description.length < 50) {
+          if (!description || description.length < 30) {
             return;
           }
 
-          // Get date from fourth cell (General Availability)
-          let dateText = $(cells[3]).text().trim();
+          // Get date from third cell (General Availability)
+          let dateText = $(cells[2]).text().trim();
 
-          // If GA is empty or TBD, try third cell (Rollout starts)
+          // If GA is empty or TBD, try second cell (Rollout starts)
           if (!dateText || dateText === 'TBD' || dateText.length < 5) {
-            dateText = $(cells[2]).text().trim();
+            dateText = $(cells[1]).text().trim();
           }
 
           // Skip if still no valid date
