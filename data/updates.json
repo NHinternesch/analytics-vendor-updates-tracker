@@ -155,6 +155,12 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "Data Insights Agent integration with Copilot",
+          "description": "The Data Insights Agent is now integrated with Microsoft Copilot, allowing you to interact with Customer Journey Analytics data using natural language prompts, directly within Microsoft tools, including Teams, Powerpoint, and more. For more information, see Adobe Marketing Agent for Microsoft 365 Co",
+          "date": "2026-03-26",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "Hands-on tutorial for Analysis Workspace",
           "description": "A new hands-on tutorial is now available to guide new users through the basics of using panels, visualizations, and components in Analysis Workspace. For more information, see Customer Journey Analytics landing page.",
           "date": "2026-03-17",
@@ -691,5 +697,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-03-25T04:10:42.417Z"
+  "lastUpdated": "2026-03-26T04:25:18.658Z"
 }
