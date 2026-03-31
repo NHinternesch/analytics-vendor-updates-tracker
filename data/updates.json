@@ -155,6 +155,12 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "Data validation in the Adobe Engineering Agent",
+          "description": "New data validation skills are available within the Data Engineering Agent. These skills help teams quickly assess data quality directly in Adobe Experience Platform, before the data is analyzed in Customer Journey Analytics. Data validation skills enable on‑demand, field‑level, and dataset‑level va",
+          "date": "2026-03-31",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "Data Insights Agent integration with Copilot",
           "description": "The Data Insights Agent is now integrated with Microsoft Copilot, allowing you to interact with Customer Journey Analytics data using natural language prompts, directly within Microsoft tools, including Teams, Powerpoint, and more. For more information, see Adobe Marketing Agent for Microsoft 365 Co",
           "date": "2026-03-26",
@@ -697,5 +703,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-03-30T04:37:00.095Z"
+  "lastUpdated": "2026-03-31T04:28:24.616Z"
 }
