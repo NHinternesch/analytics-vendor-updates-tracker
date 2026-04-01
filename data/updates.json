@@ -155,6 +155,12 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "Panel breakdown",
+          "description": "The drop zone for a panel now offers the additional feature to break down (instead of segment) a panel based on a dimension.",
+          "date": "2026-03-31",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "Data validation in the Adobe Engineering Agent",
           "description": "New data validation skills are available within the Data Engineering Agent. These skills help teams quickly assess data quality directly in Adobe Experience Platform, before the data is analyzed in Customer Journey Analytics. Data validation skills enable on‑demand, field‑level, and dataset‑level va",
           "date": "2026-03-31",
@@ -703,5 +709,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-03-31T04:28:24.616Z"
+  "lastUpdated": "2026-04-01T04:40:22.603Z"
 }
