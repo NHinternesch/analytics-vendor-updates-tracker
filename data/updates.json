@@ -155,6 +155,12 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "Fallout visualization improvements",
+          "description": "The Fallout visualization includes the following enhancements: For more information, see Configure a fallout visualization.",
+          "date": "2026-03-25",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "Panel breakdown",
           "description": "The drop zone for a panel now offers the additional feature to break down (instead of segment) a panel based on a dimension.",
           "date": "2026-03-31",
@@ -709,5 +715,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-04-02T04:20:33.897Z"
+  "lastUpdated": "2026-04-03T04:21:31.064Z"
 }
