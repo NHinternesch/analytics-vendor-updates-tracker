@@ -155,6 +155,12 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "Italian language support",
+          "description": "The Italian locale (it-IT) is now supported in Analysis Workspace in Customer Journey Analytics. Customer Journey Analytics supports all languages that are supported in the Experience Platform UI, as described in Browser and language support for the Experience Platform UI. You can change your defaul",
+          "date": "2026-04-08",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "Fallout visualization improvements",
           "description": "The Fallout visualization includes the following enhancements: For more information, see Configure a fallout visualization.",
           "date": "2026-03-25",
@@ -292,6 +298,12 @@
       "id": "amplitude",
       "name": "Amplitude",
       "updates": [
+        {
+          "title": "Advanced Channel Classifier Template",
+          "description": "Every new Amplitude org and project now gets a GA4-aligned default channel classifier automatically — no manual setup required.",
+          "date": "2026-03-31",
+          "url": "https://amplitude.com/releases/advanced-channel-classifier-template"
+        },
         {
           "title": "Multi-Question Steps for Surveys",
           "description": "Previously surveys were limited to a single input (question) per step - if you wanted to ask multiple questions you had to do so over the course of several steps. Starting early this month customers are now able to ask up to 10 questions in a single step! A new, optional label input also allows cust",
@@ -715,5 +727,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-04-07T04:25:29.253Z"
+  "lastUpdated": "2026-04-08T04:28:51.543Z"
 }
