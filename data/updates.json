@@ -299,6 +299,96 @@
       "name": "Amplitude",
       "updates": [
         {
+          "title": "Global Agent Audit Tab",
+          "description": "See all Global Agent activity across your organization in one table, directly in AI Controls.",
+          "date": "2026-03-20",
+          "url": "https://amplitude.com/releases/global-agent-audit-tab"
+        },
+        {
+          "title": "New Filters for List Session Replays",
+          "description": "Category: Session Replay",
+          "date": "2026-03-25",
+          "url": "https://amplitude.com/releases/new-filters-for-list-session-replays"
+        },
+        {
+          "title": "Mutual Exclusivity",
+          "description": "Category: Guides and Surveys",
+          "date": "2026-03-26",
+          "url": "https://amplitude.com/releases/mutual-exclusivity"
+        },
+        {
+          "title": "Edit guide and survey positions without leaving Preview mode",
+          "description": "Category: Guides and Surveys",
+          "date": "2026-03-30",
+          "url": "https://amplitude.com/releases/edit-guide-and-survey-positions-without-leaving-preview-mode"
+        },
+        {
+          "title": "Guides and Surveys showing up in cohort page's _Used by_ tab",
+          "description": "Category: Guides and Surveys",
+          "date": "2026-04-03",
+          "url": "https://amplitude.com/releases/guides-and-surveys-showing-up-in-cohort-page-used-by-tab"
+        },
+        {
+          "title": "AI Feedback Ingestion API",
+          "description": "Send feedback from NPS tools, surveys, review sites, and custom queues into AI Feedback for analysis alongside everything else.",
+          "date": "2026-04-03",
+          "url": "https://amplitude.com/releases/ai-feedback-ingestion-api-bring-your-own-feedback-sources-into-ai-feedback"
+        },
+        {
+          "title": "Snapchat Ads Cohort Sync Integration released in EU",
+          "description": "Category: Data",
+          "date": "2026-04-06",
+          "url": "https://amplitude.com/releases/snapchat-ads-cohort-sync-integration-released-in-eu"
+        },
+        {
+          "title": "Event Time now available in Derived Properties",
+          "description": "Customers can now use `Event Time` as a selectable property when building Derived Properties. This means you can create derived properties like `registration date - Event Time` to compute things like \"days since registration\".",
+          "date": "2026-04-08",
+          "url": "https://amplitude.com/releases/event-time-now-available-in-derived-properties"
+        },
+        {
+          "title": "Session Replay Sentiment Filter",
+          "description": "Find frustrating or positive sessions in seconds. Sentiment filtering is now built directly into the Session Replay list.",
+          "date": "2026-04-09",
+          "url": "https://amplitude.com/releases/session-replay-sentiment-filter"
+        },
+        {
+          "title": "AI Assistant Chats ingested into AI Feedback",
+          "description": "Stop manually sifting through thousands of AI Assistant chats — get instant insight into what users are asking and flagging.",
+          "date": "2026-04-09",
+          "url": "https://amplitude.com/releases/ai-assistant-chats-ingested-into-ai-feedback"
+        },
+        {
+          "title": "Bookmarkable Session Replays",
+          "description": "Category: Session Replay",
+          "date": "2026-04-14",
+          "url": "https://amplitude.com/releases/bookmarkable-session-replays"
+        },
+        {
+          "title": "Replay Insights",
+          "description": "Replay Insights uses AI to scan your replays at scale and surface a bird's-eye view of what's happening across your entire product",
+          "date": "2026-04-15",
+          "url": "https://amplitude.com/releases/replay-insights"
+        },
+        {
+          "title": "Feature Flag and Experiment targeting based on First Seen Timestamp",
+          "description": "Category: Activation",
+          "date": "2026-04-16",
+          "url": "https://amplitude.com/releases/feature-flag-and-experiment-targeting-based-on-first-seen-timestamp"
+        },
+        {
+          "title": "Property Category",
+          "description": "Category: Data",
+          "date": "2026-04-17",
+          "url": "https://amplitude.com/releases/property-category"
+        },
+        {
+          "title": "Amplitude Wizard CLI: Agentic Onboarding for Builders",
+          "description": "The Amplitude Wizard CLI is an AI-powered command-line tool that guides developers through setting up their codebase and tracking events with Amplitude, removing the friction of manual SDK setup and instrumentation decisions.",
+          "date": "2026-04-21",
+          "url": "https://amplitude.com/releases/amplitude-wizard-cli-agentic-onboarding"
+        },
+        {
           "title": "Advanced Channel Classifier Template",
           "description": "Every new Amplitude org and project now gets a GA4-aligned default channel classifier automatically — no manual setup required.",
           "date": "2026-03-31",
@@ -727,5 +817,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-04-22T04:39:02.240Z"
+  "lastUpdated": "2026-04-23T04:43:54.603Z"
 }
