@@ -299,6 +299,36 @@
       "name": "Amplitude",
       "updates": [
         {
+          "title": "Targeting based on First Seen Timestamp",
+          "description": "Guides and Surveys now supports targeting new users based on their 'First Seen' timestamp, improving accuracy for new user sessions.",
+          "date": "2026-03-16",
+          "url": "https://amplitude.com/releases/targeting-based-on-first-seen-timestamp"
+        },
+        {
+          "title": "Persisting Table Filter in URL & Persisting Collapsed Card State in Experiment/Flags UI",
+          "description": "Persisting experiment table filters in the URL and persisting collapsed/expanded state in Experiment/Flag views' cards.",
+          "date": "2026-03-16",
+          "url": "https://amplitude.com/releases/persisting-table-filter-in-url-persisting-collapsed-card-state-in-experiment-flags-ui"
+        },
+        {
+          "title": "Multi-action CTA's for Guides & Surveys",
+          "description": "Guide and survey buttons can now execute multiple actions in sequence, allowing users to chain actions together like navigating to a URL, clicking an element on that page, and then advancing to the next step.",
+          "date": "2026-03-24",
+          "url": "https://amplitude.com/releases/multi-action-ctas-for-guides-and-surveys"
+        },
+        {
+          "title": "Even More External MCP Tools, Agent Skills, and the MCP App!!",
+          "description": "We've shipped a ton of new tools, skills, and the app over the last few weeks in MCP. There are new MCP tools for Session Replays, Agent Analytics, Feature Flags, and Web Vitals (via Autocapture data) that massively expand the set of analysis possible; an open-source skills repository with fine-tune",
+          "date": "2026-03-25",
+          "url": "https://amplitude.com/releases/even-more-external-mcp-tools-agent-skills-and-the-mcp-app"
+        },
+        {
+          "title": "Improvements to Distributions",
+          "description": "All distributions should be able to be normalized with added normalization, PDF, and CDF features to make amplitude histograms comparable and more data advanced.",
+          "date": "2026-03-25",
+          "url": "https://amplitude.com/releases/improvements-to-distributions"
+        },
+        {
           "title": "Global Agent Audit Tab",
           "description": "See all Global Agent activity across your organization in one table, directly in AI Controls.",
           "date": "2026-03-20",
@@ -817,5 +847,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-04-23T04:43:54.603Z"
+  "lastUpdated": "2026-04-24T04:47:34.800Z"
 }
