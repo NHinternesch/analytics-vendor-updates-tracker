@@ -299,6 +299,54 @@
       "name": "Amplitude",
       "updates": [
         {
+          "title": "Audit Logs",
+          "description": "Amplitude now provides a dedicated Audit Logs experience in Organization Settings, giving admins visibility into security-relevant activity across their account.",
+          "date": "2026-03-04",
+          "url": "https://amplitude.com/releases/audit-logs-v1"
+        },
+        {
+          "title": "AI Assistant",
+          "description": "AI Assistant brings personalized, in-the-moment support directly into our customer's product or website. It answers user questions using existing docs and knowledge sources, understands what users have actually done in the product, and can guide them forward with contextual help and walkthroughs.",
+          "date": "2026-03-10",
+          "url": "https://amplitude.com/releases/ai-assistant"
+        },
+        {
+          "title": "Session Replay JSON Path Event Query",
+          "description": "Improvements to Session Replay allowing querying events using JSON path.",
+          "date": "2026-03-12",
+          "url": "https://amplitude.com/releases/session-replay-json-path-event-query"
+        },
+        {
+          "title": "Transformed Properties Targeting in Experiment, Feature Flags, and Guides & Surveys",
+          "description": "You can now use transformed properties (defined in Govern / Taxonomy) directly in Experiment / Feature Flag and Guides & Surveys targeting, ensuring consistent definitions across Analytics and targeting.",
+          "date": "2026-03-13",
+          "url": "https://amplitude.com/releases/transformed-properties-targeting-in-experiment-feature-flags-and-guides-surveys"
+        },
+        {
+          "title": "Strongly Typed Payloads",
+          "description": "Category: Experiment",
+          "date": "2026-03-13",
+          "url": "https://amplitude.com/releases/strongly-typed-payloads"
+        },
+        {
+          "title": "Multi Instance Support in the Guides and Surveys SDK",
+          "description": "Some customers have a micro-frontend setup or similar where they are using multiple Amplitude projects in parallel. While the Analytics Browser SDK supports this, Guides and Surveys did not. Now it does and you can show guides and surveys from multiple projects at the same time.",
+          "date": "2026-04-24",
+          "url": "https://amplitude.com/releases/multi-instance-support-in-the-guides-and-surveys-sdk"
+        },
+        {
+          "title": "Page-Level URL Masking for Session Replay",
+          "description": "Session Replay now supports per-URL masking rules. You can override the default masking level for specific pages using glob patterns — e.g. apply Conservative masking to `/checkout/**` while keeping Light masking everywhere else — without changing global settings.",
+          "date": "2026-04-24",
+          "url": "https://amplitude.com/releases/page-level-url-masking-for-session-replay"
+        },
+        {
+          "title": "Global Agent chat sidebar opens by default on large screens",
+          "description": "On screens 1600px and wider, the Global Agent chat sidebar now opens by default with automatic reopening under certain conditions, improving user messaging and conversion rates.",
+          "date": "2026-04-24",
+          "url": "https://amplitude.com/releases/global-agent-chat-sidebar-opens-by-default-on-large-screens"
+        },
+        {
           "title": "Targeting based on First Seen Timestamp",
           "description": "Guides and Surveys now supports targeting new users based on their 'First Seen' timestamp, improving accuracy for new user sessions.",
           "date": "2026-03-16",
@@ -847,5 +895,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-04-24T04:47:34.800Z"
+  "lastUpdated": "2026-04-25T04:28:36.718Z"
 }
