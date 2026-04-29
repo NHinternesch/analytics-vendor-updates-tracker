@@ -155,6 +155,12 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "MCP servers for Customer Journey Analytics",
+          "description": "The Analytics MCP (Model Context Protocol) servers allow you to connect a supported MCP client to Adobe Customer Journey Analytics. Once connected, your MCP client can invoke product-specific tools to retrieve data, run queries, or perform supported operations as part of an LLM or agentic workflow. ",
+          "date": "2026-04-29",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "Italian language support",
           "description": "The Italian locale (it-IT) is now supported in Analysis Workspace in Customer Journey Analytics. Customer Journey Analytics supports all languages that are supported in the Experience Platform UI, as described in Browser and language support for the Experience Platform UI. You can change your defaul",
           "date": "2026-04-08",
@@ -895,5 +901,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-04-28T05:23:31.588Z"
+  "lastUpdated": "2026-04-29T05:19:18.679Z"
 }
