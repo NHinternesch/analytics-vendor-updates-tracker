@@ -5,6 +5,12 @@
       "name": "Google Analytics",
       "updates": [
         {
+          "title": "Configure your Google Analytics settings using Task Assistant",
+          "description": "To help you get the most out of your Google Analytics property, we are introducing Task Assistant. Task Assistant provides tailored recommendations to help you optimize your configuration and improve data collection,. Available from the left navigati",
+          "date": "2026-04-29",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
           "title": "Generated insights on the Home page",
           "description": "We’ve added Generated insights to your Home page. This feature summarizes the top three data changes since your last visit, including key configuration updates, anomalies, and seasonality trends.This helps you quickly catch up on what’s happening in ",
           "date": "2026-02-09",
@@ -155,6 +161,12 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "Content Analytics support for native mobile app experiences",
+          "description": "Organizations can extend their content performance analysis to iOS and Android apps, capturing image assets and granular experience elements to understand which in-app content drives user engagement and business outcomes. Insights are available for all Adobe Content Analytics customers.",
+          "date": "2026-04-30",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "MCP servers for Customer Journey Analytics",
           "description": "The Analytics MCP (Model Context Protocol) servers allow you to connect a supported MCP client to Adobe Customer Journey Analytics. Once connected, your MCP client can invoke product-specific tools to retrieve data, run queries, or perform supported operations as part of an LLM or agentic workflow. ",
           "date": "2026-04-29",
@@ -304,6 +316,24 @@
       "id": "amplitude",
       "name": "Amplitude",
       "updates": [
+        {
+          "title": "Data Tables: Global filters now filter all metrics, including session metrics",
+          "description": "Data Tables global filters now apply to session metrics as well as event columns, enabling consistent filtering across all table columns.",
+          "date": "2026-04-26",
+          "url": "https://amplitude.com/releases/data-tables-global-filters-now-filter-all-metrics-including-session-metrics"
+        },
+        {
+          "title": "Heatmaps Improvements",
+          "description": "A revamp of Heatmaps to make it simpler, more reliable, and easier to use.",
+          "date": "2026-04-28",
+          "url": "https://amplitude.com/releases/heatmaps-revamp"
+        },
+        {
+          "title": "AI Visibility 2.0: Sentiment, Recommendations, Event Data, MCP & Premium plan",
+          "description": "AI Visibility 2.0 goes beyond basic “are we showing up?” checks and tells you how AI actually talks about your product, what to fix, and how those fixes perform. Sentiment, recommendations, data export, and MCP all work together so you can measure perception, act on it, and close the loop in Amplitu",
+          "date": "2026-04-29",
+          "url": "https://amplitude.com/releases/ai-visibility-2-0-sentiment-recommendations-ai-viz-data-mcp-premium-plan"
+        },
         {
           "title": "Audit Logs",
           "description": "Amplitude now provides a dedicated Audit Logs experience in Organization Settings, giving admins visibility into security-relevant activity across their account.",
@@ -885,21 +915,9 @@
           "description": "AI: AI Feedback",
           "date": "2025-11-12",
           "url": "https://amplitude.com/releases/ai-feedback"
-        },
-        {
-          "title": "Network Request and Frustration Interaction Tracking",
-          "description": "Session Replay: Network Request and Frustration Interaction Tracking",
-          "date": "2025-11-21",
-          "url": "https://amplitude.com/releases/network-request-and-frustration-interaction-tracking"
-        },
-        {
-          "title": "TRC General Availability",
-          "description": "Amplitude product update: TRC General Availability",
-          "date": "2025-11-25",
-          "url": "https://amplitude.com/releases/trc-general-availability"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-04-29T05:19:18.679Z"
+  "lastUpdated": "2026-04-30T05:23:10.070Z"
 }
