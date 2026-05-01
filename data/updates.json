@@ -317,6 +317,12 @@
       "name": "Amplitude",
       "updates": [
         {
+          "title": "Amplitude plugin skills — now available by default in Claude & Cursor",
+          "description": "Our plugin is now listed by default in Claude and Cursor marketplaces and installable today in Gemini and Codex, unlocking seamless access to Amplitude data and workflows as part of developers' AI tool setup.",
+          "date": "2026-04-28",
+          "url": "https://amplitude.com/releases/amplitude-plugin-skills-now-available-by-default-in-claude-cursor"
+        },
+        {
           "title": "Data Tables: Global filters now filter all metrics, including session metrics",
           "description": "Data Tables global filters now apply to session metrics as well as event columns, enabling consistent filtering across all table columns.",
           "date": "2026-04-26",
@@ -909,15 +915,9 @@
           "description": "Guides and Surveys: Conditional Logic V2 (now with user properties)",
           "date": "2025-11-10",
           "url": "https://amplitude.com/releases/conditional-logic-v2-now-with-user-properties"
-        },
-        {
-          "title": "AI Feedback",
-          "description": "AI: AI Feedback",
-          "date": "2025-11-12",
-          "url": "https://amplitude.com/releases/ai-feedback"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-04-30T05:23:10.070Z"
+  "lastUpdated": "2026-05-01T05:34:45.392Z"
 }
