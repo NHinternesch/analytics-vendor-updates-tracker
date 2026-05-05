@@ -5,6 +5,12 @@
       "name": "Google Analytics",
       "updates": [
         {
+          "title": "Conversion support in the Data API",
+          "description": "Cross-channel conversion reporting data is now available from the Google Analytics Data API in alpha for Google Analytics and Google Ads customers. Google Analytics developers can now gain programmatic access to the same paid and organic reporting da",
+          "date": "2026-05-04",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
           "title": "Configure your Google Analytics settings using Task Assistant",
           "description": "To help you get the most out of your Google Analytics property, we are introducing Task Assistant. Task Assistant provides tailored recommendations to help you optimize your configuration and improve data collection,. Available from the left navigati",
           "date": "2026-04-29",
@@ -919,5 +925,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-04T05:25:54.067Z"
+  "lastUpdated": "2026-05-05T04:54:18.091Z"
 }
