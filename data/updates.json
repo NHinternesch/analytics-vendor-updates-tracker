@@ -323,6 +323,36 @@
       "name": "Amplitude",
       "updates": [
         {
+          "title": "Introducing: Amplitude AI Plugin",
+          "description": "We are excited to announce the launch of the Amplitude AI Plugin, enhancing analytics capabilities with AI-powered insights.",
+          "date": "2026-05-01",
+          "url": "https://amplitude.com/releases/amplitude-ai-plugin-release"
+        },
+        {
+          "title": "Experiment alerts are now in Microsoft Teams",
+          "description": "Experiment alerts can now be set up directly in Microsoft Teams for your experiment feature flag changes.",
+          "date": "2026-05-04",
+          "url": "https://amplitude.com/releases/experiment-alerts-are-now-in-microsoft-teams"
+        },
+        {
+          "title": "Web Experiment Chrome Debugger — Targeting Visibility",
+          "description": "The Amplitude Instrumentation Explorer Chrome extension now shows granular targeting debug details for Web Experiments, making it faster to diagnose why an experiment isn't firing.",
+          "date": "2026-05-06",
+          "url": "https://amplitude.com/releases/web-experiment-chrome-debugger-targeting-visibility"
+        },
+        {
+          "title": "Session Replay Debug Modal",
+          "description": "The Amplitude Instrumentation Explorer Chrome extension now includes a Session Replay debug modal you can turn on for pages with Session Replay activity.",
+          "date": "2026-05-06",
+          "url": "https://amplitude.com/releases/session-replay-debug-modal"
+        },
+        {
+          "title": "Session Replay: \"Hide Inactivity\" toggle is now remembered",
+          "description": "The \"Hide Inactivity\" toggle in the Session Replay player now persists across replays and sessions. Once a user sets their preference (on or off), it sticks — no more flipping the toggle every time they open a new replay.",
+          "date": "2026-05-07",
+          "url": "https://amplitude.com/releases/session-replay-hide-inactivity-toggle-is-now-remembered"
+        },
+        {
           "title": "Amplitude plugin skills — now available by default in Claude & Cursor",
           "description": "Our plugin is now listed by default in Claude and Cursor marketplaces and installable today in Gemini and Codex, unlocking seamless access to Amplitude data and workflows as part of developers' AI tool setup.",
           "date": "2026-04-28",
@@ -891,39 +921,9 @@
           "description": "Activation: TikTok, LinkedIn and X Ad sources",
           "date": "2025-10-23",
           "url": "https://amplitude.com/releases/1761251960.121079"
-        },
-        {
-          "title": "Currency Conversion OOTB derived properties in event streaming",
-          "description": "Data: Currency Conversion OOTB derived properties in event streaming",
-          "date": "2025-10-31",
-          "url": "https://amplitude.com/releases/currency-conversion-ootb-derived-properties-in-event-streaming"
-        },
-        {
-          "title": "New Popover positions",
-          "description": "Analytics: New Popover positions",
-          "date": "2025-10-31",
-          "url": "https://amplitude.com/releases/guides-new-popover-positions"
-        },
-        {
-          "title": "Improved Notifications for Data Warehouse Activity",
-          "description": "Data: Improved Notifications for Data Warehouse Activity",
-          "date": "2025-10-31",
-          "url": "https://amplitude.com/releases/improved-notifications-for-data-warehouse-activity"
-        },
-        {
-          "title": "Autocapture: Page Properties",
-          "description": "Analytics: Autocapture: Page Properties",
-          "date": "2025-11-03",
-          "url": "https://amplitude.com/releases/autocapture-page-properties"
-        },
-        {
-          "title": "Conditional Logic V2 (now with user properties)",
-          "description": "Guides and Surveys: Conditional Logic V2 (now with user properties)",
-          "date": "2025-11-10",
-          "url": "https://amplitude.com/releases/conditional-logic-v2-now-with-user-properties"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-05-07T05:23:59.274Z"
+  "lastUpdated": "2026-05-08T04:48:30.982Z"
 }
