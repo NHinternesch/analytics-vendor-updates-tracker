@@ -323,6 +323,12 @@
       "name": "Amplitude",
       "updates": [
         {
+          "title": "Web Experiment: Mobile Simulator",
+          "description": "Preview web experiments in mobile aspect ratios",
+          "date": "2026-04-10",
+          "url": "https://amplitude.com/releases/web-experiment-mobile-simulator-beta"
+        },
+        {
           "title": "Archive and Restore Guides and Surveys Themes",
           "description": "Unlike guides and surveys themselves, themes could not be restored after deleting them. Now, themes work the same as the guide and survey primitives and can be restored after they have been archived.",
           "date": "2026-05-04",
@@ -915,15 +921,9 @@
           "description": "Guides and Surveys: G&S Themes — Custom CSS",
           "date": "2025-10-21",
           "url": "https://amplitude.com/releases/1761081647.104099"
-        },
-        {
-          "title": "Web Vitals Metrics Collection",
-          "description": "Analytics: Web Vitals Metrics Collection",
-          "date": "2025-10-21",
-          "url": "https://amplitude.com/releases/1761084164.959569"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-05-12T05:31:23.015Z"
+  "lastUpdated": "2026-05-13T05:41:16.930Z"
 }
