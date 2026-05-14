@@ -5,6 +5,12 @@
       "name": "Google Analytics",
       "updates": [
         {
+          "title": "New AI Assistant traffic measurement",
+          "description": "Google Analytics now provides a dedicated way to measure and analyze traffic originating from popular AI assistants. You can now identify how users are discovering your site through chatbots like ChatGPT, Gemini, and Claude via a new AI Assistant cha",
+          "date": "2026-05-13",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
           "title": "Conversion support in the Data API",
           "description": "Cross-channel conversion reporting data is now available from the Google Analytics Data API in alpha for Google Analytics and Google Ads customers. Google Analytics developers can now gain programmatic access to the same paid and organic reporting da",
           "date": "2026-05-04",
@@ -166,6 +172,12 @@
       "id": "adobe-cja",
       "name": "Adobe CJA",
       "updates": [
+        {
+          "title": "CJA API Postman Collections",
+          "description": "A downloadable Postman collection is available for calling CJA API endpoints. For more information, see the analytics-cja-postman-collections Github repository.",
+          "date": "2026-05-01",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
         {
           "title": "Content Analytics support for native mobile app experiences",
           "description": "Organizations can extend their content performance analysis to iOS and Android apps, capturing image assets and granular experience elements to understand which in-app content drives user engagement and business outcomes. Insights are available for all Adobe Content Analytics customers.",
@@ -925,5 +937,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-13T05:41:16.930Z"
+  "lastUpdated": "2026-05-14T05:40:34.629Z"
 }
