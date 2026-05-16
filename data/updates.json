@@ -335,6 +335,30 @@
       "name": "Amplitude",
       "updates": [
         {
+          "title": "Starred Projects",
+          "description": "Starred projects are a way for users to be able to favorite the projects they most frequently access in Amplitude so that they can be more easily found in project dropdowns.",
+          "date": "2026-05-11",
+          "url": "https://amplitude.com/releases/starred-projects"
+        },
+        {
+          "title": "Real-Time Behavior Targeting for Web Experiment [Beta]",
+          "description": "Real-time behavior targeting is now available for Web Experiment, enabling instant audience targeting based on user behavior.",
+          "date": "2026-05-11",
+          "url": "https://amplitude.com/releases/instant-real-time-behavior-targeting-for-web-experiment"
+        },
+        {
+          "title": "Channel Classifier API: manage channel classifiers programmatically",
+          "description": "Teams can now manage channel classifiers through a public REST API to list, fetch, create, and update classifiers programmatically.",
+          "date": "2026-05-12",
+          "url": "https://amplitude.com/releases/channel-classifier-api-manage-channel-classifiers-programmatically"
+        },
+        {
+          "title": "Ask Amplitude AI button in Slack Previews",
+          "description": "Introducing the Ask Amplitude AI button in Slack previews to enhance user interaction with Amplitude AI features directly from Slack.",
+          "date": "2026-05-13",
+          "url": "https://amplitude.com/releases/ask-amplitude-ai-button-in-slack-previews"
+        },
+        {
           "title": "Web Experiment: Mobile Simulator",
           "description": "Preview web experiments in mobile aspect ratios",
           "date": "2026-04-10",
@@ -909,33 +933,9 @@
           "description": "Data: Streaming out Lookup Properties",
           "date": "2025-09-30",
           "url": "https://amplitude.com/releases/streaming-out-lookup-properties"
-        },
-        {
-          "title": "Funnels Available from Microscope Menu",
-          "description": "Analytics: Funnels Available from Microscope Menu",
-          "date": "2025-10-08",
-          "url": "https://amplitude.com/releases/1759951038.748179"
-        },
-        {
-          "title": "Automated Insights",
-          "description": "Analytics: Automated Insights",
-          "date": "2025-10-16",
-          "url": "https://amplitude.com/releases/automated-insights"
-        },
-        {
-          "title": "Amplitude MCP",
-          "description": "AI: Amplitude MCP",
-          "date": "2025-10-21",
-          "url": "https://amplitude.com/releases/amplitude-mcp"
-        },
-        {
-          "title": "G&S Themes — Custom CSS",
-          "description": "Guides and Surveys: G&S Themes — Custom CSS",
-          "date": "2025-10-21",
-          "url": "https://amplitude.com/releases/1761081647.104099"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-05-15T05:46:39.637Z"
+  "lastUpdated": "2026-05-16T05:20:08.744Z"
 }
