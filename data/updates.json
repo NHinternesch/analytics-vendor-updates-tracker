@@ -173,6 +173,12 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "Journey canvas enhancements",
+          "description": "The following enhancements are available in Journey canvas visualizations:",
+          "date": "2026-05-18",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "CJA API Postman Collections",
           "description": "A downloadable Postman collection is available for calling CJA API endpoints. For more information, see the analytics-cja-postman-collections Github repository.",
           "date": "2026-05-01",
@@ -937,5 +943,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-17T05:41:13.581Z"
+  "lastUpdated": "2026-05-18T06:03:52.631Z"
 }
