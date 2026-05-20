@@ -173,6 +173,12 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "Content Analytics: Line visualization thumbnails and previews",
+          "description": "Thumbnails and previews are now available for assets and experiences in line visualizations for Content Analytics.",
+          "date": "2026-05-20",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "Journey canvas enhancements",
           "description": "The following enhancements are available in Journey canvas visualizations:",
           "date": "2026-05-18",
@@ -943,5 +949,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-19T05:58:30.761Z"
+  "lastUpdated": "2026-05-20T05:58:02.565Z"
 }
