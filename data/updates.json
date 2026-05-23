@@ -347,6 +347,24 @@
       "name": "Amplitude",
       "updates": [
         {
+          "title": "Trigger Delay for Guides and Surveys",
+          "description": "Guides and Surveys offers different trigger types like \"On event tracked\". Now you can delay the appearance of the guide after the event happens by using the new \"Delay\" option.",
+          "date": "2026-05-20",
+          "url": "https://amplitude.com/releases/trigger-delay"
+        },
+        {
+          "title": "Create and edit Guides & Surveys themes with Global Chat",
+          "description": "Create and edit G&S themes just by sharing a screenshot of your website/figma files or by describing your dream theme with a short text description. Follow up with quick edits like 'make the button height a tad smaller' or 'give the typography a bold look'. Bonus: Use 'Fix with AI' to fix any and al",
+          "date": "2026-05-21",
+          "url": "https://amplitude.com/releases/create-and-edit-gs-themes-via-global-chat"
+        },
+        {
+          "title": "Web Vitals Stacked Chart Ratings View",
+          "description": "Added a new visualization to Web Vitals hub that displays Web Vitals grouped by rating category (good, needs improvement, poor).",
+          "date": "2026-05-21",
+          "url": "https://amplitude.com/releases/web-vitals-stacked-chart"
+        },
+        {
           "title": "Starred Projects",
           "description": "Starred projects are a way for users to be able to favorite the projects they most frequently access in Amplitude so that they can be more easily found in project dropdowns.",
           "date": "2026-05-11",
@@ -927,27 +945,9 @@
           "description": "Data: Autocapture Masking & Data Protection",
           "date": "2025-09-26",
           "url": "https://amplitude.com/releases/autocapture-masking-data-protection"
-        },
-        {
-          "title": "Chart Chat",
-          "description": "AI: Chart Chat",
-          "date": "2025-09-26",
-          "url": "https://amplitude.com/releases/chart-chat"
-        },
-        {
-          "title": "Journeys Sunburst Visualization — New Chart Type",
-          "description": "Analytics: Journeys Sunburst Visualization — New Chart Type",
-          "date": "2025-09-29",
-          "url": "https://amplitude.com/releases/journeys-sunburst-visualization-new-chart-type"
-        },
-        {
-          "title": "Streaming out Lookup Properties",
-          "description": "Data: Streaming out Lookup Properties",
-          "date": "2025-09-30",
-          "url": "https://amplitude.com/releases/streaming-out-lookup-properties"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-05-22T05:57:53.878Z"
+  "lastUpdated": "2026-05-23T05:32:53.428Z"
 }
