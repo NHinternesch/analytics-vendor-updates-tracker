@@ -347,6 +347,30 @@
       "name": "Amplitude",
       "updates": [
         {
+          "title": "E-commerce hubs",
+          "description": "E-commerce hubs give merchandising and growth teams a curated starting point for analyzing product performance and product discovery in Amplitude with preconfigured commerce workflows.",
+          "date": "2026-05-27",
+          "url": "https://amplitude.com/releases/e-commerce-hubs"
+        },
+        {
+          "title": "Persisted properties",
+          "description": "Persisted Properties let teams preserve important behavioral context across a user journey so properties like campaign, entry page, search term, or discovery method stay attached to downstream events like purchases, conversions, and revenue.",
+          "date": "2026-05-27",
+          "url": "https://amplitude.com/releases/persisted-properties"
+        },
+        {
+          "title": "Zoning Insights",
+          "description": "Zoning Insights is a powerful tool that quickly identifies which elements on a site are converting visitors or losing them, providing actionable performance data in minutes.",
+          "date": "2026-05-27",
+          "url": "https://amplitude.com/releases/zoning-insights"
+        },
+        {
+          "title": "Frustration Analytics — Debugger on User Profile Timeline",
+          "description": "The User Profile Timeline now surfaces frustration signals directly alongside behavioral events, providing a chronological view of exactly what a specific user experienced.",
+          "date": "2026-05-27",
+          "url": "https://amplitude.com/releases/frustration-analytics-debugger-on-user-profile-timeline"
+        },
+        {
           "title": "Trigger Delay for Guides and Surveys",
           "description": "Guides and Surveys offers different trigger types like \"On event tracked\". Now you can delay the appearance of the guide after the event happens by using the new \"Delay\" option.",
           "date": "2026-05-20",
@@ -921,33 +945,9 @@
           "description": "Guides and Surveys: Content alignment for Guides and Surveys",
           "date": "2025-09-05",
           "url": "https://amplitude.com/releases/content-alignment-for-guides-and-surveys"
-        },
-        {
-          "title": "Improved Themes Preview UX for Guides and Surveys",
-          "description": "Guides and Surveys: Improved Themes Preview UX for Guides and Surveys",
-          "date": "2025-09-19",
-          "url": "https://amplitude.com/releases/improved-themes-preview-ux-for-guides-and-surveys"
-        },
-        {
-          "title": "Redesigned Invite Modal",
-          "description": "Activation: Redesigned Invite Modal",
-          "date": "2025-09-22",
-          "url": "https://amplitude.com/releases/redesigned-invite-modal"
-        },
-        {
-          "title": "Flag and Experiment Approvals Workflow",
-          "description": "Experiment: Flag and Experiment Approvals Workflow",
-          "date": "2025-09-22",
-          "url": "https://amplitude.com/releases/flag-and-experiment-approvals-workflow"
-        },
-        {
-          "title": "Autocapture Masking & Data Protection",
-          "description": "Data: Autocapture Masking & Data Protection",
-          "date": "2025-09-26",
-          "url": "https://amplitude.com/releases/autocapture-masking-data-protection"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-05-28T06:02:00.960Z"
+  "lastUpdated": "2026-05-29T06:04:25.697Z"
 }
