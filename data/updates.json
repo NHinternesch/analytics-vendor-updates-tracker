@@ -5,6 +5,12 @@
       "name": "Google Analytics",
       "updates": [
         {
+          "title": "Data Manager API support for Google Analytics server-to-server events",
+          "description": "Data Manager API provides you with an alternative to Measurement Protocol (MP) for sending recommended and custom events directly to your Google Analytics property. You can send events to both your Google Analytics web and app data streams, provided ",
+          "date": "2026-05-07",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
           "title": "New AI Assistant traffic measurement",
           "description": "Google Analytics now provides a dedicated way to measure and analyze traffic originating from popular AI assistants. You can now identify how users are discovering your site through chatbots like ChatGPT, Gemini, and Claude via a new AI Assistant cha",
           "date": "2026-05-13",
@@ -949,5 +955,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-03T06:44:07.998Z"
+  "lastUpdated": "2026-06-04T06:28:04.589Z"
 }
