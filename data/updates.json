@@ -353,6 +353,30 @@
       "name": "Amplitude",
       "updates": [
         {
+          "title": "Taxonomy API now available on all plans",
+          "description": "The Taxonomy API is now available to every Amplitude customer, regardless of plan. Starter, Plus, Growth, and Enterprise orgs all have full read and write access via the API with no feature flag or plan gate.",
+          "date": "2026-05-07",
+          "url": "https://amplitude.com/releases/taxonomy-api-now-available-on-all-plans"
+        },
+        {
+          "title": "Granola AI Feedback Source GA",
+          "description": "Granola is now generally available for all customers as an AI Feedback source.",
+          "date": "2026-05-28",
+          "url": "https://amplitude.com/releases/granola-ai-feedback-source-ga"
+        },
+        {
+          "title": "MCP Server: Role-Based Access Controls",
+          "description": "Introducing finer-grained control over MCP AI agents with new RBAC actions to scope permissions on a project basis.",
+          "date": "2026-06-03",
+          "url": "https://amplitude.com/releases/mcp-server-mcp-rbac-actions"
+        },
+        {
+          "title": "Agent Connectors",
+          "description": "Agent Connectors are now GA. Global Agent (and soon, Custom Agents) can pull context from — and take action in — the tools your team already uses. Connecting to the apps you love is as simple as a single click, and because these connectors support both read and write tools, our agents can now do mor",
+          "date": "2026-06-04",
+          "url": "https://amplitude.com/releases/agent-connectors"
+        },
+        {
           "title": "E-commerce hubs",
           "description": "E-commerce hubs give merchandising and growth teams a curated starting point for analyzing product performance and product discovery in Amplitude with preconfigured commerce workflows.",
           "date": "2026-05-27",
@@ -927,33 +951,9 @@
           "description": "Guides and Surveys: Element Selection Strategy",
           "date": "2025-08-27",
           "url": "https://amplitude.com/releases/element-selection-strategy"
-        },
-        {
-          "title": "Group Cohort Targeting for Guides and Surveys",
-          "description": "Guides and Surveys: Group Cohort Targeting for Guides and Surveys",
-          "date": "2025-09-03",
-          "url": "https://amplitude.com/releases/group-cohorting-targeting-guides-and-surveys"
-        },
-        {
-          "title": "Version History for Guides & Surveys",
-          "description": "Guides and Surveys: Version History for Guides & Surveys",
-          "date": "2025-09-03",
-          "url": "https://amplitude.com/releases/version-history-for-guides-surveys"
-        },
-        {
-          "title": "Testing Status for Guides & Surveys",
-          "description": "Guides and Surveys: Testing Status for Guides & Surveys",
-          "date": "2025-09-04",
-          "url": "https://amplitude.com/releases/testing-status-for-guides-and-surveys"
-        },
-        {
-          "title": "Content alignment for Guides and Surveys",
-          "description": "Guides and Surveys: Content alignment for Guides and Surveys",
-          "date": "2025-09-05",
-          "url": "https://amplitude.com/releases/content-alignment-for-guides-and-surveys"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-06-05T06:13:16.319Z"
+  "lastUpdated": "2026-06-06T05:46:45.140Z"
 }
