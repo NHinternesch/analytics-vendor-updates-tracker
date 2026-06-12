@@ -5,6 +5,18 @@
       "name": "Google Analytics",
       "updates": [
         {
+          "title": "Hostname filter",
+          "description": "Hostname filters are a new type of filter within the existing Data Filter section of the Admin section. It allows customers to filter out (exclude) events based on their hostname (example: “google.com”).",
+          "date": "2026-06-11",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "New Source Group field with update to Source Platform values for improved source analysis",
+          "description": "Source grouping is a new dimension concept that consolidates source values for common online platforms - Facebook, Instagram, and TikTok. A single value for a given source is vital for performance and attribution analysis (example: “Facebook”; not “f",
+          "date": "2026-06-11",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
           "title": "New Google Business Profile integration",
           "description": "You can now centrally report on your local business, website, and app metrics. Link your Google Analytics properties with Google Business Profiles (GBP) directly within the Admin panel. This integration enables the seamless import of high-value first",
           "date": "2026-06-08",
@@ -961,5 +973,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-11T06:40:32.791Z"
+  "lastUpdated": "2026-06-12T06:24:52.671Z"
 }
