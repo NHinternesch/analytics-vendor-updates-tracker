@@ -371,6 +371,36 @@
       "name": "Amplitude",
       "updates": [
         {
+          "title": "Search volume for AI Visibility [Beta]",
+          "description": "We added Search Volume to AI Visibility so customers can prioritize topics and prompts based on real demand, not just visibility.",
+          "date": "2026-05-19",
+          "url": "https://amplitude.com/releases/search-volume-for-ai-visibility"
+        },
+        {
+          "title": "Taxonomy MCP: Branch management and Create tools",
+          "description": "The Amplitude MCP server now includes branch management and create tools for taxonomy. Customers can now create events, custom events, properties, and use a full suite of branch tools through AI assistants.",
+          "date": "2026-06-05",
+          "url": "https://amplitude.com/releases/taxonomy-mcp-branch-management-create-tools"
+        },
+        {
+          "title": "React Native Session Replay — Privacy Masking",
+          "description": "RN Session Replay now correctly respects `maskLevel` (light / medium / conservative) on iOS and Android — no more silent downgrade to medium. iOS light masking now auto-masks phone/email keyboard inputs, matching Android and web.",
+          "date": "2026-06-08",
+          "url": "https://amplitude.com/releases/react-native-session-replay-privacy-masking"
+        },
+        {
+          "title": "New External Guides and Surveys MCP tools",
+          "description": "Enhancements to the external MCP server now allow AI to properly understand a guide's published state, prioritization, and all other Guides and Surveys concepts for better retrieval on non-Amplitude surfaces.",
+          "date": "2026-06-11",
+          "url": "https://amplitude.com/releases/new-external-guides-and-surveys-mcp-tools"
+        },
+        {
+          "title": "Cohort Sync via MCP: sync_cohort",
+          "description": "Agents can now trigger a one-time cohort sync to a destination (Braze, Iterable, S3, webhook, and more) straight from MCP. It previews, confirms, then fires the export.",
+          "date": "2026-06-11",
+          "url": "https://amplitude.com/releases/cohort-sync-via-mcp-sync_cohort"
+        },
+        {
           "title": "Taxonomy API now available on all plans",
           "description": "The Taxonomy API is now available to every Amplitude customer, regardless of plan. Starter, Plus, Growth, and Enterprise orgs all have full read and write access via the API with no feature flag or plan gate.",
           "date": "2026-05-07",
@@ -939,39 +969,9 @@
           "description": "Data: Self-serve Integration Portal",
           "date": "2025-08-15",
           "url": "https://amplitude.com/releases/65bbc325-0035-44e8-9fc6-dc2e3249f729"
-        },
-        {
-          "title": "Web Experiment Enhancements in the Chrome Extension",
-          "description": "Experiment: Web Experiment Enhancements in the Chrome Extension",
-          "date": "2025-08-15",
-          "url": "https://amplitude.com/releases/web-experiment-chrome-extension"
-        },
-        {
-          "title": "Time-between and tag-based throttles",
-          "description": "Guides and Surveys: Time-between and tag-based throttles",
-          "date": "2025-08-19",
-          "url": "https://amplitude.com/releases/time-between-and-tag-based-throttles"
-        },
-        {
-          "title": "Session Replay Cursor + Click Indicator",
-          "description": "Session Replay: Session Replay Cursor + Click Indicator",
-          "date": "2025-08-21",
-          "url": "https://amplitude.com/releases/session-replay-cursor-and-click-indicator"
-        },
-        {
-          "title": "Desktop Apps for Guides & Surveys",
-          "description": "Guides and Surveys: Desktop Apps for Guides & Surveys",
-          "date": "2025-08-27",
-          "url": "https://amplitude.com/releases/desktop-apps-for-guides-and-surveys"
-        },
-        {
-          "title": "Element Selection Strategy",
-          "description": "Guides and Surveys: Element Selection Strategy",
-          "date": "2025-08-27",
-          "url": "https://amplitude.com/releases/element-selection-strategy"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-06-12T06:24:52.671Z"
+  "lastUpdated": "2026-06-13T06:07:51.745Z"
 }
