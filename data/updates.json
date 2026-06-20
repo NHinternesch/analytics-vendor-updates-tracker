@@ -371,6 +371,18 @@
       "name": "Amplitude",
       "updates": [
         {
+          "title": "Event Streaming Live Log",
+          "description": "Live Log is a new tab on the Event Streaming sync detail page that shows a live, real-time stream of events as they're processed by a sync, allowing inspection of raw events, dispatched payloads, and destination responses side by side.",
+          "date": "2026-06-16",
+          "url": "https://amplitude.com/releases/event-streaming-live-log"
+        },
+        {
+          "title": "Amplitude MCP is now in Slackbot",
+          "description": "You can now connect Amplitude's MCP server to Slackbot and ask questions there — Slackbot will call Amplitude's tools on your behalf and return the answer inline, without leaving the interface.",
+          "date": "2026-06-18",
+          "url": "https://amplitude.com/releases/amplitude-mcp-is-now-in-slackbot"
+        },
+        {
           "title": "Search volume for AI Visibility [Beta]",
           "description": "We added Search Volume to AI Visibility so customers can prioritize topics and prompts based on real demand, not just visibility.",
           "date": "2026-05-19",
@@ -957,21 +969,9 @@
           "description": "Analytics: Unexpected/unplanned event properties inheriting shared property metadata",
           "date": "2025-08-14",
           "url": "https://amplitude.com/releases/unexpected-unplanned-event-properties-inheriting-shared-metadata"
-        },
-        {
-          "title": "Experiment debugger in Chrome Extension",
-          "description": "Experiment: Experiment debugger in Chrome Extension",
-          "date": "2025-08-15",
-          "url": "https://amplitude.com/releases/experiment-debugger-in-chrome-extension"
-        },
-        {
-          "title": "Self-serve Integration Portal",
-          "description": "Data: Self-serve Integration Portal",
-          "date": "2025-08-15",
-          "url": "https://amplitude.com/releases/65bbc325-0035-44e8-9fc6-dc2e3249f729"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-06-19T06:56:26.050Z"
+  "lastUpdated": "2026-06-20T06:10:31.450Z"
 }
