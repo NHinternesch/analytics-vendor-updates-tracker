@@ -197,6 +197,12 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "Validate your data in AI Assistant",
+          "description": "You can use AI Assistant to validate the data quality of your Adobe Experience Platform datasets. Powered by Agent Orchestrator, the data validation capability can perform statistical and semantic validations on datasets, analyze dataset fields, identify data quality issues, and return natural langu",
+          "date": "2026-06-22",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "Data Mirror",
           "description": "Data Mirror is an Experience Platform capability that enables row-level change ingestion (change data capture) from external data warehouse solutions (Snowflake, Azure Databricks, and Google BigQuery) into Customer Journey Analytics using relational schemas. It preserves data relationships, enforces",
           "date": "2026-06-17",
@@ -979,5 +985,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-23T05:58:43.372Z"
+  "lastUpdated": "2026-06-24T05:58:36.245Z"
 }
