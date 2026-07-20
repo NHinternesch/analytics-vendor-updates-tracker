@@ -197,6 +197,12 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "B2B Edition: Support for ad hoc and relational datasets",
+          "description": "Ad hoc and relational datasets are now also supported in account-based connections in Customer Journey Analytics B2B Edition. (Documentation link to follow.)",
+          "date": "2026-07-20",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "Validate your data in AI Assistant",
           "description": "You can use AI Assistant to validate the data quality of your Adobe Experience Platform datasets. Powered by Agent Orchestrator, the data validation capability can perform statistical and semantic validations on datasets, analyze dataset fields, identify data quality issues, and return natural langu",
           "date": "2026-06-22",
@@ -985,5 +991,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-07-19T05:10:22.841Z"
+  "lastUpdated": "2026-07-20T05:29:42.897Z"
 }
