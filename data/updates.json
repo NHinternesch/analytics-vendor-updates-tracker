@@ -197,6 +197,24 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "Inline classifications",
+          "description": "Inline classifications enable you to rename or combine rows in a freeform table. And to create a derived field from the modified rows in a table.",
+          "date": "2026-07-25",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
+          "title": "CX Enterprise Coworker: Validate your data when migrating from Adobe Analytics to Customer Journey Analytics",
+          "description": "A new skill in CX Enterprise Coworker allows you to validate the data from your Customer Journey Analytics implementation against the data from your existing Adobe Analytics implementation. This skill automatically compares each dimension, metric, and trend individually as needed. It can also compar",
+          "date": "2026-07-24",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
+          "title": "CX Enterprise Coworker: Analyze Customer Journey Analytics data",
+          "description": "Adobe CX Enterprise Coworker Chat can now perform advanced data analysis that was previously possible only in Analysis Workspace. Coworker Chat accesses data from your Customer Journey Analytics data views, allowing you to explore that data and get answers to natural-language prompts. For more infor",
+          "date": "2026-07-23",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "B2B Edition: Support for ad hoc and relational datasets",
           "description": "Ad hoc and relational datasets are now also supported in account-based connections in Customer Journey Analytics B2B Edition. (Documentation link to follow.)",
           "date": "2026-07-20",
@@ -991,5 +1009,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-07-24T04:59:59.557Z"
+  "lastUpdated": "2026-07-25T04:55:46.917Z"
 }
