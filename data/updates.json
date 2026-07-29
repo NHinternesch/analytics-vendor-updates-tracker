@@ -5,6 +5,18 @@
       "name": "Google Analytics",
       "updates": [
         {
+          "title": "AdMob linking within Google Analytics",
+          "description": "Google Analytics now offers a direct, native product linking flow with AdMob within the Google Analytics Admin interface.\n  You will see a new \"AdMob Links\" option under the \"Product Links\" section in your Google Analytics Admin console. You can now ",
+          "date": "2026-07-13",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Campaign data import currency update",
+          "description": "We've updated campaign data import to require a currency field whenever you upload cost data. This ensures your campaign reporting stays accurate, even if you decide to make changes to your property's currency settings.",
+          "date": "2026-07-28",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
           "title": "Hostname filter",
           "description": "Hostname filters are a new type of filter within the existing Data Filter section of the Admin section. It allows customers to filter out (exclude) events based on their hostname (example: “google.com”).",
           "date": "2026-06-11",
@@ -1009,5 +1021,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-07-28T04:53:29.537Z"
+  "lastUpdated": "2026-07-29T04:58:26.390Z"
 }
