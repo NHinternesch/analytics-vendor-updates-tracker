@@ -46,7 +46,11 @@ jobs:
       - name: Check for changes
         id: git-check
         run: |
-          git diff --exit-code data/updates.json || echo "changed=true" >> $GITHUB_OUTPUT
+          if git diff --quiet data/updates.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
 
       - name: Commit updated data
         if: steps.git-check.outputs.changed == 'true'
@@ -73,3 +77,9 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      # Runs last on purpose: a vendor whose page structure changed should turn
+      # the run red loudly, but only after the sources that still work have been
+      # committed and deployed.
+      - name: Check scrape health
+        run: npm run health

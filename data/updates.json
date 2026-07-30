@@ -5,183 +5,93 @@
       "name": "Google Analytics",
       "updates": [
         {
-          "title": "AdMob linking within Google Analytics",
-          "description": "Google Analytics now offers a direct, native product linking flow with AdMob within the Google Analytics Admin interface.\n  You will see a new \"AdMob Links\" option under the \"Product Links\" section in your Google Analytics Admin console. You can now ",
-          "date": "2026-07-13",
-          "url": "https://support.google.com/analytics/answer/9164320"
+          "title": "Campaign data import currency update",
+          "description": "We've updated campaign data import to require a currency field whenever you upload cost data. This ensures your campaign reporting stays accurate, even if you decide to make changes to your property's currency settings. When importing your campaign data, you can now choose to map the currency…",
+          "date": "2026-07-28",
+          "url": "https://support.google.com/analytics/answer/9164320#07282026"
         },
         {
-          "title": "Campaign data import currency update",
-          "description": "We've updated campaign data import to require a currency field whenever you upload cost data. This ensures your campaign reporting stays accurate, even if you decide to make changes to your property's currency settings.",
-          "date": "2026-07-28",
-          "url": "https://support.google.com/analytics/answer/9164320"
+          "title": "AdMob linking within Google Analytics",
+          "description": "Google Analytics now offers a direct, native product linking flow with AdMob within the Google Analytics Admin interface. You will see a new \"AdMob Links\" option under the \"Product Links\" section in your Google Analytics Admin console. You can now manage connections between App Data Streams and…",
+          "date": "2026-07-13",
+          "url": "https://support.google.com/analytics/answer/9164320#07132026"
         },
         {
           "title": "Hostname filter",
-          "description": "Hostname filters are a new type of filter within the existing Data Filter section of the Admin section. It allows customers to filter out (exclude) events based on their hostname (example: “google.com”).",
+          "description": "Hostname filters are a new type of filter within the existing Data Filter section of the Admin section. It allows customers to filter out (exclude) events based on their hostname (example: “google.com”). This enables you to make sure any data that does not come from an approved domain is not…",
           "date": "2026-06-11",
-          "url": "https://support.google.com/analytics/answer/9164320"
+          "url": "https://support.google.com/analytics/answer/9164320#06112026"
         },
         {
           "title": "New Source Group field with update to Source Platform values for improved source analysis",
-          "description": "Source grouping is a new dimension concept that consolidates source values for common online platforms - Facebook, Instagram, and TikTok. A single value for a given source is vital for performance and attribution analysis (example: “Facebook”; not “f",
+          "description": "Source grouping is a new dimension concept that consolidates source values for common online platforms - Facebook, Instagram, and TikTok. A single value for a given source is vital for performance and attribution analysis (example: “Facebook”; not “facebook”, “fb”, and “Meta-facebook”), and the…",
           "date": "2026-06-11",
-          "url": "https://support.google.com/analytics/answer/9164320"
+          "url": "https://support.google.com/analytics/answer/9164320#06112026"
         },
         {
           "title": "New Google Business Profile integration",
-          "description": "You can now centrally report on your local business, website, and app metrics. Link your Google Analytics properties with Google Business Profiles (GBP) directly within the Admin panel. This integration enables the seamless import of high-value first",
+          "description": "You can now centrally report on your local business, website, and app metrics. Link your Google Analytics properties with Google Business Profiles (GBP) directly within the Admin panel. This integration enables the seamless import of high-value first-party GBP data. A new dedicated reporting…",
           "date": "2026-06-08",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "Data Manager API support for Google Analytics server-to-server events",
-          "description": "Data Manager API provides you with an alternative to Measurement Protocol (MP) for sending recommended and custom events directly to your Google Analytics property. You can send events to both your Google Analytics web and app data streams, provided ",
-          "date": "2026-05-07",
-          "url": "https://support.google.com/analytics/answer/9164320"
+          "url": "https://support.google.com/analytics/answer/9164320#06082026"
         },
         {
           "title": "New AI Assistant traffic measurement",
-          "description": "Google Analytics now provides a dedicated way to measure and analyze traffic originating from popular AI assistants. You can now identify how users are discovering your site through chatbots like ChatGPT, Gemini, and Claude via a new AI Assistant cha",
+          "description": "Google Analytics now provides a dedicated way to measure and analyze traffic originating from popular AI assistants. You can now identify how users are discovering your site through chatbots like ChatGPT, Gemini, and Claude via a new AI Assistant channel in your Default Channel Group reports. This…",
           "date": "2026-05-13",
-          "url": "https://support.google.com/analytics/answer/9164320"
+          "url": "https://support.google.com/analytics/answer/9164320#05132026"
+        },
+        {
+          "title": "Data Manager API support for Google Analytics server-to-server events",
+          "description": "Data Manager API provides you with an alternative to Measurement Protocol (MP) for sending recommended and custom events directly to your Google Analytics property. You can send events to both your Google Analytics web and app data streams, provided they’re not reserved events. Learn more about the…",
+          "date": "2026-05-07",
+          "url": "https://support.google.com/analytics/answer/9164320#05072026"
         },
         {
           "title": "Conversion support in the Data API",
-          "description": "Cross-channel conversion reporting data is now available from the Google Analytics Data API in alpha for Google Analytics and Google Ads customers. Google Analytics developers can now gain programmatic access to the same paid and organic reporting da",
+          "description": "Cross-channel conversion reporting data is now available from the Google Analytics Data API in alpha for Google Analytics and Google Ads customers. Google Analytics developers can now gain programmatic access to the same paid and organic reporting data that's available in the Analytics advertising…",
           "date": "2026-05-04",
-          "url": "https://support.google.com/analytics/answer/9164320"
+          "url": "https://support.google.com/analytics/answer/9164320#05042026"
         },
         {
           "title": "Configure your Google Analytics settings using Task Assistant",
-          "description": "To help you get the most out of your Google Analytics property, we are introducing Task Assistant. Task Assistant provides tailored recommendations to help you optimize your configuration and improve data collection,. Available from the left navigati",
+          "description": "To help you get the most out of your Google Analytics property, we are introducing Task Assistant. Task Assistant provides tailored recommendations to help you optimize your configuration and improve data collection,. Available from the left navigation menu, it organizes these recommendations into…",
           "date": "2026-04-29",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "Generated insights on the Home page",
-          "description": "We’ve added Generated insights to your Home page. This feature summarizes the top three data changes since your last visit, including key configuration updates, anomalies, and seasonality trends.This helps you quickly catch up on what’s happening in ",
-          "date": "2026-02-09",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "Conversion attribution analysis report (Beta)",
-          "description": "The Conversion attribution analysis report is a new addition to the advertising workspace that provides customers with the ability to uncover the full value of their marketing channels across the entire customer journey.",
-          "date": "2026-01-15",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "Improved web conversion management and reporting capabilities for Google Ads customers (Beta)",
-          "description": "More flexible web conversion management tools and new cross-channel reporting features are now available for marketers and advertisers.",
-          "date": "2026-01-15",
-          "url": "https://support.google.com/analytics/answer/9164320"
+          "url": "https://support.google.com/analytics/answer/9164320#04292026"
         },
         {
           "title": "Cross-channel budgeting (Beta)",
           "description": "The Google Analytics team is excited to announce the release of cross-channel budgeting. Use cross-channel budgeting to track performance and optimize paid channel investments.",
-          "date": "2026-01-15",
-          "url": "https://support.google.com/analytics/answer/9164320"
+          "date": "2026-02-10",
+          "url": "https://support.google.com/analytics/answer/9164320#02102026"
         },
         {
-          "title": "Auto-configured key events for lead generation Business objective",
-          "description": "Analytics now automatically configures qualified and converted leads events as key events when the Business objective for lead generation is selected in order to guide clients towards the recommended best-practices for lead gen measurement. Once conf",
-          "date": "2025-06-12",
-          "url": "https://support.google.com/analytics/answer/9164320"
+          "title": "Generated insights on the Home page",
+          "description": "We’ve added Generated insights to your Home page. This feature summarizes the top three data changes since your last visit, including key configuration updates, anomalies, and seasonality trends.This helps you quickly catch up on what’s happening in your property and spot performance shifts without…",
+          "date": "2026-02-10",
+          "url": "https://support.google.com/analytics/answer/9164320#02102026"
         },
         {
-          "title": "Cost data import: expanded data sources (beta)",
-          "description": "Additional data sources are now supported for cost data import in open beta. With this enhancement, you are able to import cost data from multiple sources such as:",
-          "date": "2025-06-24",
-          "url": "https://support.google.com/analytics/answer/9164320"
+          "title": "Conversion attribution analysis report (Beta)",
+          "description": "The Conversion attribution analysis report is a new addition to the advertising workspace that provides customers with the ability to uncover the full value of their marketing channels across the entire customer journey. This report helps you visualize how different touchpoints contribute to your…",
+          "date": "2026-01-16",
+          "url": "https://support.google.com/analytics/answer/9164320#01162026"
         },
         {
-          "title": "Annotations now have Analyst+ permissions",
-          "description": "Users with Analyst and above Google Analytics permissions can now create, edit, and delete annotations.",
-          "date": "2025-07-01",
-          "url": "https://support.google.com/analytics/answer/9164320"
+          "title": "Cross-channel budgeting (Beta)",
+          "description": "The Google Analytics team is excited to announce the release of cross-channel budgeting. Use cross-channel budgeting to track performance and optimize paid channel investments. Projection plans help you identify areas for improvement and make quick optimization decisions. You can see how…",
+          "date": "2026-01-16",
+          "url": "https://support.google.com/analytics/answer/9164320#01162026"
         },
         {
-          "title": "Item data import improvements",
-          "description": "Item data import now allows importing item-scoped custom dimensions into Google Analytics. This provides greater flexibility to import item data without the need for item IDs, particularly beneficial for users with extensive product catalogs. Learn m",
-          "date": "2025-07-14",
-          "url": "https://support.google.com/analytics/answer/9164320"
+          "title": "Improved web conversion management and reporting capabilities for Google Ads customers (Beta)",
+          "description": "More flexible web conversion management tools and new cross-channel reporting features are now available for marketers and advertisers. Conversion attribution settings are now adjustable independently for every conversion, enabling customers to fine-tune their bidding strategies in Google Ads…",
+          "date": "2026-01-16",
+          "url": "https://support.google.com/analytics/answer/9164320#01162026"
         },
         {
-          "title": "Default reports and suggested audiences for lead generation customers",
-          "description": "We’re launching new reports and suggested audiences dedicated to customers whose goal is to generate leads.",
-          "date": "2025-07-21",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "Import cost data from Reddit Ads",
-          "description": "You can now import cost data from Reddit through a seamless integration with Google Analytics. This enables advertisers to automatically track Reddit cost data within Google Analytics. Learn more about importing cost data from Reddit Ads.",
-          "date": "2025-07-21",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "Improved conversion data completeness",
-          "description": "We’ve improved conversion data quality to prevent under-reporting of conversions for Google Analytics customers whose properties have 2 or more linked Google Ads accounts, and who have opted to credit paid and organic channels for web conversions the",
-          "date": "2025-08-06",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "Improved ecommerce data availability and usability",
-          "description": "We’ve improved ecommerce data (item-scoped dimensions and metrics) availability and usability.",
-          "date": "2025-08-25",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "Import cost data from Snap ads",
-          "description": "You can now import cost data from Snap through a seamless integration with Google Analytics. This enables advertisers to automatically track Snap cost data within Google Analytics.",
-          "date": "2025-09-17",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "Google Analytics linking recommendation in Google Ads",
-          "description": "Customers who link their Google Ads or Google Marketing Platform accounts to a Google Analytics property are correlated with a 23% increase in conversions and a 10% reduction in cost per conversion.",
-          "date": "2025-09-24",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "Import cost data from Pinterest Ads",
-          "description": "You can now import cost data from Pinterest through a seamless integration with Google Analytics. This enables advertisers to automatically track Pinterest cost data within Google Analytics.",
-          "date": "2025-09-26",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "New diagnostic in Google Analytics for User-ID implementation issues",
-          "description": "We’ve launched a new diagnostic to alert users of problematic User-ID implementations. Properties impacted by errors in user-ID implementation will see various diagnostic alerts throughout Google Analytics. The diagnostics include guidance on how to ",
-          "date": "2025-10-02",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "Benchmarking support for unnormalized metrics",
-          "description": "We've expanded the Benchmarking feature in Google Analytics to give you more ways to compare your performance against others in your industry.",
-          "date": "2025-10-02",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "Import cost data from Meta and TikTok ads",
-          "description": "You can now import cost data from Meta and TikTok through seamless integrations with Google Analytics. This enables advertisers to automatically track Meta and TikTok cost data within Google Analytics.",
-          "date": "2025-10-07",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "User-provided data new infra",
-          "description": "New User-Provided Data (UPD) infrastructure has launched, allowing new UPD customers to implement UPD without feature degradations. This improves UPD for Conversion and Customer Match. Early adopters on the old infrastructure may still see some degra",
-          "date": "2025-11-05",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "User-provided data attribution improvement",
-          "description": "Google Analytics improved the user-provided data (UPD) feature for better data quality and behavioral attribution. UPD now focuses on activation and Ads Conversions, improving Enhanced Conversions and Customer Match Audiences, and ensuring more accur",
-          "date": "2025-11-05",
-          "url": "https://support.google.com/analytics/answer/9164320"
-        },
-        {
-          "title": "Cost data import is now Campaign data import",
-          "description": "Google Analytics is updating the name of the existing Cost data import feature to Campaign data import.",
-          "date": "2025-11-19",
+          "title": "Analytics Advisor",
+          "description": "We are excited to announce the launch of Analytics Advisor. This is an agentic conversational AI assistant, powered by Gemini models, that Analytics customers can evoke in the Google Analytics user interface whenever they have questions or need assis",
+          "date": "2025-12-12",
           "url": "https://support.google.com/analytics/answer/9164320"
         },
         {
@@ -197,9 +107,105 @@
           "url": "https://support.google.com/analytics/answer/9164320"
         },
         {
-          "title": "Analytics Advisor",
-          "description": "We are excited to announce the launch of Analytics Advisor. This is an agentic conversational AI assistant, powered by Gemini models, that Analytics customers can evoke in the Google Analytics user interface whenever they have questions or need assis",
-          "date": "2025-12-12",
+          "title": "Cost data import is now Campaign data import",
+          "description": "Google Analytics is updating the name of the existing Cost data import feature to Campaign data import.",
+          "date": "2025-11-19",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "User-provided data attribution improvement",
+          "description": "Google Analytics improved the user-provided data (UPD) feature for better data quality and behavioral attribution. UPD now focuses on activation and Ads Conversions, improving Enhanced Conversions and Customer Match Audiences, and ensuring more accur",
+          "date": "2025-11-05",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "User-provided data new infra",
+          "description": "New User-Provided Data (UPD) infrastructure has launched, allowing new UPD customers to implement UPD without feature degradations. This improves UPD for Conversion and Customer Match. Early adopters on the old infrastructure may still see some degra",
+          "date": "2025-11-05",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Import cost data from Meta and TikTok ads",
+          "description": "You can now import cost data from Meta and TikTok through seamless integrations with Google Analytics. This enables advertisers to automatically track Meta and TikTok cost data within Google Analytics.",
+          "date": "2025-10-07",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Benchmarking support for unnormalized metrics",
+          "description": "We've expanded the Benchmarking feature in Google Analytics to give you more ways to compare your performance against others in your industry.",
+          "date": "2025-10-02",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "New diagnostic in Google Analytics for User-ID implementation issues",
+          "description": "We’ve launched a new diagnostic to alert users of problematic User-ID implementations. Properties impacted by errors in user-ID implementation will see various diagnostic alerts throughout Google Analytics. The diagnostics include guidance on how to ",
+          "date": "2025-10-02",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Import cost data from Pinterest Ads",
+          "description": "You can now import cost data from Pinterest through a seamless integration with Google Analytics. This enables advertisers to automatically track Pinterest cost data within Google Analytics.",
+          "date": "2025-09-26",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Google Analytics linking recommendation in Google Ads",
+          "description": "Customers who link their Google Ads or Google Marketing Platform accounts to a Google Analytics property are correlated with a 23% increase in conversions and a 10% reduction in cost per conversion.",
+          "date": "2025-09-24",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Import cost data from Snap ads",
+          "description": "You can now import cost data from Snap through a seamless integration with Google Analytics. This enables advertisers to automatically track Snap cost data within Google Analytics.",
+          "date": "2025-09-17",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Improved ecommerce data availability and usability",
+          "description": "We’ve improved ecommerce data (item-scoped dimensions and metrics) availability and usability.",
+          "date": "2025-08-25",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Improved conversion data completeness",
+          "description": "We’ve improved conversion data quality to prevent under-reporting of conversions for Google Analytics customers whose properties have 2 or more linked Google Ads accounts, and who have opted to credit paid and organic channels for web conversions the",
+          "date": "2025-08-06",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Default reports and suggested audiences for lead generation customers",
+          "description": "We’re launching new reports and suggested audiences dedicated to customers whose goal is to generate leads.",
+          "date": "2025-07-21",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Import cost data from Reddit Ads",
+          "description": "You can now import cost data from Reddit through a seamless integration with Google Analytics. This enables advertisers to automatically track Reddit cost data within Google Analytics. Learn more about importing cost data from Reddit Ads.",
+          "date": "2025-07-21",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Item data import improvements",
+          "description": "Item data import now allows importing item-scoped custom dimensions into Google Analytics. This provides greater flexibility to import item data without the need for item IDs, particularly beneficial for users with extensive product catalogs. Learn m",
+          "date": "2025-07-14",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Annotations now have Analyst+ permissions",
+          "description": "Users with Analyst and above Google Analytics permissions can now create, edit, and delete annotations.",
+          "date": "2025-07-01",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Cost data import: expanded data sources (beta)",
+          "description": "Additional data sources are now supported for cost data import in open beta. With this enhancement, you are able to import cost data from multiple sources such as:",
+          "date": "2025-06-24",
+          "url": "https://support.google.com/analytics/answer/9164320"
+        },
+        {
+          "title": "Auto-configured key events for lead generation Business objective",
+          "description": "Analytics now automatically configures qualified and converted leads events as key events when the Business objective for lead generation is selected in order to guide clients towards the recommended best-practices for lead gen measurement. Once conf",
+          "date": "2025-06-12",
           "url": "https://support.google.com/analytics/answer/9164320"
         }
       ]
@@ -209,26 +215,38 @@
       "name": "Adobe CJA",
       "updates": [
         {
-          "title": "Inline classifications",
-          "description": "Inline classifications enable you to rename or combine rows in a freeform table. And to create a derived field from the modified rows in a table.",
-          "date": "2026-07-25",
-          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
-        },
-        {
           "title": "CX Enterprise Coworker: Validate your data when migrating from Adobe Analytics to Customer Journey Analytics",
-          "description": "A new skill in CX Enterprise Coworker allows you to validate the data from your Customer Journey Analytics implementation against the data from your existing Adobe Analytics implementation. This skill automatically compares each dimension, metric, and trend individually as needed. It can also compar",
+          "description": "A new skill in CX Enterprise Coworker allows you to validate the data from your Customer Journey Analytics implementation against the data from your existing Adobe Analytics implementation. This skill automatically compares each dimension, metric, and trend individually as needed. It can also…",
           "date": "2026-07-24",
-          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+          "url": "https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/data-validation-aa-cja"
         },
         {
-          "title": "CX Enterprise Coworker: Analyze Customer Journey Analytics data",
-          "description": "Adobe CX Enterprise Coworker Chat can now perform advanced data analysis that was previously possible only in Analysis Workspace. Coworker Chat accesses data from your Customer Journey Analytics data views, allowing you to explore that data and get answers to natural-language prompts. For more infor",
+          "title": "Connections Usage interface update",
+          "description": "In the Usage interface when managing connections, you can now see usage details for each individual module, such as Customer Journey Analytics or Customer Journey Analytics B2B Edition. Additionally, you can now break down usage reporting for each of the modules by month.",
           "date": "2026-07-23",
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
+          "title": "CX Enterprise Coworker: Analyze Customer Journey Analytics data",
+          "description": "Adobe CX Enterprise Coworker Chat can now perform advanced data analysis that was previously possible only in Analysis Workspace. Coworker Chat accesses data from your Customer Journey Analytics data views, allowing you to explore that data and get answers to natural-language prompts.For more…",
+          "date": "2026-07-23",
+          "url": "https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/analytics-chat"
+        },
+        {
+          "title": "Sub-event analysis",
+          "description": "Sub-event analysis lets you analyze data at a level more granular than the event level. Instead of filtering on entire events, you can segment on individual containers within an event. For example, you can segment on a specific product category without including all other products purchased in the…",
+          "date": "2026-07-21",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "B2B Edition: Support for ad hoc and relational datasets",
-          "description": "Ad hoc and relational datasets are now also supported in account-based connections in Customer Journey Analytics B2B Edition. (Documentation link to follow.)",
+          "description": "Ad hoc and relational datasets are now also supported in account-based connections in Customer Journey Analytics B2B Edition.(Documentation link to follow.)",
+          "date": "2026-07-20",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
+          "title": "Inline classifications",
+          "description": "Inline classifications enable you to rename or combine rows in a freeform table. And to create a derived field from the modified rows in a table.",
           "date": "2026-07-20",
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
@@ -281,9 +299,9 @@
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
-          "title": "Fallout visualization improvements",
-          "description": "The Fallout visualization includes the following enhancements: For more information, see Configure a fallout visualization.",
-          "date": "2026-03-25",
+          "title": "Data validation in the Adobe Engineering Agent",
+          "description": "New data validation skills are available within the Data Engineering Agent. These skills help teams quickly assess data quality directly in Adobe Experience Platform, before the data is analyzed in Customer Journey Analytics. Data validation skills enable on‑demand, field‑level, and dataset‑level va",
+          "date": "2026-03-31",
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
@@ -293,15 +311,15 @@
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
-          "title": "Data validation in the Adobe Engineering Agent",
-          "description": "New data validation skills are available within the Data Engineering Agent. These skills help teams quickly assess data quality directly in Adobe Experience Platform, before the data is analyzed in Customer Journey Analytics. Data validation skills enable on‑demand, field‑level, and dataset‑level va",
-          "date": "2026-03-31",
-          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
-        },
-        {
           "title": "Data Insights Agent integration with Copilot",
           "description": "The Data Insights Agent is now integrated with Microsoft Copilot, allowing you to interact with Customer Journey Analytics data using natural language prompts, directly within Microsoft tools, including Teams, Powerpoint, and more. For more information, see Adobe Marketing Agent for Microsoft 365 Co",
           "date": "2026-03-26",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
+          "title": "Fallout visualization improvements",
+          "description": "The Fallout visualization includes the following enhancements: For more information, see Configure a fallout visualization.",
+          "date": "2026-03-25",
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
@@ -317,21 +335,15 @@
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
-          "title": "Update to the Approximate Count Distinct function",
-          "description": "The HLL probabilistic algorithm used in the Approximate Count Distinct function will soon be updated. The resulting output for numbers utilizing this function might change slightly from historical numbers, as follows: For more information about the Approximate Count Distinct function, see Approximat",
-          "date": "2026-03-09",
-          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
-        },
-        {
           "title": "Report Builder: Administrator visibility to all scheduled workbooks",
           "description": "The Report Builder Excel Add-in includes a new filter option that allows administrators to see all scheduled workbooks for a given org, regardless of who scheduled them. This filter option is available only for Analytics administrators. It is available on both the Workbook tab and the Legacy tab whe",
           "date": "2026-03-09",
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
-          "title": "Datasets preview redesign in Connections",
-          "description": "When you add or edit datasets in a person-based connection, the experience to preview data is improved. For stitching enabled datasets, additional stitching metrics and information on bad ids are available.",
-          "date": "2026-03-05",
+          "title": "Update to the Approximate Count Distinct function",
+          "description": "The HLL probabilistic algorithm used in the Approximate Count Distinct function will soon be updated. The resulting output for numbers utilizing this function might change slightly from historical numbers, as follows: For more information about the Approximate Count Distinct function, see Approximat",
+          "date": "2026-03-09",
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
@@ -341,9 +353,15 @@
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
-          "title": "Content Analytics: Scatter visualization thumbnails and previews",
-          "description": "Thumbnails and previews are available for assets and experiences in scatter visualizations for Content Analytics.",
-          "date": "2026-03-01",
+          "title": "Datasets preview redesign in Connections",
+          "description": "When you add or edit datasets in a person-based connection, the experience to preview data is improved. For stitching enabled datasets, additional stitching metrics and information on bad ids are available.",
+          "date": "2026-03-05",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
+          "title": "Include multiple dimension columns in a freeform table",
+          "description": "You can now include up to 5 dimension columns in a freeform table, allowing you to view multiple dimension items side by side. Each row of dimension items behaves like a single concatenated dimension item. You can apply filters, sorting, breakdowns, and more to freeform tables with multiple dimensio",
+          "date": "2026-03-03",
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
@@ -353,9 +371,9 @@
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
-          "title": "Include multiple dimension columns in a freeform table",
-          "description": "You can now include up to 5 dimension columns in a freeform table, allowing you to view multiple dimension items side by side. Each row of dimension items behaves like a single concatenated dimension item. You can apply filters, sorting, breakdowns, and more to freeform tables with multiple dimensio",
-          "date": "2026-03-03",
+          "title": "Content Analytics: Scatter visualization thumbnails and previews",
+          "description": "Thumbnails and previews are available for assets and experiences in scatter visualizations for Content Analytics.",
+          "date": "2026-03-01",
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
@@ -395,12 +413,6 @@
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
-          "title": "Support for data mirror",
-          "description": "With support for model-based schemas and change data capture (CDC) functionality for specific source connectors in Experience Platform, Customer Journey Analytics will be able to support data mirror functionality of data warehouse solutions like Snowflake, Azure Databricks, and Google BigQuery. Cont",
-          "date": "2025-09-23",
-          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
-        },
-        {
           "title": "Real-time reporting",
           "description": "Real-time reporting in Customer Journey Analytics displays and updates data and visualizations within one or more panels in Analysis Workspace in real time.",
           "date": "2025-10-21",
@@ -411,6 +423,12 @@
           "description": "Any search filter criteria that you apply to a freeform table filter is now always included in sparklines. In addition, you can include search filter criteria in any connected line visualization. You can configure line visualizations to include search filter criteria by selecting the sparkline in th",
           "date": "2025-10-14",
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
+          "title": "Support for data mirror",
+          "description": "With support for model-based schemas and change data capture (CDC) functionality for specific source connectors in Experience Platform, Customer Journey Analytics will be able to support data mirror functionality of data warehouse solutions like Snowflake, Azure Databricks, and Google BigQuery. Cont",
+          "date": "2025-09-23",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         }
       ]
     },
@@ -419,10 +437,76 @@
       "name": "Amplitude",
       "updates": [
         {
-          "title": "Event Streaming Live Log",
-          "description": "Live Log is a new tab on the Event Streaming sync detail page that shows a live, real-time stream of events as they're processed by a sync, allowing inspection of raw events, dispatched payloads, and destination responses side by side.",
-          "date": "2026-06-16",
-          "url": "https://amplitude.com/releases/event-streaming-live-log"
+          "title": "Resource Center: open directly to a specific article via the SDK",
+          "description": "The Guides and Surveys SDK now supports opening the Resource Center directly on a specific article.",
+          "date": "2026-07-24",
+          "url": "https://amplitude.com/releases/resource-center-open-directly-to-a-specific-article-via-the-sdk"
+        },
+        {
+          "title": "Resource Center: search term highlighting and autoscroll in articles",
+          "description": "When a user opens an article from a Resource Center search result, matched search terms are now highlighted inside the article and the view automatically scrolls to the relevant passage.",
+          "date": "2026-07-24",
+          "url": "https://amplitude.com/releases/resource-center-search-term-highlighting-and-autoscroll-in-articles"
+        },
+        {
+          "title": "Metric Explorer Chart",
+          "description": "Metric Explorer is moving out of beta",
+          "date": "2026-07-22",
+          "url": "https://amplitude.com/releases/metric-explorer-chart-type"
+        },
+        {
+          "title": "Last Non-Direct Attribution in Data Tables",
+          "description": "The Data Tables attribution model picker now includes Last Non-Direct Touch - all credit for a metric goes to the most recent touchpoint that isn't Direct.",
+          "date": "2026-07-21",
+          "url": "https://amplitude.com/releases/last-non-direct-attribution-data-tables"
+        },
+        {
+          "title": "Attribution parameters as event properties - now on by default in the Browser SDK + GTM",
+          "description": "The Browser SDK now captures marketing attribution (UTMs, click IDs, referrer) as event properties by default, alongside the user properties it always set. The GTM template was updated with the same behavior so GTM-based implementations get it automatically, no custom variables needed.",
+          "date": "2026-07-17",
+          "url": "https://amplitude.com/releases/attribution-parameters-as-event-properties-browser-sdk-gtm"
+        },
+        {
+          "title": "Clickable image links",
+          "description": "Turn any image in a Guide or Survey into a clickable link, so users can jump to a page, doc, or in-app destination without needing a separate button.",
+          "date": "2026-07-16",
+          "url": "https://amplitude.com/releases/clickable-image-links"
+        },
+        {
+          "title": "Event group property improvements",
+          "description": "You can now add a property group to an event or add a property to a group — even when one of those properties is already planned directly on the event.",
+          "date": "2026-07-15",
+          "url": "https://amplitude.com/event-group-property-improvements"
+        },
+        {
+          "title": "Web Experiment: Cross-subdomain experimentation",
+          "description": "Web experiments can now target multiple subdomains",
+          "date": "2026-07-15",
+          "url": "https://amplitude.com/releases/web-experiment-cross-subdomain-experimentation"
+        },
+        {
+          "title": "Web Experiment Bucketing ID Shared Across Subdomains",
+          "description": "Web experiments now use a bucketing ID stored in a cookie, allowing sharing across subdomains, improving consistency in bucketing.",
+          "date": "2026-07-13",
+          "url": "https://amplitude.com/releases/web-experiment-bucketing-id-shared-across-subdomains"
+        },
+        {
+          "title": "Web Experiment: Undo/Redo + Auto-apply",
+          "description": "The web experiment visual editor now supports undo/redo, accessed by the buttons on the navigation bar or keyboard shortcuts (Cmd+Z / Cmd+Shift+Z). Changes made in the visual editor are also now automatically applied, and the apply button has been removed.",
+          "date": "2026-07-01",
+          "url": "https://amplitude.com/releases/web-experiment-undo-redo-auto-apply"
+        },
+        {
+          "title": "AI Feedback Auto Analysis",
+          "description": "AI Feedback is now easier to organize and much easier to monitor in near \"real-time\". You can set each source to be auto-analyzed every 15 minutes, hourly, or daily, add custom labels to automatically tag incoming feedback, insights, and trends, browse all feedback in one unified feed, and build…",
+          "date": "2026-06-30",
+          "url": "https://amplitude.com/releases/ai-feedback-auto-analysis"
+        },
+        {
+          "title": "Introducing: Custom Agents",
+          "description": "Custom Agents are now live and generally available across all customers.",
+          "date": "2026-06-23",
+          "url": "https://amplitude.com/releases/custom-agents"
         },
         {
           "title": "Amplitude MCP is now in Slackbot",
@@ -431,28 +515,10 @@
           "url": "https://amplitude.com/releases/amplitude-mcp-is-now-in-slackbot"
         },
         {
-          "title": "Search volume for AI Visibility [Beta]",
-          "description": "We added Search Volume to AI Visibility so customers can prioritize topics and prompts based on real demand, not just visibility.",
-          "date": "2026-05-19",
-          "url": "https://amplitude.com/releases/search-volume-for-ai-visibility"
-        },
-        {
-          "title": "Taxonomy MCP: Branch management and Create tools",
-          "description": "The Amplitude MCP server now includes branch management and create tools for taxonomy. Customers can now create events, custom events, properties, and use a full suite of branch tools through AI assistants.",
-          "date": "2026-06-05",
-          "url": "https://amplitude.com/releases/taxonomy-mcp-branch-management-create-tools"
-        },
-        {
-          "title": "React Native Session Replay — Privacy Masking",
-          "description": "RN Session Replay now correctly respects `maskLevel` (light / medium / conservative) on iOS and Android — no more silent downgrade to medium. iOS light masking now auto-masks phone/email keyboard inputs, matching Android and web.",
-          "date": "2026-06-08",
-          "url": "https://amplitude.com/releases/react-native-session-replay-privacy-masking"
-        },
-        {
-          "title": "New External Guides and Surveys MCP tools",
-          "description": "Enhancements to the external MCP server now allow AI to properly understand a guide's published state, prioritization, and all other Guides and Surveys concepts for better retrieval on non-Amplitude surfaces.",
-          "date": "2026-06-11",
-          "url": "https://amplitude.com/releases/new-external-guides-and-surveys-mcp-tools"
+          "title": "Event Streaming Live Log",
+          "description": "Live Log is a new tab on the Event Streaming sync detail page that shows a live, real-time stream of events as they're processed by a sync, allowing inspection of raw events, dispatched payloads, and destination responses side by side.",
+          "date": "2026-06-16",
+          "url": "https://amplitude.com/releases/event-streaming-live-log"
         },
         {
           "title": "Cohort Sync via MCP: sync_cohort",
@@ -461,16 +527,34 @@
           "url": "https://amplitude.com/releases/cohort-sync-via-mcp-sync_cohort"
         },
         {
-          "title": "Taxonomy API now available on all plans",
-          "description": "The Taxonomy API is now available to every Amplitude customer, regardless of plan. Starter, Plus, Growth, and Enterprise orgs all have full read and write access via the API with no feature flag or plan gate.",
-          "date": "2026-05-07",
-          "url": "https://amplitude.com/releases/taxonomy-api-now-available-on-all-plans"
+          "title": "New External Guides and Surveys MCP tools",
+          "description": "Enhancements to the external MCP server now allow AI to properly understand a guide's published state, prioritization, and all other Guides and Surveys concepts for better retrieval on non-Amplitude surfaces.",
+          "date": "2026-06-11",
+          "url": "https://amplitude.com/releases/new-external-guides-and-surveys-mcp-tools"
         },
         {
-          "title": "Granola AI Feedback Source GA",
-          "description": "Granola is now generally available for all customers as an AI Feedback source.",
-          "date": "2026-05-28",
-          "url": "https://amplitude.com/releases/granola-ai-feedback-source-ga"
+          "title": "React Native Session Replay — Privacy Masking",
+          "description": "RN Session Replay now correctly respects maskLevel (light / medium / conservative) on iOS and Android — no more silent downgrade to medium. iOS light masking now auto-masks phone/email keyboard inputs, matching Android and web.",
+          "date": "2026-06-08",
+          "url": "https://amplitude.com/releases/react-native-session-replay-privacy-masking"
+        },
+        {
+          "title": "Taxonomy MCP: Branch management and Create tools",
+          "description": "The Amplitude MCP server now includes branch management and create tools for taxonomy. Customers can now create events, custom events, properties, and use a full suite of branch tools through AI assistants.",
+          "date": "2026-06-05",
+          "url": "https://amplitude.com/releases/taxonomy-mcp-branch-management-create-tools"
+        },
+        {
+          "title": "Web Experiment: Mutex groups, Holdout groups, and Experiment dependencies [Beta]",
+          "description": "Description: As your experimentation program scales, controlling how experiments interact becomes critical. Web Experiment now supports mutual exclusion groups, holdout groups, and flag dependencies so you can run a more rigorous, isolated testing program. Mutual exclusion groups prevent users from…",
+          "date": "2026-06-05",
+          "url": "https://amplitude.com/web-experiment-groups-dependencies"
+        },
+        {
+          "title": "Agent Connectors",
+          "description": "Agent Connectors are now GA. Global Agent (and soon, Custom Agents) can pull context from — and take action in — the tools your team already uses. Connecting to the apps you love is as simple as a single click, and because these connectors support both read and write tools, our agents can now do…",
+          "date": "2026-06-04",
+          "url": "https://amplitude.com/releases/agent-connectors"
         },
         {
           "title": "MCP Server: Role-Based Access Controls",
@@ -479,16 +563,28 @@
           "url": "https://amplitude.com/releases/mcp-server-mcp-rbac-actions"
         },
         {
-          "title": "Agent Connectors",
-          "description": "Agent Connectors are now GA. Global Agent (and soon, Custom Agents) can pull context from — and take action in — the tools your team already uses. Connecting to the apps you love is as simple as a single click, and because these connectors support both read and write tools, our agents can now do mor",
-          "date": "2026-06-04",
-          "url": "https://amplitude.com/releases/agent-connectors"
+          "title": "Session Replay Agent v2 is now GA",
+          "description": "Session Replay Agent v2 improves replay analysis by using video analysis to generate structured insights and combining it with autocapture and analytics for clearer, evidence-backed insights.",
+          "date": "2026-06-02",
+          "url": "https://amplitude.com/releases/session-replay-agent-v2"
+        },
+        {
+          "title": "Granola AI Feedback Source GA",
+          "description": "Granola is now generally available for all customers as an AI Feedback source.",
+          "date": "2026-05-28",
+          "url": "https://amplitude.com/releases/granola-ai-feedback-source-ga"
         },
         {
           "title": "E-commerce hubs",
           "description": "E-commerce hubs give merchandising and growth teams a curated starting point for analyzing product performance and product discovery in Amplitude with preconfigured commerce workflows.",
           "date": "2026-05-27",
           "url": "https://amplitude.com/releases/e-commerce-hubs"
+        },
+        {
+          "title": "Frustration Analytics — Debugger on User Profile Timeline",
+          "description": "The User Profile Timeline now surfaces frustration signals directly alongside behavioral events, providing a chronological view of exactly what a specific user experienced.",
+          "date": "2026-05-27",
+          "url": "https://amplitude.com/releases/frustration-analytics-debugger-on-user-profile-timeline"
         },
         {
           "title": "Persisted properties",
@@ -503,20 +599,8 @@
           "url": "https://amplitude.com/releases/zoning-insights"
         },
         {
-          "title": "Frustration Analytics — Debugger on User Profile Timeline",
-          "description": "The User Profile Timeline now surfaces frustration signals directly alongside behavioral events, providing a chronological view of exactly what a specific user experienced.",
-          "date": "2026-05-27",
-          "url": "https://amplitude.com/releases/frustration-analytics-debugger-on-user-profile-timeline"
-        },
-        {
-          "title": "Trigger Delay for Guides and Surveys",
-          "description": "Guides and Surveys offers different trigger types like \"On event tracked\". Now you can delay the appearance of the guide after the event happens by using the new \"Delay\" option.",
-          "date": "2026-05-20",
-          "url": "https://amplitude.com/releases/trigger-delay"
-        },
-        {
           "title": "Create and edit Guides & Surveys themes with Global Chat",
-          "description": "Create and edit G&S themes just by sharing a screenshot of your website/figma files or by describing your dream theme with a short text description. Follow up with quick edits like 'make the button height a tad smaller' or 'give the typography a bold look'. Bonus: Use 'Fix with AI' to fix any and al",
+          "description": "Create and edit G&S themes just by sharing a screenshot of your website/figma files or by describing your dream theme with a short text description. Follow up with quick edits like 'make the button height a tad smaller' or 'give the typography a bold look'. Bonus: Use 'Fix with AI' to fix any and…",
           "date": "2026-05-21",
           "url": "https://amplitude.com/releases/create-and-edit-gs-themes-via-global-chat"
         },
@@ -527,22 +611,16 @@
           "url": "https://amplitude.com/releases/web-vitals-stacked-chart"
         },
         {
-          "title": "Starred Projects",
-          "description": "Starred projects are a way for users to be able to favorite the projects they most frequently access in Amplitude so that they can be more easily found in project dropdowns.",
-          "date": "2026-05-11",
-          "url": "https://amplitude.com/releases/starred-projects"
+          "title": "Trigger Delay for Guides and Surveys",
+          "description": "Guides and Surveys offers different trigger types like \"On event tracked\". Now you can delay the appearance of the guide after the event happens by using the new \"Delay\" option.",
+          "date": "2026-05-20",
+          "url": "https://amplitude.com/releases/trigger-delay"
         },
         {
-          "title": "Real-Time Behavior Targeting for Web Experiment [Beta]",
-          "description": "Real-time behavior targeting is now available for Web Experiment, enabling instant audience targeting based on user behavior.",
-          "date": "2026-05-11",
-          "url": "https://amplitude.com/releases/instant-real-time-behavior-targeting-for-web-experiment"
-        },
-        {
-          "title": "Channel Classifier API: manage channel classifiers programmatically",
-          "description": "Teams can now manage channel classifiers through a public REST API to list, fetch, create, and update classifiers programmatically.",
-          "date": "2026-05-12",
-          "url": "https://amplitude.com/releases/channel-classifier-api-manage-channel-classifiers-programmatically"
+          "title": "Search volume for AI Visibility [Beta]",
+          "description": "We added Search Volume to AI Visibility so customers can prioritize topics and prompts based on real demand, not just visibility.",
+          "date": "2026-05-19",
+          "url": "https://amplitude.com/releases/search-volume-for-ai-visibility"
         },
         {
           "title": "Ask Amplitude AI button in Slack Previews",
@@ -551,10 +629,46 @@
           "url": "https://amplitude.com/releases/ask-amplitude-ai-button-in-slack-previews"
         },
         {
-          "title": "Web Experiment: Mobile Simulator",
-          "description": "Preview web experiments in mobile aspect ratios",
-          "date": "2026-04-10",
-          "url": "https://amplitude.com/releases/web-experiment-mobile-simulator-beta"
+          "title": "Channel Classifier API: manage channel classifiers programmatically",
+          "description": "Teams can now manage channel classifiers through a public REST API to list, fetch, create, and update classifiers programmatically.",
+          "date": "2026-05-12",
+          "url": "https://amplitude.com/releases/channel-classifier-api-manage-channel-classifiers-programmatically"
+        },
+        {
+          "title": "Real-Time Behavior Targeting for Web Experiment [Beta]",
+          "description": "Real-time behavior targeting is now available for Web Experiment, enabling instant audience targeting based on user behavior.",
+          "date": "2026-05-11",
+          "url": "https://amplitude.com/releases/instant-real-time-behavior-targeting-for-web-experiment"
+        },
+        {
+          "title": "Starred Projects",
+          "description": "Starred projects are a way for users to be able to favorite the projects they most frequently access in Amplitude so that they can be more easily found in project dropdowns.",
+          "date": "2026-05-11",
+          "url": "https://amplitude.com/releases/starred-projects"
+        },
+        {
+          "title": "Session Replay: \"Hide Inactivity\" toggle is now remembered",
+          "description": "The \"Hide Inactivity\" toggle in the Session Replay player now persists across replays and sessions. Once a user sets their preference (on or off), it sticks — no more flipping the toggle every time they open a new replay.",
+          "date": "2026-05-07",
+          "url": "https://amplitude.com/releases/session-replay-hide-inactivity-toggle-is-now-remembered"
+        },
+        {
+          "title": "Taxonomy API now available on all plans",
+          "description": "The Taxonomy API is now available to every Amplitude customer, regardless of plan. Starter, Plus, Growth, and Enterprise orgs all have full read and write access via the API with no feature flag or plan gate.",
+          "date": "2026-05-07",
+          "url": "https://amplitude.com/releases/taxonomy-api-now-available-on-all-plans"
+        },
+        {
+          "title": "Session Replay Debug Modal",
+          "description": "The Amplitude Instrumentation Explorer Chrome extension now includes a Session Replay debug modal you can turn on for pages with Session Replay activity.",
+          "date": "2026-05-06",
+          "url": "https://amplitude.com/releases/session-replay-debug-modal"
+        },
+        {
+          "title": "Web Experiment Chrome Debugger — Targeting Visibility",
+          "description": "The Amplitude Instrumentation Explorer Chrome extension now shows granular targeting debug details for Web Experiments, making it faster to diagnose why an experiment isn't firing.",
+          "date": "2026-05-06",
+          "url": "https://amplitude.com/releases/web-experiment-chrome-debugger-targeting-visibility"
         },
         {
           "title": "Archive and Restore Guides and Surveys Themes",
@@ -575,34 +689,22 @@
           "url": "https://amplitude.com/releases/error-clicks-and-thrashed-cursor"
         },
         {
-          "title": "Introducing: Amplitude AI Plugin",
-          "description": "We are excited to announce the launch of the Amplitude AI Plugin, enhancing analytics capabilities with AI-powered insights.",
-          "date": "2026-05-01",
-          "url": "https://amplitude.com/releases/amplitude-ai-plugin-release"
-        },
-        {
           "title": "Experiment alerts are now in Microsoft Teams",
           "description": "Experiment alerts can now be set up directly in Microsoft Teams for your experiment feature flag changes.",
           "date": "2026-05-04",
           "url": "https://amplitude.com/releases/experiment-alerts-are-now-in-microsoft-teams"
         },
         {
-          "title": "Web Experiment Chrome Debugger — Targeting Visibility",
-          "description": "The Amplitude Instrumentation Explorer Chrome extension now shows granular targeting debug details for Web Experiments, making it faster to diagnose why an experiment isn't firing.",
-          "date": "2026-05-06",
-          "url": "https://amplitude.com/releases/web-experiment-chrome-debugger-targeting-visibility"
+          "title": "Introducing: Amplitude AI Plugin",
+          "description": "We are excited to announce the launch of the Amplitude AI Plugin, enhancing analytics capabilities with AI-powered insights.",
+          "date": "2026-05-01",
+          "url": "https://amplitude.com/releases/amplitude-ai-plugin-release"
         },
         {
-          "title": "Session Replay Debug Modal",
-          "description": "The Amplitude Instrumentation Explorer Chrome extension now includes a Session Replay debug modal you can turn on for pages with Session Replay activity.",
-          "date": "2026-05-06",
-          "url": "https://amplitude.com/releases/session-replay-debug-modal"
-        },
-        {
-          "title": "Session Replay: \"Hide Inactivity\" toggle is now remembered",
-          "description": "The \"Hide Inactivity\" toggle in the Session Replay player now persists across replays and sessions. Once a user sets their preference (on or off), it sticks — no more flipping the toggle every time they open a new replay.",
-          "date": "2026-05-07",
-          "url": "https://amplitude.com/releases/session-replay-hide-inactivity-toggle-is-now-remembered"
+          "title": "AI Visibility 2.0: Sentiment, Recommendations, Event Data, & MCP",
+          "description": "AI Visibility 2.0 goes beyond basic “are we showing up?” checks and tells you how AI actually talks about your product, what to fix, and how those fixes perform. Sentiment, recommendations, data export, and MCP all work together so you can measure perception, act on it, and close the loop in…",
+          "date": "2026-04-29",
+          "url": "https://amplitude.com/releases/ai-visibility-2-0-sentiment-recommendations-ai-viz-data-mcp-premium-plan"
         },
         {
           "title": "Amplitude plugin skills — now available by default in Claude & Cursor",
@@ -611,52 +713,22 @@
           "url": "https://amplitude.com/releases/amplitude-plugin-skills-now-available-by-default-in-claude-cursor"
         },
         {
-          "title": "Data Tables: Global filters now filter all metrics, including session metrics",
-          "description": "Data Tables global filters now apply to session metrics as well as event columns, enabling consistent filtering across all table columns.",
-          "date": "2026-04-26",
-          "url": "https://amplitude.com/releases/data-tables-global-filters-now-filter-all-metrics-including-session-metrics"
-        },
-        {
           "title": "Heatmaps Improvements",
           "description": "A revamp of Heatmaps to make it simpler, more reliable, and easier to use.",
           "date": "2026-04-28",
           "url": "https://amplitude.com/releases/heatmaps-revamp"
         },
         {
-          "title": "AI Visibility 2.0: Sentiment, Recommendations, Event Data, MCP & Premium plan",
-          "description": "AI Visibility 2.0 goes beyond basic “are we showing up?” checks and tells you how AI actually talks about your product, what to fix, and how those fixes perform. Sentiment, recommendations, data export, and MCP all work together so you can measure perception, act on it, and close the loop in Amplitu",
-          "date": "2026-04-29",
-          "url": "https://amplitude.com/releases/ai-visibility-2-0-sentiment-recommendations-ai-viz-data-mcp-premium-plan"
+          "title": "Data Tables: Global filters now filter all metrics, including session metrics",
+          "description": "Data Tables global filters now apply to session metrics as well as event columns, enabling consistent filtering across all table columns.",
+          "date": "2026-04-26",
+          "url": "https://amplitude.com/releases/data-tables-global-filters-now-filter-all-metrics-including-session-metrics"
         },
         {
-          "title": "Audit Logs",
-          "description": "Amplitude now provides a dedicated Audit Logs experience in Organization Settings, giving admins visibility into security-relevant activity across their account.",
-          "date": "2026-03-04",
-          "url": "https://amplitude.com/releases/audit-logs-v1"
-        },
-        {
-          "title": "AI Assistant",
-          "description": "AI Assistant brings personalized, in-the-moment support directly into our customer's product or website. It answers user questions using existing docs and knowledge sources, understands what users have actually done in the product, and can guide them forward with contextual help and walkthroughs.",
-          "date": "2026-03-10",
-          "url": "https://amplitude.com/releases/ai-assistant"
-        },
-        {
-          "title": "Session Replay JSON Path Event Query",
-          "description": "Improvements to Session Replay allowing querying events using JSON path.",
-          "date": "2026-03-12",
-          "url": "https://amplitude.com/releases/session-replay-json-path-event-query"
-        },
-        {
-          "title": "Transformed Properties Targeting in Experiment, Feature Flags, and Guides & Surveys",
-          "description": "You can now use transformed properties (defined in Govern / Taxonomy) directly in Experiment / Feature Flag and Guides & Surveys targeting, ensuring consistent definitions across Analytics and targeting.",
-          "date": "2026-03-13",
-          "url": "https://amplitude.com/releases/transformed-properties-targeting-in-experiment-feature-flags-and-guides-surveys"
-        },
-        {
-          "title": "Strongly Typed Payloads",
-          "description": "Category: Experiment",
-          "date": "2026-03-13",
-          "url": "https://amplitude.com/releases/strongly-typed-payloads"
+          "title": "Global Agent chat sidebar opens by default on large screens",
+          "description": "On screens 1600px and wider, the Global Agent chat sidebar now opens by default with automatic reopening under certain conditions, improving user messaging and conversion rates.",
+          "date": "2026-04-24",
+          "url": "https://amplitude.com/releases/global-agent-chat-sidebar-opens-by-default-on-large-screens"
         },
         {
           "title": "Multi Instance Support in the Guides and Surveys SDK",
@@ -666,37 +738,103 @@
         },
         {
           "title": "Page-Level URL Masking for Session Replay",
-          "description": "Session Replay now supports per-URL masking rules. You can override the default masking level for specific pages using glob patterns — e.g. apply Conservative masking to `/checkout/**` while keeping Light masking everywhere else — without changing global settings.",
+          "description": "Session Replay now supports per-URL masking rules. You can override the default masking level for specific pages using glob patterns — e.g. apply Conservative masking to /checkout/** while keeping Light masking everywhere else — without changing global settings.",
           "date": "2026-04-24",
           "url": "https://amplitude.com/releases/page-level-url-masking-for-session-replay"
         },
         {
-          "title": "Global Agent chat sidebar opens by default on large screens",
-          "description": "On screens 1600px and wider, the Global Agent chat sidebar now opens by default with automatic reopening under certain conditions, improving user messaging and conversion rates.",
-          "date": "2026-04-24",
-          "url": "https://amplitude.com/releases/global-agent-chat-sidebar-opens-by-default-on-large-screens"
+          "title": "Amplitude Wizard CLI: Agentic Onboarding for Builders",
+          "description": "The Amplitude Wizard CLI is an AI-powered command-line tool that guides developers through setting up their codebase and tracking events with Amplitude, removing the friction of manual SDK setup and instrumentation decisions.",
+          "date": "2026-04-21",
+          "url": "https://amplitude.com/releases/amplitude-wizard-cli-agentic-onboarding"
         },
         {
-          "title": "Targeting based on First Seen Timestamp",
-          "description": "Guides and Surveys now supports targeting new users based on their 'First Seen' timestamp, improving accuracy for new user sessions.",
-          "date": "2026-03-16",
-          "url": "https://amplitude.com/releases/targeting-based-on-first-seen-timestamp"
+          "title": "Property Category",
+          "description": "What it is: Events in Amplitude have supported categories for some time, grouping taxonomy items into clusters like Onboarding, Checkout, or Marketing. That same support now extends to event and user properties. A sortable, filterable category column appears on both the Event Properties and User…",
+          "date": "2026-04-17",
+          "url": "https://amplitude.com/releases/property-category"
         },
         {
-          "title": "Persisting Table Filter in URL & Persisting Collapsed Card State in Experiment/Flags UI",
-          "description": "Persisting experiment table filters in the URL and persisting collapsed/expanded state in Experiment/Flag views' cards.",
-          "date": "2026-03-16",
-          "url": "https://amplitude.com/releases/persisting-table-filter-in-url-persisting-collapsed-card-state-in-experiment-flags-ui"
+          "title": "Feature Flag and Experiment targeting based on First Seen Timestamp",
+          "description": "What it is: Remote evaluation for flags and experiments now includes a built-in \"First Seen\" user property, pulled from the amp ID table at evaluation time. Flags and experiments can target on this value directly, bypassing the cohort membership update cycle that makes new-user targeting…",
+          "date": "2026-04-16",
+          "url": "https://amplitude.com/releases/feature-flag-and-experiment-targeting-based-on-first-seen-timestamp"
         },
         {
-          "title": "Multi-action CTA's for Guides & Surveys",
-          "description": "Guide and survey buttons can now execute multiple actions in sequence, allowing users to chain actions together like navigating to a URL, clicking an element on that page, and then advancing to the next step.",
-          "date": "2026-03-24",
-          "url": "https://amplitude.com/releases/multi-action-ctas-for-guides-and-surveys"
+          "title": "Replay Insights",
+          "description": "Replay Insights uses AI to scan your replays at scale and surface a bird's-eye view of what's happening across your entire product",
+          "date": "2026-04-15",
+          "url": "https://amplitude.com/releases/replay-insights"
+        },
+        {
+          "title": "Bookmarkable Session Replays",
+          "description": "What it is: Bookmarking flags a replay so you can find it again later. All bookmarked replays appear in a card grid on the Introspection dashboard, organized by thumbnail, session date and time, and user ID. Bookmarked replays are also protected from auto-deletion, staying available even as others…",
+          "date": "2026-04-14",
+          "url": "https://amplitude.com/releases/bookmarkable-session-replays"
+        },
+        {
+          "title": "Web Experiment: Mobile Simulator",
+          "description": "Preview web experiments in mobile aspect ratios",
+          "date": "2026-04-10",
+          "url": "https://amplitude.com/releases/web-experiment-mobile-simulator-beta"
+        },
+        {
+          "title": "AI Assistant Chats ingested into AI Feedback",
+          "description": "Stop manually sifting through thousands of AI Assistant chats — get instant insight into what users are asking and flagging.",
+          "date": "2026-04-09",
+          "url": "https://amplitude.com/releases/ai-assistant-chats-ingested-into-ai-feedback"
+        },
+        {
+          "title": "Session Replay Sentiment Filter",
+          "description": "Find frustrating or positive sessions in seconds. Sentiment filtering is now built directly into the Session Replay list.",
+          "date": "2026-04-09",
+          "url": "https://amplitude.com/releases/session-replay-sentiment-filter"
+        },
+        {
+          "title": "Event Time now available in Derived Properties",
+          "description": "Customers can now use Event Time as a selectable property when building Derived Properties. This means you can create derived properties like registration date - Event Time to compute things like \"days since registration\".",
+          "date": "2026-04-08",
+          "url": "https://amplitude.com/releases/event-time-now-available-in-derived-properties"
+        },
+        {
+          "title": "Snapchat Ads Cohort Sync Integration released in EU",
+          "description": "What it is: Snapchat Ads is now available as a destination in the EU integration catalog. EU customers can connect their Amplitude project to Snapchat Ads and export cohorts for audience targeting. The integration has been live for US customers for a while; EU customers can now use it too. Where…",
+          "date": "2026-04-06",
+          "url": "https://amplitude.com/releases/snapchat-ads-cohort-sync-integration-released-in-eu"
+        },
+        {
+          "title": "AI Feedback Ingestion API",
+          "description": "Send feedback from NPS tools, surveys, review sites, and custom queues into AI Feedback for analysis alongside everything else.",
+          "date": "2026-04-03",
+          "url": "https://amplitude.com/releases/ai-feedback-ingestion-api-bring-your-own-feedback-sources-into-ai-feedback"
+        },
+        {
+          "title": "Guides and Surveys showing up in cohort page's Used by tab",
+          "description": "What it is: The \"Used by\" tab on the Cohorts page shows which assets reference a given cohort, including charts, other cohorts, experiments, and flags. Guides and Surveys now appear in that list as well. Previously, those asset types weren't included, leaving the dependency picture incomplete…",
+          "date": "2026-04-03",
+          "url": "https://amplitude.com/releases/guides-and-surveys-showing-up-in-cohort-page-used-by-tab"
+        },
+        {
+          "title": "Advanced Channel Classifier Template",
+          "description": "Every new Amplitude org and project now gets a GA4-aligned default channel classifier automatically — no manual setup required.",
+          "date": "2026-03-31",
+          "url": "https://amplitude.com/releases/advanced-channel-classifier-template"
+        },
+        {
+          "title": "Edit guide and survey positions without leaving Preview mode",
+          "description": "What it is: The Guide Preview now includes an Edit button. Click it to adjust form factor options like position and layout, then save to see changes reflected in both the Preview and the Dashboard right away. Previously, making these edits required switching to Change Target mode and reopening…",
+          "date": "2026-03-30",
+          "url": "https://amplitude.com/releases/edit-guide-and-survey-positions-without-leaving-preview-mode"
+        },
+        {
+          "title": "Mutual Exclusivity",
+          "description": "What it is: Grouping guides and surveys into a mutual exclusivity set ensures each end-user sees at most one from the group. The primary use case is platform-specific announcements: create a version for iOS and another for Android, add both to the group, and users see only the version that matches…",
+          "date": "2026-03-26",
+          "url": "https://amplitude.com/releases/mutual-exclusivity"
         },
         {
           "title": "Even More External MCP Tools, Agent Skills, and the MCP App!!",
-          "description": "We've shipped a ton of new tools, skills, and the app over the last few weeks in MCP. There are new MCP tools for Session Replays, Agent Analytics, Feature Flags, and Web Vitals (via Autocapture data) that massively expand the set of analysis possible; an open-source skills repository with fine-tune",
+          "description": "We've shipped a ton of new tools, skills, and the app over the last few weeks in MCP. There are new MCP tools for Session Replays, Agent Analytics, Feature Flags, and Web Vitals (via Autocapture data) that massively expand the set of analysis possible; an open-source skills repository with…",
           "date": "2026-03-25",
           "url": "https://amplitude.com/releases/even-more-external-mcp-tools-agent-skills-and-the-mcp-app"
         },
@@ -707,319 +845,199 @@
           "url": "https://amplitude.com/releases/improvements-to-distributions"
         },
         {
+          "title": "New Filters for List Session Replays",
+          "description": "What it is: Two new filters are now available on the List Session Replays API endpoint. 'amplitude_id' (integer) returns replays tied to a specific Amplitude user ID. 'replay_id' accepts up to 100 IDs in 'device_id/session_id' format and fetches those sessions directly, bypassing pagination. The…",
+          "date": "2026-03-25",
+          "url": "https://amplitude.com/releases/new-filters-for-list-session-replays"
+        },
+        {
+          "title": "Multi-action CTA's for Guides & Surveys",
+          "description": "Guide and survey buttons can now execute multiple actions in sequence, allowing users to chain actions together like navigating to a URL, clicking an element on that page, and then advancing to the next step.",
+          "date": "2026-03-24",
+          "url": "https://amplitude.com/releases/multi-action-ctas-for-guides-and-surveys"
+        },
+        {
           "title": "Global Agent Audit Tab",
           "description": "See all Global Agent activity across your organization in one table, directly in AI Controls.",
           "date": "2026-03-20",
           "url": "https://amplitude.com/releases/global-agent-audit-tab"
         },
         {
-          "title": "New Filters for List Session Replays",
-          "description": "Category: Session Replay",
-          "date": "2026-03-25",
-          "url": "https://amplitude.com/releases/new-filters-for-list-session-replays"
+          "title": "Bing Ads Source Ingestion",
+          "description": "Marketers can now import Bing ads campaign data into Amplitude to analyze spend and performance alongside product behavior.",
+          "date": "2026-03-16",
+          "url": "https://amplitude.com/releases/bing-ads-source-ingestion"
         },
         {
-          "title": "Mutual Exclusivity",
-          "description": "Category: Guides and Surveys",
-          "date": "2026-03-26",
-          "url": "https://amplitude.com/releases/mutual-exclusivity"
+          "title": "Persisting Table Filter in URL & Persisting Collapsed Card State in Experiment/Flags UI",
+          "description": "Persisting experiment table filters in the URL and persisting collapsed/expanded state in Experiment/Flag views' cards.",
+          "date": "2026-03-16",
+          "url": "https://amplitude.com/releases/persisting-table-filter-in-url-persisting-collapsed-card-state-in-experiment-flags-ui"
         },
         {
-          "title": "Edit guide and survey positions without leaving Preview mode",
-          "description": "Category: Guides and Surveys",
-          "date": "2026-03-30",
-          "url": "https://amplitude.com/releases/edit-guide-and-survey-positions-without-leaving-preview-mode"
+          "title": "Targeting based on First Seen Timestamp",
+          "description": "Guides and Surveys now supports targeting new users based on their 'First Seen' timestamp, improving accuracy for new user sessions.",
+          "date": "2026-03-16",
+          "url": "https://amplitude.com/releases/targeting-based-on-first-seen-timestamp"
         },
         {
-          "title": "Guides and Surveys showing up in cohort page's _Used by_ tab",
-          "description": "Category: Guides and Surveys",
-          "date": "2026-04-03",
-          "url": "https://amplitude.com/releases/guides-and-surveys-showing-up-in-cohort-page-used-by-tab"
+          "title": "Strongly Typed Payloads",
+          "description": "What it is: Feature Flags and Experiments now support typed variant payloads, with three schema options depending on how much structure you need. Simple types (string, number, boolean) cover most cases. Array and object types handle more open-ended structures. For highly structured payloads, you…",
+          "date": "2026-03-13",
+          "url": "https://amplitude.com/releases/strongly-typed-payloads"
         },
         {
-          "title": "AI Feedback Ingestion API",
-          "description": "Send feedback from NPS tools, surveys, review sites, and custom queues into AI Feedback for analysis alongside everything else.",
-          "date": "2026-04-03",
-          "url": "https://amplitude.com/releases/ai-feedback-ingestion-api-bring-your-own-feedback-sources-into-ai-feedback"
+          "title": "Transformed Properties Targeting in Experiment, Feature Flags, and Guides & Surveys",
+          "description": "You can now use transformed properties (defined in Govern / Taxonomy) directly in Experiment / Feature Flag and Guides & Surveys targeting, ensuring consistent definitions across Analytics and targeting.",
+          "date": "2026-03-13",
+          "url": "https://amplitude.com/releases/transformed-properties-targeting-in-experiment-feature-flags-and-guides-surveys"
         },
         {
-          "title": "Snapchat Ads Cohort Sync Integration released in EU",
-          "description": "Category: Data",
-          "date": "2026-04-06",
-          "url": "https://amplitude.com/releases/snapchat-ads-cohort-sync-integration-released-in-eu"
+          "title": "Browser & Swift Unified SDK",
+          "description": "The Unified SDK provides a single entry point for all Amplitude features — including Analytics, Experiment, Session Replay, and Guides & Surveys (Browser Unified SDK only) — in one package, reducing instrumentation complexity and overhead for developers.",
+          "date": "2026-03-12",
+          "url": "https://amplitude.com/releases/browser-swift-unified-sdk"
         },
         {
-          "title": "Event Time now available in Derived Properties",
-          "description": "Customers can now use `Event Time` as a selectable property when building Derived Properties. This means you can create derived properties like `registration date - Event Time` to compute things like \"days since registration\".",
-          "date": "2026-04-08",
-          "url": "https://amplitude.com/releases/event-time-now-available-in-derived-properties"
+          "title": "Session Replay JSON Path Event Query",
+          "description": "Improvements to Session Replay allowing querying events using JSON path.",
+          "date": "2026-03-12",
+          "url": "https://amplitude.com/releases/session-replay-json-path-event-query"
         },
         {
-          "title": "Session Replay Sentiment Filter",
-          "description": "Find frustrating or positive sessions in seconds. Sentiment filtering is now built directly into the Session Replay list.",
-          "date": "2026-04-09",
-          "url": "https://amplitude.com/releases/session-replay-sentiment-filter"
+          "title": "AI Assistant",
+          "description": "AI Assistant brings personalized, in-the-moment support directly into our customer's product or website. It answers user questions using existing docs and knowledge sources, understands what users have actually done in the product, and can guide them forward with contextual help and walkthroughs.",
+          "date": "2026-03-10",
+          "url": "https://amplitude.com/releases/ai-assistant"
         },
         {
-          "title": "AI Assistant Chats ingested into AI Feedback",
-          "description": "Stop manually sifting through thousands of AI Assistant chats — get instant insight into what users are asking and flagging.",
-          "date": "2026-04-09",
-          "url": "https://amplitude.com/releases/ai-assistant-chats-ingested-into-ai-feedback"
+          "title": "Job Details Drawer (For BigQuery)",
+          "description": "The Job Details Drawer gives customers detailed visibility into the progress and status of their BigQuery data warehouse import jobs, including pipeline stage visualization, detailed record count breakdowns, job duration information, and error log downloads.",
+          "date": "2026-03-09",
+          "url": "https://amplitude.com/releases/job-details-drawer-for-bigquery"
         },
         {
-          "title": "Bookmarkable Session Replays",
-          "description": "Category: Session Replay",
-          "date": "2026-04-14",
-          "url": "https://amplitude.com/releases/bookmarkable-session-replays"
+          "title": "Guides and Surveys - Slack Alerts",
+          "description": "Set up survey alerts to send survey responses directly to Slack channels",
+          "date": "2026-03-06",
+          "url": "https://amplitude.com/releases/guides-and-surveys-get-notified-on-survey-responses-directly-in-slack-with-alerts"
         },
         {
-          "title": "Replay Insights",
-          "description": "Replay Insights uses AI to scan your replays at scale and surface a bird's-eye view of what's happening across your entire product",
-          "date": "2026-04-15",
-          "url": "https://amplitude.com/releases/replay-insights"
+          "title": "Session Replay MegaModal layout controls + DevTools-style Network tab",
+          "description": "Resizable panels in the Session Replay MegaModal and a new Chrome DevTools-style network details view to improve usability and debugging in Session Replay.",
+          "date": "2026-03-06",
+          "url": "https://amplitude.com/releases/session-replay-megamodal-layout-controls-devtools-style-network-tab"
         },
         {
-          "title": "Feature Flag and Experiment targeting based on First Seen Timestamp",
-          "description": "Category: Activation",
-          "date": "2026-04-16",
-          "url": "https://amplitude.com/releases/feature-flag-and-experiment-targeting-based-on-first-seen-timestamp"
-        },
-        {
-          "title": "Property Category",
-          "description": "Category: Data",
-          "date": "2026-04-17",
-          "url": "https://amplitude.com/releases/property-category"
-        },
-        {
-          "title": "Amplitude Wizard CLI: Agentic Onboarding for Builders",
-          "description": "The Amplitude Wizard CLI is an AI-powered command-line tool that guides developers through setting up their codebase and tracking events with Amplitude, removing the friction of manual SDK setup and instrumentation decisions.",
-          "date": "2026-04-21",
-          "url": "https://amplitude.com/releases/amplitude-wizard-cli-agentic-onboarding"
-        },
-        {
-          "title": "Advanced Channel Classifier Template",
-          "description": "Every new Amplitude org and project now gets a GA4-aligned default channel classifier automatically — no manual setup required.",
-          "date": "2026-03-31",
-          "url": "https://amplitude.com/releases/advanced-channel-classifier-template"
-        },
-        {
-          "title": "Multi-Question Steps for Surveys",
-          "description": "Previously surveys were limited to a single input (question) per step - if you wanted to ask multiple questions you had to do so over the course of several steps. Starting early this month customers are now able to ask up to 10 questions in a single step! A new, optional label input also allows cust",
-          "date": "2026-01-15",
-          "url": "https://amplitude.com/releases/multi-question-steps-for-surveys"
-        },
-        {
-          "title": "Preview mode support for MPA's",
-          "description": "Preview mode didn't really work for MPA's (multi-page apps) before. Now it does :) This should make initial activation, continuous iteration, and testing much easier for customers with MPA's.",
-          "date": "2026-01-15",
-          "url": "https://amplitude.com/releases/preview-mode-support-for-mpas"
-        },
-        {
-          "title": "Freeform event + property names for G&S triggers",
-          "description": "Freeform event + property names for Guides & Surveys triggers allow triggering guides/surveys based on events or properties that have not yet been tracked or will never be tracked in Amplitude.",
-          "date": "2026-01-15",
-          "url": "https://amplitude.com/releases/freeform-event-property-names-for-gs-triggers"
-        },
-        {
-          "title": "Nav Graph Dialog Support for Autocapture",
-          "description": "Element interactions autocapture now works inside dialogs, capturing interactions in any dialog window that were previously missed.",
-          "date": "2026-01-19",
-          "url": "https://amplitude.com/releases/nav-graph-dialog-support-for-autocapture"
-        },
-        {
-          "title": "Two cookie problem resolution in latest analytics-browser SDK",
-          "description": "Fix for an edge-case in the analytics browser SDK where user data was written to one cookie and read from another, causing user profile data resets and session issues.",
-          "date": "2026-01-22",
-          "url": "https://amplitude.com/releases/two-cookie-problem-resolution-in-latest-analytics-browser-sdk"
-        },
-        {
-          "title": "Inline Validation for Required CTAs",
-          "description": "We replaced the single CTA 'required' tooltip with per-input error messages and borders, so forms with multiple survey inputs now clearly show which specific fields are required. This makes validation much clearer and harder to miss.",
-          "date": "2026-01-25",
-          "url": "https://amplitude.com/releases/inline-validation-for-required-ctas"
-        },
-        {
-          "title": "Experiment Report (powered by Amplitude AI)",
-          "description": "Experiment Reports automatically generate a structured, AI-powered writeup of your experiment directly inside an Amplitude Notebook with a single click from the new Reports tab on an experiment.",
-          "date": "2026-01-27",
-          "url": "https://amplitude.com/releases/experiment-report-powered-by-amplitude-ai"
-        },
-        {
-          "title": "Out-of-the-box Widgets",
-          "description": "Out-of-the-box Widgets let you add prebuilt elements like banners, CTAs, and messages directly from the Visual Editor",
-          "date": "2026-01-28",
-          "url": "https://amplitude.com/releases/out-of-the-box-widgets"
-        },
-        {
-          "title": "API Key Management GA Release",
-          "description": "API Key Management is now GA to all customers, regardless of plan, with a new Rotate function for legacy API key rotation.",
-          "date": "2026-01-29",
-          "url": "https://amplitude.com/releases/api-key-management-ga-release"
-        },
-        {
-          "title": "Guides and Surveys - Adjustable column widths for guides and surveys tables",
-          "description": "Tables used to be fixed width causing columns to be squished and hard to read as features were added. This is a quick, quality of life update for users so that tables can scale with our rapid feature development.",
-          "date": "2026-01-29",
-          "url": "https://amplitude.com/releases/gs-adjustable-column-widths-for-guides-and-surveys-tables"
-        },
-        {
-          "title": "Shareable Agents",
-          "description": "Users can now set existing agents as discoverable across the org so that others can see the insights and reports being generated.",
-          "date": "2026-02-02",
-          "url": "https://amplitude.com/releases/shareable-agents"
-        },
-        {
-          "title": "AI Visibility report generation stability improvements",
-          "description": "Improvements to AI Visibility report generation leading to close to 100% completion rate and better handling of missing data.",
-          "date": "2026-02-03",
-          "url": "https://amplitude.com/releases/ai-visibility-report-generation-stability-improvements"
-        },
-        {
-          "title": "Session Replay Quick Duration Filter",
-          "description": "A new duration filter that appears in the filter controls on both the Session Replay list page and the User Profile page, improving result relevance by hiding very short sessions.",
-          "date": "2026-02-03",
-          "url": "https://amplitude.com/releases/session-replay-quick-duration-filter"
-        },
-        {
-          "title": "Dashboard Agent Update",
-          "description": "We released a new and improved version of the Dashboard Agent with a comparison report that highlights how the current week’s takeaways have changed compared to the prior week, making metric trends easier to understand at a glance.",
-          "date": "2026-02-04",
-          "url": "https://amplitude.com/releases/dashboard-agent-update"
-        },
-        {
-          "title": "Dashboard Agent Enhancements",
-          "description": "New features added to the Dashboard Agent including two separate deep dives, improved week-over-week difference analysis, and refined outbound notifications.",
-          "date": "2026-02-04",
-          "url": "https://amplitude.com/releases/dashboard-agent-enhancements"
-        },
-        {
-          "title": "SR iOS Quality & Upload Config",
-          "description": "Added iOS Session Replay SDK controls to tune recording quality (trade visual fidelity for performance) and disable uploads over cellular.",
-          "date": "2026-02-04",
-          "url": "https://amplitude.com/releases/sr-ios-quality-upload-config"
-        },
-        {
-          "title": "Syncs Table Improvements",
-          "description": "Previously, you could only sort on the table columns in the syncs table, limiting your visibility of the status of your syncs. Now, with several new filters and an added column, you can get easy glances at the status of your syncs.",
-          "date": "2026-02-08",
-          "url": "https://amplitude.com/releases/syncs-table-improvements"
-        },
-        {
-          "title": "G&S - Adjust pin/embeds/tooltip position and offset options directly in your app",
-          "description": "It's tough for customers to quickly customize positions, size or offsets of anchored/embedded guides and surveys from the preview on amplitude.com. Now they'll be able to easily edit, preview, and 'save' these options from the preview inside their app.",
-          "date": "2026-02-09",
-          "url": "https://amplitude.com/releases/gs-adjust-pin-embeds-tooltip-position-and-offset-options-directly-in-your-app"
-        },
-        {
-          "title": "Web Experiment: Inline editing + CSS unit selector",
-          "description": "A couple QoL improvements to the visual editor for web experiment, it now supports inline text editing and a CSS unit selector dropdown for certain attributes.",
-          "date": "2026-02-09",
-          "url": "https://amplitude.com/releases/web-experiment-inline-editing-css-unit-selector"
-        },
-        {
-          "title": "Stale Flag Management",
-          "description": "Feature flags and experiments are now automatically evaluated for staleness. Flags that have been fully rolled out or rolled back for 30 days are marked as stale, surfaced in the UI, and notify owners to take next steps. Stale dates can be updated, removed, or marked as permanent for long-lived flag",
-          "date": "2026-02-10",
-          "url": "https://amplitude.com/releases/stale-flag-management"
-        },
-        {
-          "title": "Duplicate Guides and Surveys across Platforms",
-          "description": "Capability to copy a guide or survey to a different platform (app) using the existing 'Duplicate' buttons which now trigger a platform selection modal.",
-          "date": "2026-02-11",
-          "url": "https://amplitude.com/releases/duplicate-guides-and-surveys-across-platforms"
-        },
-        {
-          "title": "GA Versions for the G&S iOS, Android, and React Native SDKs",
-          "description": "Released GA versions (v3.0.0) for the G&S iOS, Android, and React Native SDKs with a new safety feature and improved stability.",
-          "date": "2026-02-11",
-          "url": "https://amplitude.com/releases/ga-versions-for-the-gs-ios-android-and-react-native-sdks"
-        },
-        {
-          "title": "Feedback Agent",
-          "description": "A new agent that automatically surfaces top customer requests, bugs, complaints, and praises from feedback surveys, support tickets, and sales calls from your AI Feedback sources and pushes you async reports!\n",
-          "date": "2026-02-15",
-          "url": "https://amplitude.com/releases/feedback-agent"
-        },
-        {
-          "title": "AI Analytics Platform Launch",
-          "description": "Our platform is going AI-native with the launch of 3 incredible innovations: Global Agent, Specialized Agents, and MCP, transforming how users interact with product analytics.",
-          "date": "2026-02-15",
-          "url": "https://amplitude.com/releases/ai-analytics-platform-launch"
-        },
-        {
-          "title": "URL Preview Feature Requirement Update",
-          "description": "Customers must send data using the correct SDK versions to see the URL preview feature.",
-          "date": "2026-02-16",
-          "url": "https://amplitude.com/releases/url-preview-feature-requirement-update"
-        },
-        {
-          "title": "AI Feedback now integrates with Slack",
-          "description": "You can now connect any Slack channel as a feedback source in AI Feedback. ",
-          "date": "2026-02-17",
-          "url": "https://amplitude.com/releases/ai-feedback-now-integrates-with-slack-for-all-customers"
-        },
-        {
-          "title": "Experiment Evaluation Proxy 1.0.0",
-          "description": "Evaluation Proxy enables local evaluation across any platform with ultra-low latency. It supports universal local evaluation, exposure tracking, and improved scalability.",
-          "date": "2026-02-25",
-          "url": "https://amplitude.com/releases/experiment-evaluation-proxy-1-0-0"
-        },
-        {
-          "title": "Edit Dashboard and Notebook Tools for Global Agent and MCP",
-          "description": "Edit existing dashboards and notebooks",
-          "date": "2026-02-25",
-          "url": "https://amplitude.com/releases/edit-dashboard-and-notebook-tools-for-global-agent-and-mcp"
+          "title": "Audit Logs",
+          "description": "Amplitude now provides a dedicated Audit Logs experience in Organization Settings, giving admins visibility into security-relevant activity across their account.",
+          "date": "2026-03-04",
+          "url": "https://amplitude.com/releases/audit-logs-v1"
         },
         {
           "title": "Experiment Change Alerts Improvements",
           "description": "Support Email as a destination. Only send slack messages when important changes happen that affect flag evaluation and not things like adding links. Include a description of what changed in the flag.",
-          "date": "2026-03-01",
+          "date": "2026-03-02",
           "url": "https://amplitude.com/releases/experiment-change-alerts-improvements"
         },
         {
           "title": "Organization and Project-level AI Context in External MCP Calls",
           "description": "Organization and project-level AI context is now available in external MCP calls, allowing agents to fetch context set in the Amplitude AI Control Settings.",
-          "date": "2026-03-01",
+          "date": "2026-03-02",
           "url": "https://amplitude.com/releases/organization-and-project-level-ai-context-in-external-mcp-calls"
         },
         {
-          "title": "Session Replay MegaModal layout controls + DevTools-style Network tab",
-          "description": "Resizable panels in the Session Replay MegaModal and a new Chrome DevTools-style network details view to improve usability and debugging in Session Replay.",
-          "date": "2026-03-05",
-          "url": "https://amplitude.com/releases/session-replay-megamodal-layout-controls-devtools-style-network-tab"
+          "title": "Edit Dashboard and Notebook Tools for Global Agent and MCP",
+          "description": "Edit existing dashboards and notebooks",
+          "date": "2026-02-26",
+          "url": "https://amplitude.com/releases/edit-dashboard-and-notebook-tools-for-global-agent-and-mcp"
         },
         {
-          "title": "Guides and Surveys - Slack Alerts",
-          "description": "Set up survey alerts to send survey responses directly to Slack channels",
-          "date": "2026-03-05",
-          "url": "https://amplitude.com/releases/guides-and-surveys-get-notified-on-survey-responses-directly-in-slack-with-alerts"
+          "title": "Experiment Evaluation Proxy 1.0.0",
+          "description": "Evaluation Proxy enables local evaluation across any platform with ultra-low latency. It supports universal local evaluation, exposure tracking, and improved scalability.",
+          "date": "2026-02-26",
+          "url": "https://amplitude.com/releases/experiment-evaluation-proxy-1-0-0"
         },
         {
-          "title": "Job Details Drawer (For BigQuery)",
-          "description": "The Job Details Drawer gives customers detailed visibility into the progress and status of their BigQuery data warehouse import jobs, including pipeline stage visualization, detailed record count breakdowns, job duration information, and error log downloads.",
-          "date": "2026-03-08",
-          "url": "https://amplitude.com/releases/job-details-drawer-for-bigquery"
+          "title": "N-Day LTV in Retention (Custom Revenue + Change Over Time)",
+          "description": "What it is: N-Day LTV brings cumulative revenue measurement to Retention Analysis, so you can track how much value a cohort generates across fixed day windows: Day 1, Day 7, Day 14, Day 30. To use it, set a start event, pick a revenue return event, and toggle N-Day LTV under the Return Event…",
+          "date": "2026-02-20",
+          "url": "https://amplitude.com/releases/n-day-ltv-in-retention-custom-revenue-change-over-time"
         },
         {
-          "title": "Browser & Swift Unified SDK",
-          "description": "The Unified SDK provides a single entry point for all Amplitude features — including Analytics, Experiment, Session Replay, and Guides & Surveys (Browser Unified SDK only) — in one package, reducing instrumentation complexity and overhead for developers.",
-          "date": "2026-03-11",
-          "url": "https://amplitude.com/releases/browser-swift-unified-sdk"
+          "title": "AI Feedback now integrates with Slack",
+          "description": "You can now connect any Slack channel as a feedback source in AI Feedback.",
+          "date": "2026-02-18",
+          "url": "https://amplitude.com/releases/ai-feedback-now-integrates-with-slack-for-all-customers"
         },
         {
-          "title": "Bing Ads Source Ingestion",
-          "description": "Marketers can now import Bing ads campaign data into Amplitude to analyze spend and performance alongside product behavior.",
-          "date": "2026-03-15",
-          "url": "https://amplitude.com/releases/bing-ads-source-ingestion"
+          "title": "URL Preview Feature Requirement Update",
+          "description": "Customers must send data using the correct SDK versions to see the URL preview feature.",
+          "date": "2026-02-17",
+          "url": "https://amplitude.com/releases/url-preview-feature-requirement-update"
         },
         {
-          "title": "Unexpected/unplanned event properties inheriting shared property metadata",
-          "description": "Analytics: Unexpected/unplanned event properties inheriting shared property metadata",
-          "date": "2025-08-14",
-          "url": "https://amplitude.com/releases/unexpected-unplanned-event-properties-inheriting-shared-metadata"
+          "title": "AI Analytics Platform Launch",
+          "description": "Our platform is going AI-native with the launch of 3 incredible innovations: Global Agent, Specialized Agents, and MCP, transforming how users interact with product analytics.",
+          "date": "2026-02-16",
+          "url": "https://amplitude.com/releases/ai-analytics-platform-launch"
+        },
+        {
+          "title": "Feedback Agent",
+          "description": "A new agent that automatically surfaces top customer requests, bugs, complaints, and praises from feedback surveys, support tickets, and sales calls from your AI Feedback sources and pushes you async reports!",
+          "date": "2026-02-16",
+          "url": "https://amplitude.com/releases/feedback-agent"
+        },
+        {
+          "title": "Cross Project Snowflake Credentials Use & Management",
+          "description": "Users now have significantly more flexibility when connecting their Nth new Snowflake Data Warehouse Imports and Exports within their org by reusing and managing credentials across projects.",
+          "date": "2026-02-12",
+          "url": "https://amplitude.com/releases/cross-project-snowflake-credentials-use-management"
+        },
+        {
+          "title": "Duplicate Guides and Surveys across Platforms",
+          "description": "Capability to copy a guide or survey to a different platform (app) using the existing 'Duplicate' buttons which now trigger a platform selection modal.",
+          "date": "2026-02-12",
+          "url": "https://amplitude.com/releases/duplicate-guides-and-surveys-across-platforms"
+        },
+        {
+          "title": "GA Versions for the G&S iOS, Android, and React Native SDKs",
+          "description": "Released GA versions (v3.0.0) for the G&S iOS, Android, and React Native SDKs with a new safety feature and improved stability.",
+          "date": "2026-02-12",
+          "url": "https://amplitude.com/releases/ga-versions-for-the-gs-ios-android-and-react-native-sdks"
+        },
+        {
+          "title": "Gyrfalcon - BigQuery Import Migration to Temporal",
+          "description": "BigQuery Import has been fully migrated from Falcon's custom orchestration to Temporal workflows via Gyrfalcon - a new architecture delivering faster ingestion, lower costs, better observability, and an improved customer experience.",
+          "date": "2026-02-12",
+          "url": "https://amplitude.com/releases/gyrfalcon-bigquery-import-migration-to-temporal"
+        },
+        {
+          "title": "Stale Flag Management",
+          "description": "Feature flags and experiments are now automatically evaluated for staleness. Flags that have been fully rolled out or rolled back for 30 days are marked as stale, surfaced in the UI, and notify owners to take next steps. Stale dates can be updated, removed, or marked as permanent for long-lived…",
+          "date": "2026-02-11",
+          "url": "https://amplitude.com/releases/stale-flag-management"
+        },
+        {
+          "title": "G&S - Adjust pin/embeds/tooltip position and offset options directly in your app",
+          "description": "It's tough for customers to quickly customize positions, size or offsets of anchored/embedded guides and surveys from the preview on amplitude.com. Now they'll be able to easily edit, preview, and 'save' these options from the preview inside their app.",
+          "date": "2026-02-10",
+          "url": "https://amplitude.com/releases/gs-adjust-pin-embeds-tooltip-position-and-offset-options-directly-in-your-app"
+        },
+        {
+          "title": "Web Experiment: Inline editing + CSS unit selector",
+          "description": "A couple QoL improvements to the visual editor for web experiment, it now supports inline text editing and a CSS unit selector dropdown for certain attributes.",
+          "date": "2026-02-10",
+          "url": "https://amplitude.com/releases/web-experiment-inline-editing-css-unit-selector"
+        },
+        {
+          "title": "Syncs Table Improvements",
+          "description": "Previously, you could only sort on the table columns in the syncs table, limiting your visibility of the status of your syncs. Now, with several new filters and an added column, you can get easy glances at the status of your syncs.",
+          "date": "2026-02-09",
+          "url": "https://amplitude.com/releases/syncs-table-improvements"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-07-30T04:47:07.949Z"
+  "lastUpdated": "2026-07-30T10:59:39.608Z"
 }

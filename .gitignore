@@ -1,5 +1,8 @@
 node_modules/
 dist/
+
+# Per-run scrape health report, consumed by the workflow's health check
+data/health.json
 .DS_Store
 *.log
 npm-debug.log*
