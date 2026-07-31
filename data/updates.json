@@ -5,6 +5,12 @@
       "name": "Google Analytics",
       "updates": [
         {
+          "title": "New diagnostic in Google Analytics for aggregate parameter issues",
+          "description": "We’ve launched a new diagnostic to alert users of issues with campaign data accuracy due to missing URL parameters. Properties where aggregate identifiers (GBRAID and gad_) are missing from the URL will see a new diagnostic, including the problematic URLs and ways to resolve the issue. These…",
+          "date": "2026-07-30",
+          "url": "https://support.google.com/analytics/answer/9164320#07302026"
+        },
+        {
           "title": "Campaign data import currency update",
           "description": "We've updated campaign data import to require a currency field whenever you upload cost data. This ensures your campaign reporting stays accurate, even if you decide to make changes to your property's currency settings. When importing your campaign data, you can now choose to map the currency…",
           "date": "2026-07-28",
@@ -214,6 +220,18 @@
       "id": "adobe-cja",
       "name": "Adobe CJA",
       "updates": [
+        {
+          "title": "Content Analytics: Paid media data",
+          "description": "Paid media is now available as a third channel for Content Analytics.(Documentation link to follow.)",
+          "date": "2026-07-31",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
+          "title": "LLM Optimizer integration",
+          "description": "The LLM Optimizer inbound integration enables you to ingest LLM Optimizer data into Customer Journey Analytics for further analysis.",
+          "date": "2026-07-28",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
         {
           "title": "CX Enterprise Coworker: Validate your data when migrating from Adobe Analytics to Customer Journey Analytics",
           "description": "A new skill in CX Enterprise Coworker allows you to validate the data from your Customer Journey Analytics implementation against the data from your existing Adobe Analytics implementation. This skill automatically compares each dimension, metric, and trend individually as needed. It can also…",
@@ -1039,5 +1057,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-07-30T10:59:39.608Z"
+  "lastUpdated": "2026-07-31T05:24:10.913Z"
 }
