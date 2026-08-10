@@ -221,6 +221,12 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "CJA Report API first calls guide",
+          "description": "The Adobe Customer Journey Analytics API first calls guide provides instructions and examples for configuring basic report requests.",
+          "date": "2026-08-10",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "Consent policy filtering and reporting",
           "description": "You can now report on which visitors match your Adobe Experience Platform consent policies. (Consent policy dimensions and metrics are added to the data views in your connection.)Additionally, you can exclude non-consenting visitors before their data is ingested into Customer Journey Analytics. For…",
           "date": "2026-08-01",
@@ -1069,5 +1075,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-04T04:53:31.433Z"
+  "lastUpdated": "2026-08-10T03:42:48.351Z"
 }
