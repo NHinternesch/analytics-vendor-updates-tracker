@@ -5,6 +5,12 @@
       "name": "Google Analytics",
       "updates": [
         {
+          "title": "Campaign data import validation report",
+          "description": "We’ve launched a new validation report to help you verify and improve the quality of your campaign data imports. The campaign data import validation report assists you in assessing your non-Google campaign data and imported campaign data. This helps you pinpoint campaigns that lack useful campaign…",
+          "date": "2026-08-10",
+          "url": "https://support.google.com/analytics/answer/9164320#08102026"
+        },
+        {
           "title": "New diagnostic in Google Analytics for aggregate parameter issues",
           "description": "We’ve launched a new diagnostic to alert users of issues with campaign data accuracy due to missing URL parameters. Properties where aggregate identifiers (GBRAID and gad_) are missing from the URL will see a new diagnostic, including the problematic URLs and ways to resolve the issue. These…",
           "date": "2026-07-30",
@@ -472,6 +478,12 @@
       "id": "amplitude",
       "name": "Amplitude",
       "updates": [
+        {
+          "title": "Image Upload in Web Experiment",
+          "description": "Customers in any paid tier can now upload images to change/insert images in the web experiment visual editor.",
+          "date": "2026-08-10",
+          "url": "https://amplitude.com/releases/image-upload-in-web-experiment"
+        },
         {
           "title": "Resource Center: open directly to a specific article via the SDK",
           "description": "The Guides and Surveys SDK now supports opening the Resource Center directly on a specific article.",
@@ -1065,15 +1077,9 @@
           "description": "A couple QoL improvements to the visual editor for web experiment, it now supports inline text editing and a CSS unit selector dropdown for certain attributes.",
           "date": "2026-02-10",
           "url": "https://amplitude.com/releases/web-experiment-inline-editing-css-unit-selector"
-        },
-        {
-          "title": "Syncs Table Improvements",
-          "description": "Previously, you could only sort on the table columns in the syncs table, limiting your visibility of the status of your syncs. Now, with several new filters and an added column, you can get easy glances at the status of your syncs.",
-          "date": "2026-02-09",
-          "url": "https://amplitude.com/releases/syncs-table-improvements"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-08-10T03:42:48.351Z"
+  "lastUpdated": "2026-08-11T03:25:17.932Z"
 }
