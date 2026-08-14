@@ -5,6 +5,12 @@
       "name": "Google Analytics",
       "updates": [
         {
+          "title": "Updated conversion window configuration",
+          "description": "Google Analytics conversions now support custom integer lookback windows for click-through conversions (CTC) and engaged-view conversions (EVC). This update allows Google Analytics to align conversion attribution lookback windows more closely to your unique business cycles. This update introduces…",
+          "date": "2026-08-11",
+          "url": "https://support.google.com/analytics/answer/9164320#08112026"
+        },
+        {
           "title": "Campaign data import validation report",
           "description": "We’ve launched a new validation report to help you verify and improve the quality of your campaign data imports. The campaign data import validation report assists you in assessing your non-Google campaign data and imported campaign data. This helps you pinpoint campaigns that lack useful campaign…",
           "date": "2026-08-10",
@@ -1081,5 +1087,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-11T03:25:17.932Z"
+  "lastUpdated": "2026-08-14T03:54:45.214Z"
 }
