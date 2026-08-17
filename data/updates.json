@@ -233,6 +233,12 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "CJA Report API date trended guide",
+          "description": "The Adobe Customer Journey Analytics API date trended guide provides instructions and examples for configuring basic report requests.",
+          "date": "2026-08-17",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "CJA Report API first calls guide",
           "description": "The Adobe Customer Journey Analytics API first calls guide provides instructions and examples for configuring basic report requests.",
           "date": "2026-08-10",
@@ -1087,5 +1093,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-14T03:54:45.214Z"
+  "lastUpdated": "2026-08-17T02:51:21.341Z"
 }
