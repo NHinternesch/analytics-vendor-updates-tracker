@@ -233,6 +233,12 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "Journey canvas enhancements",
+          "description": "The following Journey canvas enhancements are now available:Compare the journey to a prior time frame. Compare the current journey to the journey 4 weeks prior, 2 quarters prior, 1 year prior, or to a custom date range. For a selected node, show the top dimension items that come after the selected…",
+          "date": "2026-08-18",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "CJA Report API date trended guide",
           "description": "The Adobe Customer Journey Analytics API date trended guide provides instructions and examples for configuring basic report requests.",
           "date": "2026-08-17",
@@ -320,12 +326,6 @@
           "title": "Content Analytics: Line visualization thumbnails and previews",
           "description": "Thumbnails and previews are now available for assets and experiences in line visualizations for Content Analytics.",
           "date": "2026-05-20",
-          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
-        },
-        {
-          "title": "Journey canvas enhancements",
-          "description": "The following enhancements are available in Journey canvas visualizations:",
-          "date": "2026-05-18",
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
@@ -1093,5 +1093,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-17T02:51:21.341Z"
+  "lastUpdated": "2026-08-18T02:46:48.649Z"
 }
