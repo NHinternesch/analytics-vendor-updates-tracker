@@ -491,10 +491,46 @@
       "name": "Amplitude",
       "updates": [
         {
+          "title": "Amplitude Global Agent in Discord",
+          "description": "Ask questions about your product data from a Discord channel and get an answer back with charts, without switching over to Amplitude.",
+          "date": "2026-08-18",
+          "url": "https://amplitude.com/releases/amplitude-global-agent-in-discord"
+        },
+        {
+          "title": "Multiple triggers for Guides and Surveys",
+          "description": "Show a guide or survey in more than one situation without duplicating it, by adding several trigger conditions to a single one.",
+          "date": "2026-08-18",
+          "url": "https://amplitude.com/releases/multiple-triggers-for-guides-and-surveys"
+        },
+        {
+          "title": "Consolidated MCP Tools",
+          "description": "Spend less of your agent's context on tool definitions and more on the actual question, with a smaller and more task-shaped set of MCP tools.",
+          "date": "2026-08-17",
+          "url": "https://amplitude.com/releases/consolidated-mcp-tools"
+        },
+        {
+          "title": "Right Event, First Try",
+          "description": "Find the event you meant on the first try, with search that accounts for what your team actually uses instead of text match alone.",
+          "date": "2026-08-14",
+          "url": "https://amplitude.com/releases/right-event-first-try"
+        },
+        {
+          "title": "Data Assistant Agent",
+          "description": "Get a prioritized list of what's actually wrong with your taxonomy, each with a proposed fix you can approve or decline.",
+          "date": "2026-08-13",
+          "url": "https://amplitude.com/releases/data-assistant-agent"
+        },
+        {
           "title": "Image Upload in Web Experiment",
           "description": "Customers in any paid tier can now upload images to change/insert images in the web experiment visual editor.",
           "date": "2026-08-10",
           "url": "https://amplitude.com/releases/image-upload-in-web-experiment"
+        },
+        {
+          "title": "Embedded Guides & Surveys on Mobile",
+          "description": "Put a guide or survey inside your mobile app's own layout, as a card that belongs on the screen rather than an overlay on top of it.",
+          "date": "2026-08-05",
+          "url": "https://amplitude.com/releases/embedded-guides-surveys-on-mobile"
         },
         {
           "title": "Resource Center: open directly to a specific article via the SDK",
@@ -563,7 +599,13 @@
           "url": "https://amplitude.com/releases/ai-feedback-auto-analysis"
         },
         {
-          "title": "Introducing: Custom Agents",
+          "title": "Offline mode is now live in the React Native SDK",
+          "description": "The React Native SDK now auto detects network status and reacts to network availability change. Instead of keep retrying and dropping events hitting max retry, the SDK persists and flushes them the moment the device reconnects.",
+          "date": "2026-06-25",
+          "url": "https://amplitude.com/releases/offline-mode-is-now-live-in-the-react-native-sdk"
+        },
+        {
+          "title": "Custom Agents",
           "description": "Custom Agents are now live and generally available across all customers.",
           "date": "2026-06-23",
           "url": "https://amplitude.com/releases/custom-agents"
@@ -1047,51 +1089,9 @@
           "description": "A new agent that automatically surfaces top customer requests, bugs, complaints, and praises from feedback surveys, support tickets, and sales calls from your AI Feedback sources and pushes you async reports!",
           "date": "2026-02-16",
           "url": "https://amplitude.com/releases/feedback-agent"
-        },
-        {
-          "title": "Cross Project Snowflake Credentials Use & Management",
-          "description": "Users now have significantly more flexibility when connecting their Nth new Snowflake Data Warehouse Imports and Exports within their org by reusing and managing credentials across projects.",
-          "date": "2026-02-12",
-          "url": "https://amplitude.com/releases/cross-project-snowflake-credentials-use-management"
-        },
-        {
-          "title": "Duplicate Guides and Surveys across Platforms",
-          "description": "Capability to copy a guide or survey to a different platform (app) using the existing 'Duplicate' buttons which now trigger a platform selection modal.",
-          "date": "2026-02-12",
-          "url": "https://amplitude.com/releases/duplicate-guides-and-surveys-across-platforms"
-        },
-        {
-          "title": "GA Versions for the G&S iOS, Android, and React Native SDKs",
-          "description": "Released GA versions (v3.0.0) for the G&S iOS, Android, and React Native SDKs with a new safety feature and improved stability.",
-          "date": "2026-02-12",
-          "url": "https://amplitude.com/releases/ga-versions-for-the-gs-ios-android-and-react-native-sdks"
-        },
-        {
-          "title": "Gyrfalcon - BigQuery Import Migration to Temporal",
-          "description": "BigQuery Import has been fully migrated from Falcon's custom orchestration to Temporal workflows via Gyrfalcon - a new architecture delivering faster ingestion, lower costs, better observability, and an improved customer experience.",
-          "date": "2026-02-12",
-          "url": "https://amplitude.com/releases/gyrfalcon-bigquery-import-migration-to-temporal"
-        },
-        {
-          "title": "Stale Flag Management",
-          "description": "Feature flags and experiments are now automatically evaluated for staleness. Flags that have been fully rolled out or rolled back for 30 days are marked as stale, surfaced in the UI, and notify owners to take next steps. Stale dates can be updated, removed, or marked as permanent for long-lived…",
-          "date": "2026-02-11",
-          "url": "https://amplitude.com/releases/stale-flag-management"
-        },
-        {
-          "title": "G&S - Adjust pin/embeds/tooltip position and offset options directly in your app",
-          "description": "It's tough for customers to quickly customize positions, size or offsets of anchored/embedded guides and surveys from the preview on amplitude.com. Now they'll be able to easily edit, preview, and 'save' these options from the preview inside their app.",
-          "date": "2026-02-10",
-          "url": "https://amplitude.com/releases/gs-adjust-pin-embeds-tooltip-position-and-offset-options-directly-in-your-app"
-        },
-        {
-          "title": "Web Experiment: Inline editing + CSS unit selector",
-          "description": "A couple QoL improvements to the visual editor for web experiment, it now supports inline text editing and a CSS unit selector dropdown for certain attributes.",
-          "date": "2026-02-10",
-          "url": "https://amplitude.com/releases/web-experiment-inline-editing-css-unit-selector"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-08-18T02:46:48.649Z"
+  "lastUpdated": "2026-08-25T02:49:47.713Z"
 }
