@@ -497,6 +497,12 @@
       "name": "Amplitude",
       "updates": [
         {
+          "title": "Web Experiment: Cookie consent management",
+          "description": "The Web Experiment script now supports cookie consent gating. Customers can defer all device storage and third-party requests until a visitor consents — while still running experiments flicker-free while consent is pending.",
+          "date": "2026-08-25",
+          "url": "https://amplitude.com/releases/web-experiment-cookie-consent-management"
+        },
+        {
           "title": "Amplitude Global Agent in Discord",
           "description": "Ask questions about your product data from a Discord channel and get an answer back with charts, without switching over to Amplitude.",
           "date": "2026-08-18",
@@ -1089,15 +1095,9 @@
           "description": "Our platform is going AI-native with the launch of 3 incredible innovations: Global Agent, Specialized Agents, and MCP, transforming how users interact with product analytics.",
           "date": "2026-02-16",
           "url": "https://amplitude.com/releases/ai-analytics-platform-launch"
-        },
-        {
-          "title": "Feedback Agent",
-          "description": "A new agent that automatically surfaces top customer requests, bugs, complaints, and praises from feedback surveys, support tickets, and sales calls from your AI Feedback sources and pushes you async reports!",
-          "date": "2026-02-16",
-          "url": "https://amplitude.com/releases/feedback-agent"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-08-26T02:55:48.629Z"
+  "lastUpdated": "2026-08-27T12:08:19.752Z"
 }
