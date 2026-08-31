@@ -233,6 +233,12 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "Content Analytics: Paid media data",
+          "description": "Paid media is now available as a third channel for Content Analytics.(Documentation link to follow.)",
+          "date": "2026-08-31",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "Limit segments to the reporting date range",
           "description": "Data in a Workspace report can extend beyond the reporting date range when a segment includes date range components.A new option is now available that allows you to limit results to the reporting date range regardless of any date components included in the segment. This option is available when…",
           "date": "2026-08-26",
@@ -266,12 +272,6 @@
           "title": "Support for additional data usage labels",
           "description": "Customer Journey Analytics now supports the following additional data usage labels for elements within a dataset:C2 – Restrict third-party data export (available now) C3 – Restrict directly identifiable data combination (available now) C9 – Restrict data science (planned to release in August) For…",
           "date": "2026-08-01",
-          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
-        },
-        {
-          "title": "Content Analytics: Paid media data",
-          "description": "Paid media is now available as a third channel for Content Analytics.(Documentation link to follow.)",
-          "date": "2026-07-31",
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
@@ -1099,5 +1099,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-27T12:08:19.752Z"
+  "lastUpdated": "2026-08-31T07:52:07.872Z"
 }
