@@ -233,6 +233,24 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "Consent policy filtering and reporting",
+          "description": "You can now report on which visitors match your Adobe Experience Platform consent policies. (Consent policy dimensions and metrics are added to the data views in your connection.)Additionally, you can exclude non-consenting visitors before their data is ingested into Customer Journey Analytics…",
+          "date": "2026-09-01",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
+          "title": "Support for additional data usage labels",
+          "description": "Customer Journey Analytics now supports the following additional data usage labels for elements within a dataset:C2 – Restrict third-party data export (available now) C3 – Restrict directly identifiable data combination (available now) C9 – Restrict data science (planned to release in August or…",
+          "date": "2026-09-01",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
+          "title": "B2B: Person-to-account stitching",
+          "description": "B2B account stitching enriches your event datasets with account information and enables complete analysis across the full customer journey in Customer Journey Analytics. When events lack an account ID, which Customer Journey Analytics B2B edition requires for ingestion, account stitching derives…",
+          "date": "2026-08-31",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "Content Analytics: Paid media data",
           "description": "Paid media is now available as a third channel for Content Analytics.(Documentation link to follow.)",
           "date": "2026-08-31",
@@ -260,18 +278,6 @@
           "title": "CJA Report API first calls guide",
           "description": "The Adobe Customer Journey Analytics API first calls guide provides instructions and examples for configuring basic report requests.",
           "date": "2026-08-10",
-          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
-        },
-        {
-          "title": "Consent policy filtering and reporting",
-          "description": "You can now report on which visitors match your Adobe Experience Platform consent policies. (Consent policy dimensions and metrics are added to the data views in your connection.)Additionally, you can exclude non-consenting visitors before their data is ingested into Customer Journey Analytics. For…",
-          "date": "2026-08-01",
-          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
-        },
-        {
-          "title": "Support for additional data usage labels",
-          "description": "Customer Journey Analytics now supports the following additional data usage labels for elements within a dataset:C2 – Restrict third-party data export (available now) C3 – Restrict directly identifiable data combination (available now) C9 – Restrict data science (planned to release in August) For…",
-          "date": "2026-08-01",
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
@@ -1099,5 +1105,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-31T07:52:07.872Z"
+  "lastUpdated": "2026-09-01T06:57:22.889Z"
 }
