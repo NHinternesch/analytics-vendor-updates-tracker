@@ -503,6 +503,12 @@
       "name": "Amplitude",
       "updates": [
         {
+          "title": "Schedule experiment stop",
+          "description": "You can now schedule when an experiment or flag stops, not just when it starts. Set a start time, an end time, or both. At the end time, delivery stops, the analysis window freezes, and the experiment moves to Completed (Pending decision).",
+          "date": "2026-09-01",
+          "url": "https://amplitude.com/releases/schedule-experiment-stop"
+        },
+        {
           "title": "Web Experiment: Cookie consent management",
           "description": "The Web Experiment script now supports cookie consent gating. Customers can defer all device storage and third-party requests until a visitor consents — while still running experiments flicker-free while consent is pending.",
           "date": "2026-08-25",
@@ -1095,15 +1101,9 @@
           "description": "Customers must send data using the correct SDK versions to see the URL preview feature.",
           "date": "2026-02-17",
           "url": "https://amplitude.com/releases/url-preview-feature-requirement-update"
-        },
-        {
-          "title": "AI Analytics Platform Launch",
-          "description": "Our platform is going AI-native with the launch of 3 incredible innovations: Global Agent, Specialized Agents, and MCP, transforming how users interact with product analytics.",
-          "date": "2026-02-16",
-          "url": "https://amplitude.com/releases/ai-analytics-platform-launch"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-09-01T06:57:22.889Z"
+  "lastUpdated": "2026-09-02T06:36:39.985Z"
 }
