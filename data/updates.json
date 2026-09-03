@@ -245,6 +245,12 @@
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
+          "title": "B2B: Person to account stitching",
+          "description": "B2B account stitching enriches your event datasets with account information and enables complete analysis across the full customer journey in Customer Journey Analytics. When events lack an account ID, which Customer Journey Analytics B2B edition requires for ingestion, account stitching derives…",
+          "date": "2026-08-31",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "B2B: Person-to-account stitching",
           "description": "B2B account stitching enriches your event datasets with account information and enables complete analysis across the full customer journey in Customer Journey Analytics. When events lack an account ID, which Customer Journey Analytics B2B edition requires for ingestion, account stitching derives…",
           "date": "2026-08-31",
@@ -1105,5 +1111,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-02T06:36:39.985Z"
+  "lastUpdated": "2026-09-03T06:38:57.800Z"
 }
