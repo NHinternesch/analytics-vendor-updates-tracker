@@ -239,14 +239,38 @@
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
+          "title": "Support for additional data usage labels",
+          "description": "Customer Journey Analytics now supports the following additional data usage labels for elements within a dataset:C2 – Restrict third-party data export (available now) C3 – Restrict directly identifiable data combination (available now) C9 – Restrict data science (planned to release in August or…",
+          "date": "2026-09-03",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
+          "title": "Adobe Brand Visibility integration",
+          "description": "Connect Adobe Brand Visibility with your organization's Customer Journey Analytics data so you can measure how AI-driven discovery translates into real website engagement and business outcomes.(Documentation link to follow.)",
+          "date": "2026-09-01",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
+          "title": "Alert delivery strictly adheres to the configured delay",
+          "description": "Alerts are now delivered at the end of the delay window that you set, regardless of whether data is complete or still being received for the specified event range. Any data that arrives after the delay window is not included in the alert.Previously, alerts included a background processing check…",
+          "date": "2026-09-01",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "Consent policy filtering and reporting",
           "description": "You can now report on which visitors match your Adobe Experience Platform consent policies. (Consent policy dimensions and metrics are added to the data views in your connection.)Additionally, you can exclude non-consenting visitors before their data is ingested into Customer Journey Analytics…",
           "date": "2026-09-01",
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
-          "title": "Support for additional data usage labels",
-          "description": "Customer Journey Analytics now supports the following additional data usage labels for elements within a dataset:C2 – Restrict third-party data export (available now) C3 – Restrict directly identifiable data combination (available now) C9 – Restrict data science (planned to release in August or…",
+          "title": "Customer Journey Analytics MCP server plugin",
+          "description": "Use new Customer Journey Analytics MCP server plugins for ChatGPT and Claude to quickly access your data. For more information, see the ChatGPT plugin guide and the Claude connector guide.",
+          "date": "2026-09-01",
+          "url": "https://developer.adobe.com/analytics-mcp/docs/guides/chatgpt"
+        },
+        {
+          "title": "Hourly alerts",
+          "description": "You can now set an alert's time granularity to Hourly.Hourly alerts are intended for data that arrives within a given hour. If data has a latency longer than an hour, a longer granularity ensures that the alert evaluates complete data. Check with a data engineer if you're unsure how long data takes…",
           "date": "2026-09-01",
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
@@ -1111,5 +1135,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-05T06:29:28.641Z"
+  "lastUpdated": "2026-09-09T06:52:21.256Z"
 }
