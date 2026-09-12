@@ -5,6 +5,12 @@
       "name": "Google Analytics",
       "updates": [
         {
+          "title": "Dashboards",
+          "description": "Dashboards are now available in Google Analytics. Dashboards are a highly flexible way to help businesses view their KPIs on a single report. This launch features enhanced UI capabilities, such as intuitive data visualization creation, drag-and-drop functionality, and new report visualizations…",
+          "date": "2026-09-09",
+          "url": "https://support.google.com/analytics/answer/9164320#09092026"
+        },
+        {
           "title": "Updated conversion window configuration",
           "description": "Google Analytics conversions now support custom integer lookback windows for click-through conversions (CTC) and engaged-view conversions (EVC). This update allows Google Analytics to align conversion attribution lookback windows more closely to your unique business cycles. This update introduces…",
           "date": "2026-08-11",
@@ -264,7 +270,7 @@
         },
         {
           "title": "Customer Journey Analytics MCP server plugin",
-          "description": "Use new Customer Journey Analytics MCP server plugins for ChatGPT and Claude to quickly access your data. For more information, see the ChatGPT plugin guide and the Claude connector guide.",
+          "description": "Use new Customer Journey Analytics MCP server plugins for ChatGPT and Claude to quickly access your data. For more information, see Connect to ChatGPT and Connect to Claude.",
           "date": "2026-09-01",
           "url": "https://developer.adobe.com/analytics-mcp/docs/guides/chatgpt"
         },
@@ -1135,5 +1141,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-09T06:52:21.256Z"
+  "lastUpdated": "2026-09-12T06:40:21.917Z"
 }
