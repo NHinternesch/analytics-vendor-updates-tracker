@@ -264,7 +264,7 @@
         },
         {
           "title": "Consent policy filtering and reporting",
-          "description": "You can now report on which visitors match your Adobe Experience Platform consent policies. (Consent policy dimensions and metrics are added to the data views in your connection.)Additionally, you can exclude non-consenting visitors before their data is ingested into Customer Journey Analytics…",
+          "description": "You can now report on which visitors match your Adobe Experience Platform consent policies. (Consent policy dimensions and metrics are added to the data views in your connection.)Additionally, you can exclude non-consenting visitors before their data is ingested into Customer Journey Analytics. For…",
           "date": "2026-09-01",
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
@@ -1141,5 +1141,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-12T06:40:21.917Z"
+  "lastUpdated": "2026-09-15T06:56:15.914Z"
 }
