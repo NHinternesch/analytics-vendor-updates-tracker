@@ -5,6 +5,12 @@
       "name": "Google Analytics",
       "updates": [
         {
+          "title": "Hostname filters",
+          "description": "Google Analytics now supports Include data filters for hostnames, allowing you to create an allowlist of approved domains authorized to send event data to your property. Previously, filtering was limited to Exclude filters, which required ongoing manual updates to keep up with new sources of spam…",
+          "date": "2026-09-21",
+          "url": "https://support.google.com/analytics/answer/9164320#09212026"
+        },
+        {
           "title": "Dashboards",
           "description": "Dashboards are now available in Google Analytics. Dashboards are a highly flexible way to help businesses view their KPIs on a single report. This launch features enhanced UI capabilities, such as intuitive data visualization creation, drag-and-drop functionality, and new report visualizations…",
           "date": "2026-09-09",
@@ -238,6 +244,18 @@
       "id": "adobe-cja",
       "name": "Adobe CJA",
       "updates": [
+        {
+          "title": "Analyze LLM customer experiences in Analysis Workspace with Conversation Insights",
+          "description": "Customer Journey Analytics now brings unstructured chat data into Analysis Workspace, allowing you to report on LLM-powered browsing and buying experiences that occur across your properties.With this capability, you can: Collect prompts, responses, and agent metadata from conversational agents…",
+          "date": "2026-09-22",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
+          "title": "Total population reporting",
+          "description": "You can now analyze and report on entities defined in profile and lookup datasets that exist in a Customer Journey Analytics connection. That analysis and reporting go beyond time-based series of events from event datasets. This ability enables new classes of queries, metrics, and audience…",
+          "date": "2026-09-22",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
         {
           "title": "Content Analytics: Paid media data",
           "description": "Paid media is now available as a third channel for Content Analytics. See updates to overview, channel configuration, components, and reports.",
@@ -1141,5 +1159,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-15T06:56:15.914Z"
+  "lastUpdated": "2026-09-22T07:01:16.166Z"
 }
