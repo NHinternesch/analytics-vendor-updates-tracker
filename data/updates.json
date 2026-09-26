@@ -557,16 +557,76 @@
       "name": "Amplitude",
       "updates": [
         {
+          "title": "Zoning Insights access expansion",
+          "description": "Zoning Insights is now included as part of the Growth Analytics and Enterprise Analytics plans.",
+          "date": "2026-09-24",
+          "url": "https://amplitude.com/releases/zoning-insights-access"
+        },
+        {
+          "title": "User properties on survey responses (table + CSV export)",
+          "description": "On a survey’s Responses tab you can add user properties as extra columns. Open Columns, search, and pick any project user properties (DAC-restricted ones are hidden). Those columns show in the table and are included in both immediate and async CSV exports.",
+          "date": "2026-09-23",
+          "url": "https://amplitude.com/releases/user-properties-on-survey-responses-table-csv-export"
+        },
+        {
+          "title": "AI-generated descriptions for events and properties",
+          "description": "Amplitude now makes it much easier to maintain a shared understanding of your taxonomy by automatically generating descriptions from both Amplitude usage and AI context, while still providing transparency about what’s been verified and what has been generated.",
+          "date": "2026-09-14",
+          "url": "https://amplitude.com/releases/ai-generated-descriptions-for-events-and-properties"
+        },
+        {
+          "title": "MCP: Taxonomy delete and restore",
+          "description": "Users can now delete and restore events, event properties, and user properties through the MCP.",
+          "date": "2026-09-12",
+          "url": "https://amplitude.com/releases/taxonomy-mcp-taxonomy-delete-and-restore"
+        },
+        {
+          "title": "Even distribution for Guides and Surveys",
+          "description": "Guides and surveys can now spread their audience evenly over time instead of hitting everyone at once.",
+          "date": "2026-09-10",
+          "url": "https://amplitude.com/releases/even-distribution-for-guides-and-surveys"
+        },
+        {
+          "title": "Self Service Data Migrations",
+          "description": "Users of all tiers now have the ability to migrate event data among projects and organizations they control, as well as to pull in data from Mixpanel and Posthog.",
+          "date": "2026-09-08",
+          "url": "https://amplitude.com/releases/self-service-data-migrations"
+        },
+        {
+          "title": "Better shadow DOM support for Guides and Surveys",
+          "description": "Guides and Surveys can now select elements inside open shadow DOMs",
+          "date": "2026-09-04",
+          "url": "https://amplitude.com/releases/better-shadow-dom-support-for-guides-and-surveys"
+        },
+        {
           "title": "Schedule experiment stop",
           "description": "You can now schedule when an experiment or flag stops, not just when it starts. Set a start time, an end time, or both. At the end time, delivery stops, the analysis window freezes, and the experiment moves to Completed (Pending decision).",
           "date": "2026-09-01",
           "url": "https://amplitude.com/releases/schedule-experiment-stop"
         },
         {
+          "title": "Session Replay for React Native",
+          "description": "@amplitude/session-replay-react-native has moved from beta to GA.",
+          "date": "2026-08-29",
+          "url": "https://amplitude.com/releases/session-replay-for-react-native"
+        },
+        {
+          "title": "Guides and Surveys: Project-wide user exclusions",
+          "description": "The Guides and Surveys settings drawer now has a \"Default user exclusions\" section that lets you add user segments that should never see guides or surveys.",
+          "date": "2026-08-28",
+          "url": "https://amplitude.com/releases/project-wide-user-exclusions"
+        },
+        {
           "title": "Web Experiment: Cookie consent management",
           "description": "The Web Experiment script now supports cookie consent gating. Customers can defer all device storage and third-party requests until a visitor consents — while still running experiments flicker-free while consent is pending.",
           "date": "2026-08-25",
           "url": "https://amplitude.com/releases/web-experiment-cookie-consent-management"
+        },
+        {
+          "title": "Amplitude Agent Analytics",
+          "description": "Observe what users ask your AI agent, evaluate where it fails and what those cost your business. Agent Analytics is now available to all customers.",
+          "date": "2026-08-20",
+          "url": "https://amplitude.com/releases/amplitude-agent-analytics"
         },
         {
           "title": "Amplitude Global Agent in Discord",
@@ -605,10 +665,28 @@
           "url": "https://amplitude.com/releases/image-upload-in-web-experiment"
         },
         {
-          "title": "Embedded Guides & Surveys on Mobile",
+          "title": "Embedded Guides and Surveys on mobile",
           "description": "Put a guide or survey inside your mobile app's own layout, as a card that belongs on the screen rather than an overlay on top of it.",
           "date": "2026-08-05",
           "url": "https://amplitude.com/releases/embedded-guides-surveys-on-mobile"
+        },
+        {
+          "title": "Test users for mobile Guides and Surveys",
+          "description": "Customers can now designate Test Users for Guides and Surveys directly in project settings, so specific users, devices, or cohorts on mobile automatically enter test mode to preview and QA guides and surveys live on-device — without publishing to production users.",
+          "date": "2026-08-05",
+          "url": "https://amplitude.com/releases/test-users-for-mobile-guides-surveys"
+        },
+        {
+          "title": "AI Feedback now integrates with Qualtrics",
+          "description": "You can now connect a Qualtrics survey as a feedback source in AI Feedback. Once connected, AI Feedback automatically aggregates and surfaces insights across all survey responses in that survey.",
+          "date": "2026-08-03",
+          "url": "https://amplitude.com/releases/ai-feedback-now-integrates-with-qualtrics-for-all-customers"
+        },
+        {
+          "title": "Session Replay Comments",
+          "description": "Native commenting inside the Session Replay modal — leave a comment on any replay, @mention teammates, and link straight to a specific moment in the recording, all without leaving Amplitude.",
+          "date": "2026-07-27",
+          "url": "https://amplitude.com/releases/session-replay-comments"
         },
         {
           "title": "Resource Center: open directly to a specific article via the SDK",
@@ -641,7 +719,7 @@
           "url": "https://amplitude.com/releases/attribution-parameters-as-event-properties-browser-sdk-gtm"
         },
         {
-          "title": "Clickable image links",
+          "title": "Guides and Surveys: Clickable image links",
           "description": "Turn any image in a Guide or Survey into a clickable link, so users can jump to a page, doc, or in-app destination without needing a separate button.",
           "date": "2026-07-16",
           "url": "https://amplitude.com/releases/clickable-image-links"
@@ -663,6 +741,24 @@
           "description": "Web experiments now use a bucketing ID stored in a cookie, allowing sharing across subdomains, improving consistency in bucketing.",
           "date": "2026-07-13",
           "url": "https://amplitude.com/releases/web-experiment-bucketing-id-shared-across-subdomains"
+        },
+        {
+          "title": "Guides and Surveys: Project-wide page targeting exclusions",
+          "description": "The Guides and Surveys settings drawer now has a 'Default page exclusions' section that lets you add pages where guides and surveys should never show up. This way you don't have to set it for every guide individually.",
+          "date": "2026-07-10",
+          "url": "https://amplitude.com/releases/project-wide-page-targeting-exclusions"
+        },
+        {
+          "title": "Computation is now available in EU region",
+          "description": "Computation is now available in EU region.",
+          "date": "2026-07-07",
+          "url": "https://amplitude.com/releases/computation-is-now-available-in-eu-region"
+        },
+        {
+          "title": "Detailed error reason for computation configuration-related failures",
+          "description": "Computation overview now returns a clean and detailed error reason to users when their computation fails due to misconfiguration, instead of just saying 'Something went wrong!'.",
+          "date": "2026-07-07",
+          "url": "https://amplitude.com/releases/detailed-error-reason-for-computation-configuration-related-failures"
         },
         {
           "title": "Web Experiment: Undo/Redo + Auto-apply",
@@ -779,8 +875,8 @@
           "url": "https://amplitude.com/releases/zoning-insights"
         },
         {
-          "title": "Create and edit Guides & Surveys themes with Global Chat",
-          "description": "Create and edit G&S themes just by sharing a screenshot of your website/figma files or by describing your dream theme with a short text description. Follow up with quick edits like 'make the button height a tad smaller' or 'give the typography a bold look'. Bonus: Use 'Fix with AI' to fix any and…",
+          "title": "Create and edit Guides and Surveys themes with Global Chat",
+          "description": "Create and edit themes just by sharing a screenshot of your website/Figma files or by describing your dream theme with a short text description. Follow up with quick edits like 'make the button height a tad smaller' or 'give the typography a bold look'. Bonus: Use 'Fix with AI' to fix any and all…",
           "date": "2026-05-21",
           "url": "https://amplitude.com/releases/create-and-edit-gs-themes-via-global-chat"
         },
@@ -1031,8 +1127,8 @@
           "url": "https://amplitude.com/releases/new-filters-for-list-session-replays"
         },
         {
-          "title": "Multi-action CTA's for Guides & Surveys",
-          "description": "Guide and survey buttons can now execute multiple actions in sequence, allowing users to chain actions together like navigating to a URL, clicking an element on that page, and then advancing to the next step.",
+          "title": "Multi-action CTA's for Guides and Surveys",
+          "description": "Buttons can now execute multiple actions in sequence, allowing users to chain actions together like navigating to a URL, clicking an element on that page, and then advancing to the next step.",
           "date": "2026-03-24",
           "url": "https://amplitude.com/releases/multi-action-ctas-for-guides-and-surveys"
         },
@@ -1059,105 +1155,9 @@
           "description": "Guides and Surveys now supports targeting new users based on their 'First Seen' timestamp, improving accuracy for new user sessions.",
           "date": "2026-03-16",
           "url": "https://amplitude.com/releases/targeting-based-on-first-seen-timestamp"
-        },
-        {
-          "title": "Strongly Typed Payloads",
-          "description": "What it is: Feature Flags and Experiments now support typed variant payloads, with three schema options depending on how much structure you need. Simple types (string, number, boolean) cover most cases. Array and object types handle more open-ended structures. For highly structured payloads, you…",
-          "date": "2026-03-13",
-          "url": "https://amplitude.com/releases/strongly-typed-payloads"
-        },
-        {
-          "title": "Transformed Properties Targeting in Experiment, Feature Flags, and Guides & Surveys",
-          "description": "You can now use transformed properties (defined in Govern / Taxonomy) directly in Experiment / Feature Flag and Guides & Surveys targeting, ensuring consistent definitions across Analytics and targeting.",
-          "date": "2026-03-13",
-          "url": "https://amplitude.com/releases/transformed-properties-targeting-in-experiment-feature-flags-and-guides-surveys"
-        },
-        {
-          "title": "Browser & Swift Unified SDK",
-          "description": "The Unified SDK provides a single entry point for all Amplitude features — including Analytics, Experiment, Session Replay, and Guides & Surveys (Browser Unified SDK only) — in one package, reducing instrumentation complexity and overhead for developers.",
-          "date": "2026-03-12",
-          "url": "https://amplitude.com/releases/browser-swift-unified-sdk"
-        },
-        {
-          "title": "Session Replay JSON Path Event Query",
-          "description": "Improvements to Session Replay allowing querying events using JSON path.",
-          "date": "2026-03-12",
-          "url": "https://amplitude.com/releases/session-replay-json-path-event-query"
-        },
-        {
-          "title": "AI Assistant",
-          "description": "AI Assistant brings personalized, in-the-moment support directly into our customer's product or website. It answers user questions using existing docs and knowledge sources, understands what users have actually done in the product, and can guide them forward with contextual help and walkthroughs.",
-          "date": "2026-03-10",
-          "url": "https://amplitude.com/releases/ai-assistant"
-        },
-        {
-          "title": "Job Details Drawer (For BigQuery)",
-          "description": "The Job Details Drawer gives customers detailed visibility into the progress and status of their BigQuery data warehouse import jobs, including pipeline stage visualization, detailed record count breakdowns, job duration information, and error log downloads.",
-          "date": "2026-03-09",
-          "url": "https://amplitude.com/releases/job-details-drawer-for-bigquery"
-        },
-        {
-          "title": "Guides and Surveys - Slack Alerts",
-          "description": "Set up survey alerts to send survey responses directly to Slack channels",
-          "date": "2026-03-06",
-          "url": "https://amplitude.com/releases/guides-and-surveys-get-notified-on-survey-responses-directly-in-slack-with-alerts"
-        },
-        {
-          "title": "Session Replay MegaModal layout controls + DevTools-style Network tab",
-          "description": "Resizable panels in the Session Replay MegaModal and a new Chrome DevTools-style network details view to improve usability and debugging in Session Replay.",
-          "date": "2026-03-06",
-          "url": "https://amplitude.com/releases/session-replay-megamodal-layout-controls-devtools-style-network-tab"
-        },
-        {
-          "title": "Audit Logs",
-          "description": "Amplitude now provides a dedicated Audit Logs experience in Organization Settings, giving admins visibility into security-relevant activity across their account.",
-          "date": "2026-03-04",
-          "url": "https://amplitude.com/releases/audit-logs-v1"
-        },
-        {
-          "title": "Experiment Change Alerts Improvements",
-          "description": "Support Email as a destination. Only send slack messages when important changes happen that affect flag evaluation and not things like adding links. Include a description of what changed in the flag.",
-          "date": "2026-03-02",
-          "url": "https://amplitude.com/releases/experiment-change-alerts-improvements"
-        },
-        {
-          "title": "Organization and Project-level AI Context in External MCP Calls",
-          "description": "Organization and project-level AI context is now available in external MCP calls, allowing agents to fetch context set in the Amplitude AI Control Settings.",
-          "date": "2026-03-02",
-          "url": "https://amplitude.com/releases/organization-and-project-level-ai-context-in-external-mcp-calls"
-        },
-        {
-          "title": "Edit Dashboard and Notebook Tools for Global Agent and MCP",
-          "description": "Edit existing dashboards and notebooks",
-          "date": "2026-02-26",
-          "url": "https://amplitude.com/releases/edit-dashboard-and-notebook-tools-for-global-agent-and-mcp"
-        },
-        {
-          "title": "Experiment Evaluation Proxy 1.0.0",
-          "description": "Evaluation Proxy enables local evaluation across any platform with ultra-low latency. It supports universal local evaluation, exposure tracking, and improved scalability.",
-          "date": "2026-02-26",
-          "url": "https://amplitude.com/releases/experiment-evaluation-proxy-1-0-0"
-        },
-        {
-          "title": "N-Day LTV in Retention (Custom Revenue + Change Over Time)",
-          "description": "What it is: N-Day LTV brings cumulative revenue measurement to Retention Analysis, so you can track how much value a cohort generates across fixed day windows: Day 1, Day 7, Day 14, Day 30. To use it, set a start event, pick a revenue return event, and toggle N-Day LTV under the Return Event…",
-          "date": "2026-02-20",
-          "url": "https://amplitude.com/releases/n-day-ltv-in-retention-custom-revenue-change-over-time"
-        },
-        {
-          "title": "AI Feedback now integrates with Slack",
-          "description": "You can now connect any Slack channel as a feedback source in AI Feedback.",
-          "date": "2026-02-18",
-          "url": "https://amplitude.com/releases/ai-feedback-now-integrates-with-slack-for-all-customers"
-        },
-        {
-          "title": "URL Preview Feature Requirement Update",
-          "description": "Customers must send data using the correct SDK versions to see the URL preview feature.",
-          "date": "2026-02-17",
-          "url": "https://amplitude.com/releases/url-preview-feature-requirement-update"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-09-23T06:56:21.684Z"
+  "lastUpdated": "2026-09-26T06:49:31.263Z"
 }
