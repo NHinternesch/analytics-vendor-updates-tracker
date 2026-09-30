@@ -5,10 +5,22 @@
       "name": "Google Analytics",
       "updates": [
         {
+          "title": "Improved app conversion management and reporting capabilities for Google Ads customers",
+          "description": "We're extending our cross-channel reporting features and conversion management tools to support app conversions. App conversions are now fully supported in your conversion reports, including performance, attribution analysis, and attribution models, unlocking new cross-channel insights…",
+          "date": "2026-09-29",
+          "url": "https://support.google.com/analytics/answer/9164320#09292026"
+        },
+        {
           "title": "Hostname filters",
           "description": "Google Analytics now supports Include data filters for hostnames, allowing you to create an allowlist of approved domains authorized to send event data to your property. Previously, filtering was limited to Exclude filters, which required ongoing manual updates to keep up with new sources of spam…",
           "date": "2026-09-21",
           "url": "https://support.google.com/analytics/answer/9164320#09212026"
+        },
+        {
+          "title": "Hostname filters",
+          "description": "Google Analytics now supports Include data filters for hostnames, allowing you to create an allowlist of approved domains authorized to send event data to your property. Previously, filtering was limited to Exclude filters, which required ongoing manual updates to keep up with new sources of spam…",
+          "date": "2026-09-21",
+          "url": "https://support.google.com/analytics/answer/9164320#09262026"
         },
         {
           "title": "Dashboards",
@@ -247,7 +259,13 @@
         {
           "title": "Analyze LLM customer experiences in Analysis Workspace with Conversation Insights",
           "description": "Customer Journey Analytics now brings unstructured chat data into Analysis Workspace, allowing you to report on LLM-powered browsing and buying experiences that occur across your properties.With this capability, you can: Collect prompts, responses, and agent metadata from conversational agents…",
-          "date": "2026-09-22",
+          "date": "2026-09-30",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
+          "title": "Upgrade and implementation skills in CX Enterprise Coworker",
+          "description": "New skills are coming to Coworker. These skills help facilitate smoother and easier upgrades and implementations for Customer Journey Analytics:Implementation guides skills: Generate a tailored list of upgrade or implementation steps and recommendations. Upgrade and implementation guidance can then…",
+          "date": "2026-09-30",
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
@@ -1159,5 +1177,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-26T06:49:31.263Z"
+  "lastUpdated": "2026-09-30T07:41:13.446Z"
 }
