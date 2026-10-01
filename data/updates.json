@@ -257,8 +257,20 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "Alert delivery strictly adheres to the configured delay",
+          "description": "Alerts are now delivered at the end of the delay window that you set, regardless of whether data is complete or still being received for the specified event range. Any data that arrives after the delay window is not included in the alert.Previously, alerts included a background processing check…",
+          "date": "2026-09-30",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "Analyze LLM customer experiences in Analysis Workspace with Conversation Insights",
           "description": "Customer Journey Analytics now brings unstructured chat data into Analysis Workspace, allowing you to report on LLM-powered browsing and buying experiences that occur across your properties.With this capability, you can: Collect prompts, responses, and agent metadata from conversational agents…",
+          "date": "2026-09-30",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
+          "title": "Hourly alerts",
+          "description": "You can now set an alert's time granularity to Hourly.Hourly alerts are intended for data that arrives within a given hour. If data has a latency longer than an hour, a longer granularity ensures that the alert evaluates complete data. Check with a data engineer if you're unsure how long data takes…",
           "date": "2026-09-30",
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
@@ -299,22 +311,10 @@
           "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
-          "title": "Alert delivery strictly adheres to the configured delay",
-          "description": "Alerts are now delivered at the end of the delay window that you set, regardless of whether data is complete or still being received for the specified event range. Any data that arrives after the delay window is not included in the alert.Previously, alerts included a background processing check…",
-          "date": "2026-09-01",
-          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
-        },
-        {
           "title": "Customer Journey Analytics MCP server plugin",
           "description": "Use new Customer Journey Analytics MCP server plugins for ChatGPT and Claude to quickly access your data. For more information, see Connect to ChatGPT and Connect to Claude.",
           "date": "2026-09-01",
           "url": "https://developer.adobe.com/analytics-mcp/docs/guides/chatgpt"
-        },
-        {
-          "title": "Hourly alerts",
-          "description": "You can now set an alert's time granularity to Hourly.Hourly alerts are intended for data that arrives within a given hour. If data has a latency longer than an hour, a longer granularity ensures that the alert evaluates complete data. Check with a data engineer if you're unsure how long data takes…",
-          "date": "2026-09-01",
-          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
         },
         {
           "title": "B2B: Person to account stitching",
@@ -1177,5 +1177,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-30T07:41:13.446Z"
+  "lastUpdated": "2026-10-01T07:59:12.332Z"
 }
