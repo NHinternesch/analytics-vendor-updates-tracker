@@ -5,6 +5,12 @@
       "name": "Google Analytics",
       "updates": [
         {
+          "title": "User Groups Admin API",
+          "description": "Google Analytics now supports a User Groups Admin API, allowing you to manage user group access to your Google Analytics properties and accounts at scale. User groups simplify the process of managing access for large teams, and the User Groups API enables you to maintain and update these…",
+          "date": "2026-10-05",
+          "url": "https://support.google.com/analytics/answer/9164320#10052026"
+        },
+        {
           "title": "Improved app conversion management and reporting capabilities for Google Ads customers",
           "description": "We're extending our cross-channel reporting features and conversion management tools to support app conversions. App conversions are now fully supported in your conversion reports, including performance, attribution analysis, and attribution models, unlocking new cross-channel insights…",
           "date": "2026-09-29",
@@ -264,9 +270,9 @@
         },
         {
           "title": "Read-only permission for the Customer Journey Analytics MCP server",
-          "description": "Administrators can now give users read-only access to the Customer Journey Analytics MCP server. The new [!UICONTROL MCP Read Only] permission item gives users access to all read-only tools, without letting them create projects, segments, or calculated metrics.The existing [!UICONTROL MCP Access]…",
+          "description": "Administrators can now give users read-only access to the Customer Journey Analytics MCP server. The new [!UICONTROL MCP Read-only Access] permission item gives users access to all read-only tools, without letting them create projects, segments, or calculated metrics.The existing [!UICONTROL MCP…",
           "date": "2026-10-06",
-          "url": "https://developer.adobe.com/analytics-mcp/docs/cja/"
+          "url": "https://developer.adobe.com/analytics-mcp/docs/guides/permissions"
         },
         {
           "title": "Adobe Brand Visibility integration",
@@ -1183,5 +1189,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-08T08:09:19.972Z"
+  "lastUpdated": "2026-10-10T07:53:06.169Z"
 }
