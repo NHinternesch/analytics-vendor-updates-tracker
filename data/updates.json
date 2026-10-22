@@ -263,6 +263,12 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "In-product experience for Coworker",
+          "description": "Coworker is now available in a chat panel in Analysis Workspace. Coworker uses the project that you have open as context, so you can ask questions about your analysis without explaining what the project contains.Using the in-product experience for Coworker, you can: Summarize the open project, find…",
+          "date": "2026-10-22",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "Analyze LLM customer experiences in Analysis Workspace with Conversation Insights",
           "description": "Customer Journey Analytics now brings unstructured chat data into Analysis Workspace, allowing you to report on LLM-powered browsing and buying experiences that occur across your properties.With this capability, you can: Collect prompts, responses, and agent metadata from conversational agents…",
           "date": "2026-10-08",
@@ -1189,5 +1195,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-10T07:53:06.169Z"
+  "lastUpdated": "2026-10-22T06:47:56.253Z"
 }
