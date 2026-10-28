@@ -263,6 +263,12 @@
       "name": "Adobe CJA",
       "updates": [
         {
+          "title": "Automatically generate component descriptions",
+          "description": "You can now automatically generate descriptions for dimensions, metrics, calculated metrics, segments, and date ranges. This allows Workspace users to understand which components to use, especially in organizations with large component libraries. You can generate a description for a single…",
+          "date": "2026-10-28",
+          "url": "https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest"
+        },
+        {
           "title": "In-product experience for Coworker",
           "description": "Coworker is now available in a chat panel in Analysis Workspace. Coworker uses the project that you have open as context, so you can ask questions about your analysis without explaining what the project contains.Using the in-product experience for Coworker, you can: Summarize the open project, find…",
           "date": "2026-10-22",
@@ -1195,5 +1201,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-22T06:47:56.253Z"
+  "lastUpdated": "2026-10-28T07:42:16.919Z"
 }
