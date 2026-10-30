@@ -599,6 +599,54 @@
       "name": "Amplitude",
       "updates": [
         {
+          "title": "Headless Guides & Surveys: Manage Guides and Surveys from the Developer API, CLI, and MCP",
+          "description": "Guides and surveys are finally fully supported for headless operation. Customers and their AI agents can list, read, create, edit and archive guides and surveys through the Amplitude Developer API, the amp CLI, and Amplitude MCP.",
+          "date": "2026-10-29",
+          "url": "https://amplitude.com/releases/headless-guides-and-surveys-manage-guides-and-surveys-from-the-developer-api-cli-and-mcp"
+        },
+        {
+          "title": "Metric Explorer is the Chart Default",
+          "description": "Metric Explorer is the default chart for all users.",
+          "date": "2026-10-29",
+          "url": "https://amplitude.com/releases/metric-explorer-default-for-all-users"
+        },
+        {
+          "title": "Enterprise-Managed Auth for Amplitude MCP",
+          "description": "ONew for Amplitude MCP: enterprise admins can manage Claude access through their company’s identity provider instead of asking each user to authorize a separate OAuth connection. People connect using their existing identity, while Amplitude applies their permissions. This makes it easier for IT to…",
+          "date": "2026-10-27",
+          "url": "https://amplitude.com/releases/mcp-enterprise-managed-auth"
+        },
+        {
+          "title": "Session-based Funnel Analysis",
+          "description": "Funnel Analysis now supports Sessions as a counting method, along with a session-based completion window.",
+          "date": "2026-10-23",
+          "url": "https://amplitude.com/releases/sessions-in-funnels"
+        },
+        {
+          "title": "Advanced Segments",
+          "description": "Advanced Segments brings user-, session-, and event-scoped conditions into one builder, with AND/OR logic, nested groups, ordered event sequences, and cart-property filtering.",
+          "date": "2026-10-21",
+          "url": "https://amplitude.com/releases/advanced-segments"
+        },
+        {
+          "title": "React Native Autocapture",
+          "description": "The React Native analytics SDK now supports autocapture, allowing customers to capture valuable user data such as sessions, app lifecycle events, network tracking, frustration interactions, and element interactions with minimal instrumentation.",
+          "date": "2026-10-21",
+          "url": "https://amplitude.com/releases/react-native-autocapture"
+        },
+        {
+          "title": "MCP Service Accounts for Automated Workflows",
+          "description": "Org admins can now create MCP service accounts right in Amplitude Settings. A service account gets its own client ID and secret and uses the OAuth 2.0 client credentials flow, so backend agents, bots, CI jobs and scripts can connect to Amplitude MCP without a person logging in through a browser.",
+          "date": "2026-10-16",
+          "url": "https://amplitude.com/releases/mcp-service-accounts-for-automated-workflows"
+        },
+        {
+          "title": "Filter Segments by Event Time",
+          "description": "A timezone-aware Event Time event property with date and time pickers that works in segment conditions with AND/OR, allowing segments to cover several separate date periods.",
+          "date": "2026-10-02",
+          "url": "https://amplitude.com/releases/filter-by-event-time"
+        },
+        {
           "title": "Zoning Insights access expansion",
           "description": "Zoning Insights is now included as part of the Growth Analytics and Enterprise Analytics plans.",
           "date": "2026-09-24",
@@ -1149,57 +1197,9 @@
           "description": "What it is: Grouping guides and surveys into a mutual exclusivity set ensures each end-user sees at most one from the group. The primary use case is platform-specific announcements: create a version for iOS and another for Android, add both to the group, and users see only the version that matches…",
           "date": "2026-03-26",
           "url": "https://amplitude.com/releases/mutual-exclusivity"
-        },
-        {
-          "title": "Even More External MCP Tools, Agent Skills, and the MCP App!!",
-          "description": "We've shipped a ton of new tools, skills, and the app over the last few weeks in MCP. There are new MCP tools for Session Replays, Agent Analytics, Feature Flags, and Web Vitals (via Autocapture data) that massively expand the set of analysis possible; an open-source skills repository with…",
-          "date": "2026-03-25",
-          "url": "https://amplitude.com/releases/even-more-external-mcp-tools-agent-skills-and-the-mcp-app"
-        },
-        {
-          "title": "Improvements to Distributions",
-          "description": "All distributions should be able to be normalized with added normalization, PDF, and CDF features to make amplitude histograms comparable and more data advanced.",
-          "date": "2026-03-25",
-          "url": "https://amplitude.com/releases/improvements-to-distributions"
-        },
-        {
-          "title": "New Filters for List Session Replays",
-          "description": "What it is: Two new filters are now available on the List Session Replays API endpoint. 'amplitude_id' (integer) returns replays tied to a specific Amplitude user ID. 'replay_id' accepts up to 100 IDs in 'device_id/session_id' format and fetches those sessions directly, bypassing pagination. The…",
-          "date": "2026-03-25",
-          "url": "https://amplitude.com/releases/new-filters-for-list-session-replays"
-        },
-        {
-          "title": "Multi-action CTA's for Guides and Surveys",
-          "description": "Buttons can now execute multiple actions in sequence, allowing users to chain actions together like navigating to a URL, clicking an element on that page, and then advancing to the next step.",
-          "date": "2026-03-24",
-          "url": "https://amplitude.com/releases/multi-action-ctas-for-guides-and-surveys"
-        },
-        {
-          "title": "Global Agent Audit Tab",
-          "description": "See all Global Agent activity across your organization in one table, directly in AI Controls.",
-          "date": "2026-03-20",
-          "url": "https://amplitude.com/releases/global-agent-audit-tab"
-        },
-        {
-          "title": "Bing Ads Source Ingestion",
-          "description": "Marketers can now import Bing ads campaign data into Amplitude to analyze spend and performance alongside product behavior.",
-          "date": "2026-03-16",
-          "url": "https://amplitude.com/releases/bing-ads-source-ingestion"
-        },
-        {
-          "title": "Persisting Table Filter in URL & Persisting Collapsed Card State in Experiment/Flags UI",
-          "description": "Persisting experiment table filters in the URL and persisting collapsed/expanded state in Experiment/Flag views' cards.",
-          "date": "2026-03-16",
-          "url": "https://amplitude.com/releases/persisting-table-filter-in-url-persisting-collapsed-card-state-in-experiment-flags-ui"
-        },
-        {
-          "title": "Targeting based on First Seen Timestamp",
-          "description": "Guides and Surveys now supports targeting new users based on their 'First Seen' timestamp, improving accuracy for new user sessions.",
-          "date": "2026-03-16",
-          "url": "https://amplitude.com/releases/targeting-based-on-first-seen-timestamp"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-10-28T07:42:16.919Z"
+  "lastUpdated": "2026-10-30T07:52:30.701Z"
 }
