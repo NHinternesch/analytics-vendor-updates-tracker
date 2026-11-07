@@ -5,6 +5,12 @@
       "name": "Google Analytics",
       "updates": [
         {
+          "title": "Data Manager in Google Analytics (beta)",
+          "description": "We’ve launched Data Manager in Google Analytics, a unified hub in your admin console that enables you to seamlessly connect and control product links, data streams, and first-party data. You can also use Data Manager to address diagnostic alerts and monitor connection health. Learn more about Data…",
+          "date": "2026-11-06",
+          "url": "https://support.google.com/analytics/answer/9164320#11062026"
+        },
+        {
           "title": "User Groups Admin API",
           "description": "Google Analytics now supports a User Groups Admin API, allowing you to manage user group access to your Google Analytics properties and accounts at scale. User groups simplify the process of managing access for large teams, and the User Groups API enables you to maintain and update these…",
           "date": "2026-10-05",
@@ -1201,5 +1207,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-30T07:52:30.701Z"
+  "lastUpdated": "2026-11-07T07:58:18.682Z"
 }
