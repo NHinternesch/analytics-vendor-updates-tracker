@@ -605,6 +605,12 @@
       "name": "Amplitude",
       "updates": [
         {
+          "title": "Custom event aliasing: rename custom and labeled events without breaking charts",
+          "description": "You can now rename a custom event or a labeled event without breaking anything that uses it. Renaming changes only the display name while all charts, cohorts, metrics, experiments, flags, guides and surveys, and saved segments keep working and show the new name. Create, rename and delete actions…",
+          "date": "2026-10-30",
+          "url": "https://amplitude.com/releases/custom-event-aliasing-rename-custom-and-labeled-events-without-breaking-charts"
+        },
+        {
           "title": "Headless Guides & Surveys: Manage Guides and Surveys from the Developer API, CLI, and MCP",
           "description": "Guides and surveys are finally fully supported for headless operation. Customers and their AI agents can list, read, create, edit and archive guides and surveys through the Amplitude Developer API, the amp CLI, and Amplitude MCP.",
           "date": "2026-10-29",
@@ -1197,15 +1203,9 @@
           "description": "What it is: The Guide Preview now includes an Edit button. Click it to adjust form factor options like position and layout, then save to see changes reflected in both the Preview and the Dashboard right away. Previously, making these edits required switching to Change Target mode and reopening…",
           "date": "2026-03-30",
           "url": "https://amplitude.com/releases/edit-guide-and-survey-positions-without-leaving-preview-mode"
-        },
-        {
-          "title": "Mutual Exclusivity",
-          "description": "What it is: Grouping guides and surveys into a mutual exclusivity set ensures each end-user sees at most one from the group. The primary use case is platform-specific announcements: create a version for iOS and another for Android, add both to the group, and users see only the version that matches…",
-          "date": "2026-03-26",
-          "url": "https://amplitude.com/releases/mutual-exclusivity"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-11-07T07:58:18.682Z"
+  "lastUpdated": "2026-11-18T09:27:16.370Z"
 }
