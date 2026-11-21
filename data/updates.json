@@ -5,10 +5,28 @@
       "name": "Google Analytics",
       "updates": [
         {
+          "title": "Google Analytics for Firebase (GA4F) SDK agent skills",
+          "description": "App developers leveraging the GA4F SDK can now use Firebase agent skills to empower your coding agents to make changes to your behavioral and conversion tracking for your iOS and Android apps. Initial integration and screen view logging are supported, with support for additional development tasks…",
+          "date": "2026-11-18",
+          "url": "https://support.google.com/analytics/answer/9164320#11182026"
+        },
+        {
+          "title": "New diagnostic in Google Analytics for user-provided data issues",
+          "description": "We’ve launched a new diagnostic to alert users of issues with user-provided data (UPD) implementation. If your property fails to receive data or encounters quality issues, diagnostics appear in Google Analytics Admin and Data streams panels. These alerts help you identify implementation issues, and…",
+          "date": "2026-11-11",
+          "url": "https://support.google.com/analytics/answer/9164320#11112026"
+        },
+        {
           "title": "Data Manager in Google Analytics (beta)",
           "description": "We’ve launched Data Manager in Google Analytics, a unified hub in your admin console that enables you to seamlessly connect and control product links, data streams, and first-party data. You can also use Data Manager to address diagnostic alerts and monitor connection health. Learn more about Data…",
           "date": "2026-11-06",
           "url": "https://support.google.com/analytics/answer/9164320#11062026"
+        },
+        {
+          "title": "Data Manager in Google Analytics (beta)",
+          "description": "We’ve launched Data Manager in Google Analytics, a unified hub in your admin console that enables you to seamlessly connect and control product links, data streams, and first-party data. You can also use Data Manager to address diagnostic alerts and monitor connection health. Learn more about Data…",
+          "date": "2026-11-06",
+          "url": "https://support.google.com/analytics/answer/9164320"
         },
         {
           "title": "User Groups Admin API",
@@ -1207,5 +1225,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-18T09:27:16.370Z"
+  "lastUpdated": "2026-11-21T08:57:27.878Z"
 }
